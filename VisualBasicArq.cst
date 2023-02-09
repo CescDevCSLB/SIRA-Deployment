@@ -1,0 +1,965 @@
+<%-- 
+Name: Delphi
+Author: Vidal Antonio Guti?rrez Chavarr?a
+Description: Genera clases ORM.
+--%>
+<%@ CodeTemplate Language="C#" TargetLanguage="VB" Description="Generates a very simple business object." %>
+<%@ Property Name="SourceTable" Type="SchemaExplorer.TableSchema" Category="Context" Description="Table that the object is based on." %>
+<%@ Assembly Name="SchemaExplorer" %>
+<%@ Assembly Name="System.Data" %>
+<%@ Import Namespace="SchemaExplorer" %>
+<%@ Import Namespace="System.Data" %>
+<% 
+	int i = 0;
+	ColumnSchema col;
+	System.Collections.ArrayList sCols;	
+	sCols = new System.Collections.ArrayList();
+	String Cadena = "";
+	String tmpCadena = "";
+	CheckTable(SourceTable); 
+%>
+Imports DAL
+Imports System.Data.SqlClient
+
+<% if (SourceTable.Description.Trim() != "") { %>
+''' <summary>
+''' <%= SourceTable.Description.Trim().Replace("\n","	''' ") %>
+''' </summary>
+<%  } %>
+Partial Public Class <%= SourceTable.Name %>		
+
+#Region " Variables Miembro " 
+<% foreach (ColumnSchema column in SourceTable.Columns) { %>	
+	<%= GetMemberVariableDeclarationStatement(column) %> 
+<% } %>
+#End Region
+
+#Region " Propiedades "
+<% foreach (ColumnSchema column in SourceTable.Columns) { %>
+<% if (column.Description.Trim() != "") { %>
+	''' <summary>
+	''' <%= column.Description.Trim().Replace("\n","	''' ") %>
+	''' </summary>
+<%  } %>
+	Public Property <%= column.Name %>() As <%= GetVBVariableType(column) %>
+        Get
+            Return (<%= GetMemberVariableName(column) %>)
+        End Get
+	<% if (GetVBVariableType(column) == "String") {%>
+		Set(ByVal Value As <%= GetVBVariableType(column) %>)		
+			If Not Value Is Nothing Then
+				If Value.Length > <%= ColumnLength(column) %> Then
+					Throw New ArgumentOutOfRangeException("<%= column.Name %>", Value.ToString(), "Valor inv?lido para <%= SourceTable.Name %>.<%= column.Name %>. La longitud del valor (" & Value.Length & ") excede la longitud m?xima de la propiedad (<%= ColumnLength(column) %>).")
+				End If
+			End If
+			<%= GetMemberVariableName(column) %> = Value
+		End Set
+	<% } else { %>
+		Set(ByVal Value As <%= GetVBVariableType(column) %>)					
+			<%= GetMemberVariableName(column) %> = Value
+		End Set
+	<% } %>
+    End Property
+	
+<% } %>	
+
+	Public Shared Function GetMaxLength(ProperyName as String) as Integer
+		Select Case ProperyName
+	<% foreach (ColumnSchema column in SourceTable.Columns) { 
+		if ((GetVBVariableType(column) == "String") || (column.NativeType == "decimal") || (column.NativeType == "numeric")) {
+	%>
+			Case "<%= column.Name %>"
+				Return	<%= ColumnLength(column) %>
+	<% } 
+	}
+	%>
+			Case Else
+				Throw New Exception("Nombre de propiedad desconocida.")
+		End Select
+	End Function
+	
+	Public Shared Function GetScale(ProperyName as String) as Integer
+		Select Case ProperyName
+	<% foreach (ColumnSchema column in SourceTable.Columns) { 
+		if ((column.NativeType == "decimal") || (column.NativeType == "numeric")) {
+	%>
+			Case "<%= column.Name %>"
+				Return	<%= column.Scale %>
+	<% } 
+	}
+	%>
+			Case Else
+				Throw New Exception("Nombre de propiedad desconocida.")
+		End Select
+	End Function
+#End Region
+
+#Region " Batch Update " 
+	''' <summary>
+    ''' Salva un DataSet del tipo de la tabla <%= SourceTable.Name %> en la base de datos.
+    ''' </summary>
+    ''' <param name="DS">Dataset a salvar. El DS debe necesariamente ser un select a la tabla <%= SourceTable.Name %> </param>    
+	''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el m?todo BatchUpdate.</param>
+    ''' <remarks>Usado para realizar actualizaciones en Batch.</remarks>
+	public Shared Sub BatchUpdate( DS as Dataset, optional Byval pTransac as TransactionManager = Nothing )
+	    Dim cmdInsert As SqlCommand = Nothing
+        Dim cmdUpdate As SqlCommand = Nothing
+        Dim cmdDelete As SqlCommand = Nothing
+		
+		Try
+			cmdInsert = New SqlCommand
+			cmdUpdate = New SqlCommand
+			cmdDelete = New SqlCommand
+			'CREACION DEL COMANDO DELETE
+<% 	
+ /* CREACION DEL COMANDO DELETE*/
+ i=1;
+ foreach ( ColumnSchema Column in  SourceTable.PrimaryKey.MemberColumns) {
+%>
+			cmdDelete.Parameters.Add("@<%=Column.Name%>", <%= GetVBFieldSqlType(Column) %>, <%= Column.Size %>, "<%=Column.Name%>" )
+<%
+	if (i<SourceTable.PrimaryKey.MemberColumns.Count) {
+		Cadena += Column.Name + "= @" + Column.Name + " And ";
+	%>
+	<%} else {
+			Cadena = Cadena + Column.Name + "= @" + Column.Name ;
+} 
+i++; }%>
+			cmdDelete.CommandText = "DELETE FROM  <%= SourceTable.Name %> WHERE <%=Cadena%>" 	
+
+			'CREACION DEL COMANDO INSERT
+<% 	
+//CREACION DEL COMANDO INSERT 
+ i=1;
+ Cadena ="";
+ tmpCadena ="";
+ foreach ( ColumnSchema Column in  SourceTable.Columns) {
+	if ( (Boolean) Column.ExtendedProperties["CS_IsIdentity"].Value == false && (bool)Column.ExtendedProperties["CS_IsComputed"].Value == false )
+	{
+			Cadena = Cadena + Column.Name + ", ";
+			tmpCadena = tmpCadena + "@" + Column.Name + ", ";
+	}
+	i ++;
+ }
+  Cadena = Cadena.Substring ( 0 , Cadena.Length -2 );
+  tmpCadena = tmpCadena.Substring ( 0 , tmpCadena.Length -2 );
+ i=1;
+foreach ( ColumnSchema Column in  SourceTable.Columns) {
+if ( (Boolean) Column.ExtendedProperties["CS_IsIdentity"].Value == false && (bool)Column.ExtendedProperties["CS_IsComputed"].Value == false  )
+{
+%>
+			cmdInsert.Parameters.Add("@<%=Column.Name%>", <%= GetVBFieldSqlType(Column) %>, <%= Column.Size %>, "<%=Column.Name%>")
+	<%}
+i++; 
+}%>
+			cmdInsert.CommandText = "INSERT INTO <%= SourceTable.Name %> ( <%=Cadena%>) VALUES ( <%=tmpCadena%>)"
+
+			'CREACION DEL COMANDO UPDATE
+<% 	
+//CREACION DEL COMANDO UPDATE
+ i=1;
+ Cadena ="";
+ tmpCadena ="";
+ foreach ( ColumnSchema Column in  SourceTable.Columns) {
+	if ( (Boolean) Column.ExtendedProperties["CS_IsIdentity"].Value == false && (bool)Column.ExtendedProperties["CS_IsComputed"].Value == false  )
+	{
+			Cadena = Cadena + Column.Name + "=@" + Column.Name +", ";
+	}
+	i ++;
+ }
+ Cadena = Cadena.Substring ( 0 , Cadena.Length -2 );
+//la parte del where
+i=1;
+foreach ( ColumnSchema Column in  SourceTable.PrimaryKey.MemberColumns) {
+if (i<SourceTable.PrimaryKey.MemberColumns.Count) {
+	tmpCadena += Column.Name + "= @w" + Column.Name + " And ";
+} 
+else {
+	tmpCadena += Column.Name + "= @w" + Column.Name ;
+  } 
+i++; 
+}
+//los par?metros del update
+ i=1;
+foreach ( ColumnSchema Column in  SourceTable.Columns) {
+if ( (Boolean) Column.ExtendedProperties["CS_IsIdentity"].Value == false && (bool)Column.ExtendedProperties["CS_IsComputed"].Value == false ) 
+{
+%>
+			cmdUpdate.Parameters.Add("@<%=Column.Name%>", <%= GetVBFieldSqlType(Column) %>, <%= Column.Size %>, "<%=Column.Name%>")
+	<%
+}
+i++; 
+}
+
+//los par?metros del where
+ i=1;
+foreach ( ColumnSchema Column in  SourceTable.PrimaryKey.MemberColumns ) {
+%>
+			cmdUpdate.Parameters.Add("@w<%=Column.Name%>", <%= GetVBFieldSqlType(Column) %>, <%= Column.Size %>, "<%=Column.Name%>")
+	<%
+i++; 
+}%>
+			cmdUpdate.CommandText = "UPDATE <%= SourceTable.Name %> SET <%=Cadena%> WHERE <%=tmpCadena%>"
+			If Not pTransac Is Nothing Then
+				cmdDelete.Connection = pTransac.Transaction.Connection
+				cmdDelete.Transaction = pTransac.Transaction
+	
+				cmdInsert.Connection = pTransac.Transaction.Connection
+				cmdInsert.Transaction = pTransac.Transaction
+	
+				cmdUpdate.Connection = pTransac.Transaction.Connection
+				cmdUpdate.Transaction = pTransac.Transaction
+			End If
+				
+			sqlHelper.UpdateDataset (cmdInsert, cmdDelete, cmdUpdate, DS, "<%= SourceTable.Name %>")
+		Catch ex As Exception
+            Throw
+        Finally
+            If Not cmdInsert Is Nothing Then
+                cmdInsert.Dispose()
+            End If
+            If Not cmdUpdate Is Nothing Then
+                cmdUpdate.Dispose()
+            End If
+            If Not cmdDelete Is Nothing Then
+                cmdDelete.Dispose()
+            End If
+        End Try
+	End Sub 
+#End Region
+
+#Region " Retrieve "
+	''' <summary>
+    ''' Devuelve de la base de datos un objeto <%= SourceTable.Name %>
+    ''' </summary>    
+	''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el m?todo Retrieve.</param>    	
+    Public Function Retrieve(<%=GetPKAsParameterList(SourceTable) %>, optional Byval pTransac as TransactionManager = Nothing) As Boolean
+	<% 
+	Cadena ="\" ";
+	i =1;
+	foreach ( ColumnSchema Column in  SourceTable.PrimaryKey.MemberColumns) {
+		if (GetVBVariableType(Column) == "String" )
+			Cadena = Cadena + Column.Name + " = '\" & p_" + Column.Name + " & \"'\" ";
+		else
+			Cadena = Cadena + Column.Name + " = \" & p_" + Column.Name;
+			
+		if (i < SourceTable.PrimaryKey.MemberColumns.Count)
+			Cadena += " & \" and ";
+		i++;
+	}		
+	%>
+        Dim sSQL As String = "select * from <%= SourceTable.Name %> where " & <%=Cadena %>		
+		Dim dr As SqlDataReader = Nothing
+		
+        Try
+            If pTransac Is Nothing Then
+                dr = SqlHelper.ExecuteReader(CommandType.Text, sSQL)
+            Else
+                dr = SqlHelper.ExecuteReader(pTransac.Transaction, CommandType.Text, sSQL)
+            End If
+			
+			If dr.Read() Then
+			<% foreach (ColumnSchema column in SourceTable.Columns) { %>
+				<% if (((bool)column.ExtendedProperties["CS_IsIdentity"].Value == true) || ((bool)column.ExtendedProperties["CS_IsComputed"].Value == true)) { %>
+				m_<%= column.Name %> = dr("<%= column.Name %>")
+				<% } else { %>
+				m_<%= column.Name %> = IIf(IsDBNull(dr("<%= column.Name %>")), Nothing, dr("<%= column.Name %>"))
+			<% }
+			} 
+			%> 		
+				Return True
+			Else
+				Return False
+			End If
+		Catch ex As Exception
+            Throw
+        Finally
+            If Not dr Is Nothing Then
+                If Not dr.IsClosed Then
+                    dr.Close()
+                End If
+                dr = Nothing
+            End If
+        End Try			
+    End Function
+
+	''' <summary>
+    ''' Devuelve de la base de datos un objeto <%= SourceTable.Name %> usando un filter.
+    ''' </summary>
+    ''' <param name="pFilter">Filtro a aplicar en el select que carga la clase</param>    
+	''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el m?todo Retrieve.</param>    
+    Public Function RetrieveByFilter(ByVal pFilter as String, optional Byval pTransac as TransactionManager = Nothing) As Boolean
+        Dim sSQL As String = "select * from <%= SourceTable.Name %> where " & pFilter				
+        Dim dr As SqlDataReader = Nothing
+		
+        Try
+            If pTransac Is Nothing Then
+                dr = SqlHelper.ExecuteReader(CommandType.Text, sSQL)
+            Else
+                dr = SqlHelper.ExecuteReader(pTransac.Transaction, CommandType.Text, sSQL)
+            End If
+				
+			If dr.Read() Then  				
+			<% foreach (ColumnSchema column in SourceTable.Columns) { %>
+				<% if (((bool)column.ExtendedProperties["CS_IsIdentity"].Value == true) || ((bool)column.ExtendedProperties["CS_IsComputed"].Value == true)) { %>
+				m_<%= column.Name %> = dr("<%= column.Name %>")
+				<% } else { %>
+				m_<%= column.Name %> = IIf(IsDBNull(dr("<%= column.Name %>")), Nothing, dr("<%= column.Name %>"))
+			<% }
+			} 
+			%>
+				Return True
+			Else
+				Return False
+			End If			
+        Catch ex As Exception
+            Throw
+        Finally
+            If Not dr Is Nothing Then
+                If Not dr.IsClosed Then
+                    dr.Close()
+                End If
+                dr = Nothing
+            End If
+        End Try			
+    End Function
+
+	''' <summary>
+    ''' Trae de la base de datos un conjunto de objetos <%= SourceTable.Name %> en un objeto DataTable
+    ''' </summary>
+    ''' <param name="sFilter">Condici?n que filtra los objetos a traer (WHERE)</param>
+    ''' <param name="OrderBy">Campos por los que se ordenar? la salida</param>
+    ''' <returns></returns> 
+    Public Shared Function RetrieveDT(Optional ByVal sFilter As String = "", Optional ByVal OrderBy As String = "", Optional Byval pFields as String = "*", optional Byval pTransac as TransactionManager = Nothing) As DataTable
+        Dim sSQL As String = "select " & pFields &" from <%= SourceTable.Name %>"
+
+        If sFilter <> "" Then
+            sSQL &= " where " & sFilter
+        End If
+
+        If OrderBy <> "" Then
+            sSQL &= " order by " & OrderBy
+        End If
+
+        Dim ds As DataSet 
+		Try
+			If pTransac is nothing Then 
+				ds = SqlHelper.ExecuteDataset(CommandType.Text, sSQL)
+			Else
+				ds = SqlHelper.ExecuteDataset(pTransac.Transaction, CommandType.Text, sSQL)
+			End If
+			ds.Tables(0).TableName = "<%= SourceTable.Name %>"
+			Return (ds.Tables(0))
+		Catch ex As Exception
+			Throw        
+        End Try		
+    End Function
+
+	''' <summary>
+    ''' Trae de la base de datos un conjunto de objetos <%= SourceTable.Name %> en un objeto DataSet
+    ''' </summary>
+    ''' <param name="sFilter">Condici?n que filtra los objetos a traer (WHERE)</param>
+    ''' <param name="OrderBy">Campos por los que se ordenar? la salida</param>
+    ''' <returns></returns> 
+    Public Shared Function RetrieveDS(Optional ByVal sFilter As String = "", Optional ByVal OrderBy As String = "", Optional Byval pFields as String = "*", optional Byval pTransac as TransactionManager = Nothing) As DataSet
+        Dim sSQL As String = "select " & pFields &" from <%= SourceTable.Name %>"
+
+        If sFilter <> "" Then
+            sSQL &= " where " & sFilter
+        End If
+
+        If OrderBy <> "" Then
+            sSQL &= " order by " & OrderBy
+        End If
+
+		Dim ds As DataSet 
+		Try
+			If pTransac Is Nothing then
+				ds = SqlHelper.ExecuteDataset(CommandType.Text, sSQL)
+			Else
+				ds = SqlHelper.ExecuteDataset(pTransac.Transaction, CommandType.Text, sSQL)
+			End If
+			ds.Tables(0).TableName = "<%= SourceTable.Name %>"
+			Return (ds)
+		Catch ex As Exception
+			Throw        
+        End Try	
+    End Function
+
+    ''' <summary>
+    ''' Trae de la base de datos un conjunto de objetos <%= SourceTable.Name %> en un objeto DataReader
+    ''' </summary>
+    ''' <param name="sFilter">Condici?n que filtra los objetos a traer (WHERE)</param>
+    ''' <param name="OrderBy">Campos por los que se ordenar? la salida</param>
+    ''' <returns></returns>
+    Public Shared Function RetrieveDR(Optional ByVal sFilter As String = "", Optional ByVal OrderBy As String = "", Optional Byval pFields as String = "*", optional Byval pTransac as TransactionManager = Nothing) As SqlDataReader
+        Dim sSQL As String = "select " & pFields &" from <%= SourceTable.Name %>"
+
+        If sFilter <> "" Then
+            sSQL &= " where " & sFilter
+        End If
+
+        If OrderBy <> "" Then
+            sSQL &= " order by " & OrderBy
+        End If
+		
+		Dim dr As SqlDataReader = Nothing
+		Try
+			If pTransac is nothing then
+				dr = SqlHelper.ExecuteReader(CommandType.Text, sSQL)
+			Else
+				dr = SqlHelper.ExecuteReader(pTransac.Transaction, CommandType.Text, sSQL)
+			End If
+			Return (dr)
+		Catch ex As Exception
+			Throw        
+		Finally
+            If Not dr Is Nothing Then
+                If Not dr.IsClosed Then
+                    dr.Close()
+                End If
+                dr = Nothing
+            End If
+        End Try	
+    End Function
+#End Region
+
+#Region " Insert "
+
+	''' <summary>
+    ''' 	Inserta en la base de datos una nueva instancia de la clase <%= SourceTable.Name %>.
+    ''' </summary>	
+    ''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el m?todo Insert.</param>
+    ''' <remarks></remarks>
+	Public Sub Insert(Optional ByRef pTransac As TransactionManager = Nothing)
+		Dim sCommand As String = "insert into <%= SourceTable.Name %>("
+	<% 	
+	for(i = 0; i < SourceTable.Columns.Count; i++) { 
+		col = SourceTable.Columns[i];					
+		if (((bool)col.ExtendedProperties["CS_IsIdentity"].Value == true) || ((bool)col.ExtendedProperties["CS_IsComputed"].Value == true)) { 			
+		} else {
+			sCols.Add(col.Name);
+		}		
+	}
+	
+	for(i = 0; i < sCols.Count - 1
+	; i++) {
+	%>
+		sCommand &= "<%= sCols[i] %>,"
+	<%
+	} 
+	%>
+		sCommand &= "<%= sCols[sCols.Count - 1] %>) values ("		
+	<%
+	for(i = 0; i < sCols.Count - 1; i++) {
+	%>
+		sCommand &= "@<%= sCols[i] %>,"
+	<%
+	} 
+	%>
+		sCommand &= "@<%= sCols[sCols.Count - 1] %>)"		
+	<%	
+	sCols.Clear();
+	for(i = 0; i < SourceTable.Columns.Count; i++) { 
+		col = SourceTable.Columns[i];					
+		if (((bool)col.ExtendedProperties["CS_IsIdentity"].Value == true) || ((bool)col.ExtendedProperties["CS_IsComputed"].Value == true)) { 			
+			sCols.Add(col.Name);		
+		}
+	}
+	
+	if (sCols.Count > 0) { %>	
+	
+		sCommand &= " select "
+	<% for(i = 0; i < sCols.Count - 1; i++) { %>
+		sCommand &= "@<%= sCols[i] %> = <%= sCols[i] %>,"
+	<%
+	} 
+	%>
+		sCommand &= "@<%= sCols[sCols.Count - 1] %> = <%= sCols[sCols.Count - 1] %> from <%= SourceTable.Name %> where "		
+	<%
+	
+	if ((SourceTable.PrimaryKey.MemberColumns.Count == 1) && ((bool)SourceTable.PrimaryKey.MemberColumns[0].ExtendedProperties["CS_IsIdentity"].Value == true)){
+	%>
+		sCommand &= "<%= SourceTable.PrimaryKey.MemberColumns[0].Name %> = SCOPE_IDENTITY()"
+		
+	<%
+	} else {
+		for(i = 0; i < SourceTable.PrimaryKey.MemberColumns.Count - 1; i++) {
+			col = SourceTable.PrimaryKey.MemberColumns[i];
+		%>
+		sCommand &= "<%= col.Name %> = @<%= col.Name %> and "
+		<%
+		} 
+		col = SourceTable.PrimaryKey.MemberColumns[SourceTable.PrimaryKey.MemberColumns.Count - 1];
+		%>
+		sCommand &= "<%= col.Name %> = @<%= col.Name %>"				
+	<%	
+	}
+	} //if (sCols.Count > 0) %>
+		
+		Dim arParams(<%= SourceTable.Columns.Count - 1 %>) As SqlParameter
+	<% 
+	i = 0;
+	foreach (ColumnSchema column in SourceTable.Columns) { %>
+		arParams(<%= i %>) = New SqlParameter("@<%= column.Name %>", <%= GetVBFieldSqlType(column) %>)		
+	<% if ( ((bool) column.ExtendedProperties["CS_IsIdentity"].Value == false) && ((bool) column.ExtendedProperties["CS_IsComputed"].Value == false)) { %>				
+		If IsDBNull(m_<%= column.Name %>) Then
+            arParams(<%= i %>).Value = DBNull.Value
+        Else
+            arParams(<%= i %>).Value = m_<%= column.Name %>
+        End If
+	<%
+	} else {%>
+		arParams(<%= i %>).Direction = ParameterDirection.Output
+	<% }
+	i++; 
+	} %>      
+	
+		Try
+            If pTransac Is Nothing Then
+				SqlHelper.ExecuteNonQuery(CommandType.Text, sCommand, arParams)        
+			Else
+				SqlHelper.ExecuteNonQuery(pTransac.Transaction, CommandType.Text, sCommand, arParams)        
+			End If					
+			
+			<% 	
+			for(i = 0; i < SourceTable.Columns.Count - 1; i++) { 
+				ColumnSchema column = SourceTable.Columns[i];
+			%>				
+			<% if (((bool)column.ExtendedProperties["CS_IsIdentity"].Value == true) || ((bool)column.ExtendedProperties["CS_IsComputed"].Value == true)) { %>
+			m_<%= column.Name %> = arParams(<%= i %>).Value
+			<% 	} 
+			}%>
+        Catch ex As Exception
+            Throw        
+        End Try
+    End Sub	
+#End Region
+ 
+#Region " Update "
+
+	''' <summary>
+    ''' 	Actualiza el objeto <%= SourceTable.Name %> en la base de datos.
+    ''' </summary>	
+    ''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el Update del objeto.</param>
+    ''' <remarks></remarks>
+	Public Sub Update(Optional ByRef pTransac As TransactionManager = Nothing)        		
+		Dim sCommand As String = "update <%= SourceTable.Name %> set "		
+	<%	
+	sCols.Clear();
+	for(i = 0; i < SourceTable.Columns.Count; i++) { 
+		col = SourceTable.Columns[i];					
+		if (((bool)col.ExtendedProperties["CS_IsComputed"].Value == false) && ((bool)col.ExtendedProperties["CS_IsIdentity"].Value == false)) { 			
+			sCols.Add(col.Name);		
+		}
+	}
+		
+	for (i = 0; i < sCols.Count - 1; i++) { 		
+	%>		
+		sCommand &= "<%= sCols[i] %> = @<%= sCols[i] %>,"
+	<%}%>       
+		sCommand &= "<%= sCols[sCols.Count - 1] %> = @<%= sCols[sCols.Count - 1] %>"		
+		sCommand &= " where "	
+	<% 		
+	for (i = 0; i < SourceTable.PrimaryKey.MemberColumns.Count - 1; i++) { 
+		col = SourceTable.PrimaryKey.MemberColumns[i];
+	%>		
+		sCommand &= "<%= col.Name %> = @<%= col.Name %> and "
+	<%}
+		col = SourceTable.PrimaryKey.MemberColumns[SourceTable.PrimaryKey.MemberColumns.Count - 1];
+	%>       
+		sCommand &= "<%= col.Name %> = @<%= col.Name %>"					
+	<%	
+	sCols.Clear();
+	for(i = 0; i < SourceTable.Columns.Count; i++) { 
+		col = SourceTable.Columns[i];					
+		if (((bool)col.ExtendedProperties["CS_IsComputed"].Value == true)) { 			
+			sCols.Add(col.Name);		
+		}
+	}	
+	
+	if (sCols.Count > 0) {%>
+	
+		sCommand &= " select "
+	<%
+	for(i = 0; i < sCols.Count - 1; i++) {
+	%>
+		sCommand &= "@<%= sCols[i] %> = <%= sCols[i] %>,"
+	<%
+	} 
+	%>
+		sCommand &= "@<%= sCols[sCols.Count - 1] %> = <%= sCols[sCols.Count - 1] %> from <%= SourceTable.Name %> "
+		sCommand &= " where "		
+	<% 		
+	for (i = 0; i < SourceTable.PrimaryKey.MemberColumns.Count - 1; i++) { 
+		col = SourceTable.PrimaryKey.MemberColumns[i];
+	%>		
+		sCommand &= "<%= col.Name %> = @<%= col.Name %> and "
+	<%}
+		col = SourceTable.PrimaryKey.MemberColumns[SourceTable.PrimaryKey.MemberColumns.Count - 1];
+	%>       
+		sCommand &= "<%= col.Name %> = @<%= col.Name %>"
+	<% } /*if (sCols.Count > 0)*/ %>
+		
+		Dim arParams(<%= SourceTable.Columns.Count - 1 %>) As SqlParameter
+	<% 
+	i = 0;
+	foreach (ColumnSchema column in SourceTable.Columns) { %>
+		arParams(<%= i %>) = New SqlParameter("@<%= column.Name %>", <%= GetVBFieldSqlType(column) %>)		
+	<% if (((bool) column.ExtendedProperties["CS_IsComputed"].Value == false)) { %>				
+		If IsDBNull(m_<%= column.Name %>) Then
+            arParams(<%= i %>).Value = DBNull.Value
+        Else
+            arParams(<%= i %>).Value = m_<%= column.Name %>
+        End If
+	<%
+	} else {%>
+		arParams(<%= i %>).Direction = ParameterDirection.Output
+	<% }
+	i++; 
+	} %>  
+	
+		Try
+            If pTransac Is Nothing Then
+				SqlHelper.ExecuteNonQuery(CommandType.Text, sCommand, arParams)        
+			Else
+				SqlHelper.ExecuteNonQuery(pTransac.Transaction, CommandType.Text, sCommand, arParams)        
+			End If					
+			
+			<% 	
+			for(i = 0; i < SourceTable.Columns.Count - 1; i++) { 
+				ColumnSchema column = SourceTable.Columns[i];
+			%>				
+			<% if ((bool)column.ExtendedProperties["CS_IsComputed"].Value == true) { %>
+			m_<%= column.Name %> = arParams(<%= i %>).Value
+			<% 	} 
+			}%>              
+        Catch ex As Exception
+            Throw        
+        End Try
+    End Sub
+#End Region
+	
+#Region " Delete "
+
+	''' <summary>
+    ''' Borra un objeto <%= SourceTable.Name %> de la base de datos.
+	''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el Update del objeto.</param>
+    ''' </summary>    
+    Public Sub Delete(optional Byval pTransac as TransactionManager = Nothing)
+	<% 
+	Cadena ="\" ";
+	i =1;
+	foreach ( ColumnSchema Column in  SourceTable.PrimaryKey.MemberColumns) {
+		if (GetVBVariableType(Column) == "String" )
+			Cadena = Cadena + Column.Name + " = '\" & m_" + Column.Name + " & \"'\" ";
+		else
+			Cadena = Cadena + Column.Name + " = \" & m_" + Column.Name;
+			
+		if (i < SourceTable.PrimaryKey.MemberColumns.Count)
+			Cadena += " & \" and ";
+		i++;
+	}		
+	%>
+		Try
+			Dim sSQL As String = "delete from <%= SourceTable.Name %> where " & <%=Cadena%>
+			If pTransac Is Nothing Then
+				SqlHelper.ExecuteNonQuery(CommandType.Text, sSQL)
+			Else
+				SqlHelper.ExecuteNonQuery(pTransac.Transaction, CommandType.Text, sSQL)
+			End If
+		Catch ex As Exception
+            Throw        
+        End Try
+    End Sub
+
+    ''' <summary>
+    ''' Borra un objeto <%= SourceTable.Name %> de la base de datos
+    ''' </summary>    
+    Public Shared Sub Delete(<%=GetPKAsParameterList(SourceTable)%>, optional Byval pTransac as TransactionManager = Nothing)
+	<% 
+	Cadena ="\" ";
+	i =1;
+	foreach ( ColumnSchema Column in  SourceTable.PrimaryKey.MemberColumns) {
+		if (GetVBVariableType(Column) == "String" )
+			Cadena = Cadena + Column.Name + " = '\" & p_" + Column.Name + " & \"'\" ";
+		else
+			Cadena = Cadena + Column.Name + " = \" & p_" + Column.Name;
+			
+		if (i < SourceTable.PrimaryKey.MemberColumns.Count)
+			Cadena += " & \" and ";
+		i++;
+	}		
+	%>
+		Try
+			Dim sSQL As String = "delete from <%= SourceTable.Name %> where " & <%=Cadena%>
+			If pTransac Is Nothing Then
+				SqlHelper.ExecuteNonQuery(CommandType.Text, sSQL)
+			Else
+				SqlHelper.ExecuteNonQuery(pTransac.Transaction, CommandType.Text, sSQL)
+			End If
+		Catch ex As Exception
+            Throw        
+        End Try
+    End Sub	
+
+    ''' <summary>
+    ''' Borra objetos <%= SourceTable.Name %> de la base de datos en base al par?metro WHERE
+    ''' </summary>
+    ''' <param name="pWhere">Condici?n usada para borrar los objetos de la base de datos.</param>
+	''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el Update del objeto.</param>
+    Public Shared Sub DeleteByFilter(Byval pWhere as String, optional Byval pTransac as TransactionManager = Nothing)
+		Try
+			Dim sSQL As String = "delete from <%= SourceTable.Name %> where " & pWhere
+			If pTransac Is Nothing Then
+				SqlHelper.ExecuteNonQuery(CommandType.Text, sSQL)
+			Else
+				SqlHelper.ExecuteNonQuery(pTransac.Transaction, CommandType.Text, sSQL)
+			End If
+		Catch ex As Exception
+            Throw        
+        End Try
+    End Sub
+#End Region
+
+End Class
+<script runat="template">
+
+public string ColumnLength(ColumnSchema column)
+{
+	if((column.NativeType == "varchar") && (column.Size == -1))
+		return "2147483645";
+	
+	if((column.NativeType == "nvarchar") && (column.Size == -1))
+		return "1073741822";
+		
+	if((column.NativeType == "decimal") || (column.NativeType == "numeric"))
+		return column.Precision.ToString();
+	
+	if (column.Size > 0)
+		return column.Size.ToString();
+	else
+		return String.Empty;
+}
+
+public void CheckTable(TableSchema table)
+{
+	if (table.Name.IndexOf(" ") > 0) {
+		throw new ApplicationException("Esta plantilla no trabaja con tablas cuyo nombre contiene espacios en blanco. (Tabla: '" + table.Name + "').");
+		return;
+	}
+		
+	foreach (ColumnSchema column in table.Columns) { 
+		if (column.Name.IndexOf(" ") > 0) {
+			throw new ApplicationException("Esta plantilla no trabaja con tablas con campos cuyo nombre contiene espacios en blanco (Tabla: '" + table.Name + "', Campo: '" + column.Name + "').");
+			return;
+		}
+	}
+		
+	if (table.PrimaryKey == null)
+	{
+		throw new ApplicationException("Esta plantilla solo trabaja con tablas con llave primaria.");
+	}
+}
+
+public string GetPrimaryKeyType(TableSchema table)
+{
+	if (table.PrimaryKey != null)
+	{
+		if (table.PrimaryKey.MemberColumns.Count == 1)
+		{			 
+			return GetVBVariableType(table.PrimaryKey.MemberColumns[0]);
+		}
+		else
+		{
+			return GetVBVariableType(table.PrimaryKey.MemberColumns[0]);
+		}
+	}
+	else
+	{
+		return GetVBVariableType(table.PrimaryKey.MemberColumns[0]);
+	}
+}
+
+public string GetPKAsParameterList (TableSchema table)
+{
+	string Cadena ="";
+	int i=1;
+
+	foreach ( ColumnSchema Column in  table.PrimaryKey.MemberColumns) {
+		Cadena += "Byval p_" + Column.Name + " as " + GetVBVariableType(Column);
+		if (i < table.PrimaryKey.MemberColumns.Count)
+			Cadena += ", ";
+		i++;
+	}
+	return Cadena;
+}
+
+public string GetPKAsList (TableSchema table)
+{
+	string Cadena ="";
+	int i=1;
+
+	foreach ( ColumnSchema Column in  table.PrimaryKey.MemberColumns) {
+		Cadena += " p" + Column.Name ;
+		if (i < table.PrimaryKey.MemberColumns.Count)
+			Cadena += ", ";
+		i++;
+	}
+	return Cadena;
+}
+
+public string GetPrimaryKeyName(TableSchema table)
+{
+	if (table.PrimaryKey != null)
+	{
+		if (table.PrimaryKey.MemberColumns.Count == 1)
+		{			 
+			return (table.PrimaryKey.MemberColumns[0].Name);
+		}
+		else
+		{
+			return (table.PrimaryKey.MemberColumns[0].Name);
+		}
+	}
+	else
+	{
+		return (table.PrimaryKey.MemberColumns[0].Name);
+	}
+}
+
+public string GetVBVariableType(ColumnSchema column)
+{
+	string s = "";
+	
+	if (column.Name.EndsWith("TypeCode")) return column.Name;
+	
+	switch (column.DataType)
+	{
+		case DbType.AnsiString: s = "String"; break;
+		case DbType.AnsiStringFixedLength: s = "String"; break;
+		case DbType.Binary: s = "Byte()"; break;
+		case DbType.Boolean: s = "Boolean";		 break;
+		case DbType.Byte: s = "Byte"; break;
+		case DbType.Currency: s = "Decimal"; break;
+		case DbType.Date: s =  "Date"; break;
+		case DbType.DateTime: s =  "Date"; break;
+		case DbType.Decimal: s =  "Decimal"; break;
+		case DbType.Double: s =  "Double"; break;
+		case DbType.Guid: s =  "Guid"; break;
+		case DbType.Int16: s =  "Short"; break;
+		case DbType.Int32: s =  "Integer"; break;
+		case DbType.Int64:  s =  "Long"; break;
+		case DbType.Object: s =  "Object"; break;
+		case DbType.SByte: s =  "SByte"; break;
+		case DbType.Single: s =  "Double"; break;
+		case DbType.String: s =  "String"; break;
+		case DbType.StringFixedLength: s =  "String"; break;
+		case DbType.Time: s =  "TimeSpan"; break;
+		case DbType.UInt16: s =  "UInt16"; break;
+		case DbType.UInt32: s =  "UInt32"; break;
+		case DbType.UInt64: s =  "UInt64"; break;
+		case DbType.VarNumeric: s =  "Decimal"; break;
+		default:
+		{
+			s =  "__UNKNOWN__" + column.NativeType;  break;
+		}
+	}
+	
+	if (column.AllowDBNull == true) {
+		if (s!="String" && s!="Byte()") {
+			s = "Nullable(Of " + s + ")";
+		}
+	}
+	
+	return s;
+}
+
+public string GetVBFieldSqlType(ColumnSchema column)
+{
+	if (column.Name.EndsWith("TypeCode")) return column.Name;
+	
+	switch (column.DataType)
+	{
+		case DbType.AnsiString: return "SqlDbType.VarChar";
+		case DbType.AnsiStringFixedLength: return "SqlDbType.VarChar";
+		case DbType.Binary: return "SqlDbType.Binary";
+		case DbType.Boolean: return "SqlDbType.Bit";		
+		case DbType.Byte: return "SqlDbType.TinyInt";
+		case DbType.Currency: return "SqlDbType.Decimal";
+		case DbType.Date: return "SqlDbType.DateTime";
+		case DbType.DateTime: return "SqlDbType.DateTime";
+		case DbType.Decimal: return "SqlDbType.Decimal";
+		case DbType.Double: return "SqlDbType.Float";
+		case DbType.Guid: return "SqlDbType.UniqueIdentifier";
+		case DbType.Int16: return "SqlDbType.SmallInt";
+		case DbType.Int32: return "SqlDbType.Int";
+		case DbType.Int64: return "SqlDbType.BigInt";
+		case DbType.Object: return "SqlDbType.Image";
+		//case DbType.SByte: return "SByte";
+		case DbType.Single: return "SqlDbType.Float";
+		case DbType.String: return "SqlDbType.VarChar";
+		case DbType.StringFixedLength: return "SqlDbType.VarChar";
+		case DbType.Time: return "SqlDbType.Timestamp";
+		case DbType.UInt16: return "SqlDbType.SmallInt";
+		case DbType.UInt32: return "SqlDbType.Int";
+		case DbType.UInt64: return "SqlDbType.BigInt";
+		case DbType.VarNumeric: return "SqlDbType.Decimal";
+		default:
+		{
+			return "__UNKNOWN__" + column.NativeType;
+		}
+	}
+}
+
+public string GetMemberVariableDeclarationStatement(ColumnSchema column)
+{
+	return GetMemberVariableDeclarationStatement("Protected", column);
+}
+
+public string GetMemberVariableDeclarationStatement(string protectionLevel, ColumnSchema column)
+{
+	string statement = protectionLevel + " ";
+	statement += GetMemberVariableName(column) + " As " + GetVBVariableType(column);
+	
+	string defaultValue = GetMemberVariableDefaultValue(column);
+	if (defaultValue != "")
+	{
+		statement += " = " + defaultValue;
+	}
+	
+	//statement += ";";
+	
+	return statement;
+}
+
+public string GetMemberVariableName(ColumnSchema column)
+{
+	string propertyName = column.Name;
+	string memberVariableName = "m_" + propertyName;
+	
+	return memberVariableName;
+}
+
+public string GetMemberVariableDefaultValue(ColumnSchema column)
+{
+	switch (column.DataType)
+	{
+		case DbType.Guid:
+		{
+			return "Guid.Empty";
+		}
+		case DbType.AnsiString:
+		case DbType.AnsiStringFixedLength:
+		case DbType.String:
+		case DbType.StringFixedLength:
+		{
+			return "Nothing";
+		}
+		default:
+		{
+			return "";
+		}
+	}
+}
+</script>

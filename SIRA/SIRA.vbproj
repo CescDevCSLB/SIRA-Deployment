@@ -1,0 +1,2341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{141E0D71-F77A-4743-AE26-1C234515C900}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SIRA.My.MyApplication</StartupObject>
+    <RootNamespace>SIRA</RootNamespace>
+    <AssemblyName>SIRA</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\SIFAC\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\192.168.1.145\Compartido\New folder\</UpdateUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIRA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIRA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5D452C5F637D76DB095C3D6BA40AB9D067C5981E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SIFAC_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.Chart">
+      <HintPath>..\DLLS\ActiveReports.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.PdfExport">
+      <HintPath>..\DLLS\ActiveReports.PdfExport.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.Viewer3, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <HintPath>..\DLLS\ActiveReports.Viewer3.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.XlsExport">
+      <HintPath>..\DLLS\ActiveReports.XlsExport.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports3, Version=5.2.0.397, Culture=neutral, PublicKeyToken=cc4967777c49a3ff">
+      <HintPath>..\DLLS\ActiveReports3.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>D:\AForge.NET\Release\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\DLLS\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\DLLS\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.C1Excel.2, Version=2.1.20073.74, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.C1Excel.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20073.19306, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1Command.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20073.357, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20073.33104, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20073.132, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1List.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20073.72, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1Ribbon.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Sizer.2, Version=2.1.20073.20, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1Sizer.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1SuperTooltip.2, Version=2.0.20073.44, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1SuperTooltip.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TrueDBGrid.2, Version=2.0.20073.61130, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL">
+      <HintPath>..\DLLS\C1.Win.C1TrueDBGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLS\DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DXCore.Controls.Data.v6.3, Version=11.1.4.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.DXCore.Controls.Utils.v6.3, Version=11.1.4.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.DXCore.Controls.XtraEditors.v6.3, Version=11.1.4.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.DXCore.Controls.XtraGrid.v6.3, Version=11.1.4.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DXCore.Controls.XtraLayout.v6.3, Version=11.1.4.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Images.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v20.1.Design, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v20.1.Design, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Reporting.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpellChecker.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="GUI, Version=1.0.6031.28568, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Source\Sirecc\DLLS\GUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\DLLS\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\comercializadora\SCCUM\SCCUM\Fuente\DLLS\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\DLLS\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Proyecto.Configuracion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLS\Proyecto.Configuracion.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAppconfiguration.vb" />
+    <Compile Include="Formularios\Caja\frmRptArqueo.Designer.vb">
+      <DependentUpon>frmRptArqueo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmRptArqueo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccArqueoCH.Designer.vb">
+      <DependentUpon>frmSccArqueoCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccArqueoCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccDepositos.Designer.vb">
+      <DependentUpon>frmSccDepositos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccDepositos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccArquo.Designer.vb">
+      <DependentUpon>frmSccArquo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccArquo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajasCH.Designer.vb">
+      <DependentUpon>frmSccConfiguracionCajasCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajasCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajas.Designer.vb">
+      <DependentUpon>frmSccConfiguracionCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajasEdit.Designer.vb">
+      <DependentUpon>frmSccConfiguracionCajasEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajasEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConsultarDetalleArqueo.Designer.vb">
+      <DependentUpon>frmSccConsultarDetalleArqueo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConsultarDetalleArqueo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConsultarArqueoCH.Designer.vb">
+      <DependentUpon>frmSccConsultarArqueoCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConsultarArqueoCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccAmpliarTechoCajaCH.Designer.vb">
+      <DependentUpon>frmSccAmpliarTechoCajaCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccAmpliarTechoCajaCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSalidaCajaCHEdit.Designer.vb">
+      <DependentUpon>frmSccSalidaCajaCHEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSalidaCajaCHEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSalidaCajaCH.Designer.vb">
+      <DependentUpon>frmSccSalidaCajaCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSalidaCajaCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccReembolsoCajaCH.Designer.vb">
+      <DependentUpon>frmSccReembolsoCajaCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccReembolsoCajaCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajasEditCH.Designer.vb">
+      <DependentUpon>frmSccConfiguracionCajasEditCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConfiguracionCajasEditCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConsultarArqueo.Designer.vb">
+      <DependentUpon>frmSccConsultarArqueo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccConsultarArqueo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccEditReciboCaja.designer.vb">
+      <DependentUpon>frmSccEditReciboCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccEditReciboCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccReciboCaja.Designer.vb">
+      <DependentUpon>frmSccReciboCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccReciboCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccDepositosEdit.Designer.vb">
+      <DependentUpon>frmSccDepositosEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccDepositosEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSeleccionCuentasEmpleados.Designer.vb">
+      <DependentUpon>frmSccSeleccionCuentasEmpleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSeleccionCuentasEmpleados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmStbEditTasaCambioOficial.Designer.vb">
+      <DependentUpon>frmStbEditTasaCambioOficial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmStbEditTasaCambioOficial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmStbImportarTasaCambio.Designer.vb">
+      <DependentUpon>frmStbImportarTasaCambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmStbImportarTasaCambio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmStbMantTasaCambioOficial.Designer.vb">
+      <DependentUpon>frmStbMantTasaCambioOficial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmStbMantTasaCambioOficial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraCiudadEditar.Designer.vb">
+      <DependentUpon>frmSraCiudadEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraCiudadEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEvidenciasMaestroEditar.Designer.vb">
+      <DependentUpon>frmSraEvidenciasMaestroEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEvidenciasMaestroEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraActivarParcial.Designer.vb">
+      <DependentUpon>frmSraActivarParcial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraActivarParcial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraParcialPermisos.Designer.vb">
+      <DependentUpon>frmSraParcialPermisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraParcialPermisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContAgrupacionBalance.Designer.vb">
+      <DependentUpon>frmSContAgrupacionBalance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContAgrupacionBalance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContAgrupacionBalanceEdit.Designer.vb">
+      <DependentUpon>frmSContAgrupacionBalanceEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContAgrupacionBalanceEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontCentroCostoEdit.Designer.vb">
+      <DependentUpon>frmScontCentroCostoEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontCentroCostoEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContConceptosCuentasEdit.Designer.vb">
+      <DependentUpon>frmSContConceptosCuentasEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContConceptosCuentasEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContConceptosCuentas.Designer.vb">
+      <DependentUpon>frmSContConceptosCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContConceptosCuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContCheques.Designer.vb">
+      <DependentUpon>frmSContCheques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContCheques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontChequesEdit.Designer.vb">
+      <DependentUpon>frmScontChequesEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontChequesEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontComprobanteEdit.Designer.vb">
+      <DependentUpon>frmScontComprobanteEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontComprobanteEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontCuentaContableEdit.Designer.vb">
+      <DependentUpon>frmScontCuentaContableEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontCuentaContableEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContCuentasContables.Designer.vb">
+      <DependentUpon>frmSContCuentasContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContCuentasContables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontContabilizarEdit.Designer.vb">
+      <DependentUpon>frmScontContabilizarEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontContabilizarEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotaBoletinEdit.Designer.vb">
+      <DependentUpon>frmSraNotaBoletinEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotaBoletinEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotaBoletin.Designer.vb">
+      <DependentUpon>frmSraNotaBoletin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotaBoletin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraAranceles.Designer.vb">
+      <DependentUpon>frmSraAranceles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraAranceles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEvidenciasAprendizaje.Designer.vb">
+      <DependentUpon>frmSraEvidenciasAprendizaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEvidenciasAprendizaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraArancelesEdit.Designer.vb">
+      <DependentUpon>frmSraArancelesEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraArancelesEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotasCualitativasEdit.Designer.vb">
+      <DependentUpon>frmSraNotasCualitativasEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotasCualitativasEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotasCualitativas.Designer.vb">
+      <DependentUpon>frmSraNotasCualitativas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraNotasCualitativas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontParametrosCerrarMess.Designer.vb">
+      <DependentUpon>frmScontParametrosCerrarMess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontParametrosCerrarMess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontParametrosMayorizarMes.Designer.vb">
+      <DependentUpon>frmScontParametrosMayorizarMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontParametrosMayorizarMes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontParametrosSaldos.Designer.vb">
+      <DependentUpon>frmScontParametrosSaldos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontParametrosSaldos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContPeriodoContableEditar.Designer.vb">
+      <DependentUpon>frmSContPeriodoContableEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContPeriodoContableEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContComprobantes.Designer.vb">
+      <DependentUpon>frmSContComprobantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContComprobantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContPeriodosContable.Designer.vb">
+      <DependentUpon>frmSContPeriodosContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContPeriodosContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmStbEmpleadosEditar.Designer.vb">
+      <DependentUpon>frmStbEmpleadosEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmStbEmpleadosEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmStbEmpleados.Designer.vb">
+      <DependentUpon>frmStbEmpleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmStbEmpleados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContSaldos.Designer.vb">
+      <DependentUpon>frmSContSaldos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContSaldos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContSaldosMes.Designer.vb">
+      <DependentUpon>frmSContSaldosMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContSaldosMes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContSaldosMesMayorizar.Designer.vb">
+      <DependentUpon>frmSContSaldosMesMayorizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContSaldosMesMayorizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmStbBuscarCheques.Designer.vb">
+      <DependentUpon>frmStbBuscarCheques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmStbBuscarCheques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleadosAgregar.Designer.vb">
+      <DependentUpon>frmSccCuentasEmpleadosAgregar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleadosAgregar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleadosEditar.Designer.vb">
+      <DependentUpon>frmSccCuentasEmpleadosEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleadosEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleado.Designer.vb">
+      <DependentUpon>frmSccCuentasEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentas.Designer.vb">
+      <DependentUpon>frmSccCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEditar.Designer.vb">
+      <DependentUpon>frmSccCuentasEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccCuentasEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccAplicarDeducciones.designer.vb">
+      <DependentUpon>frmSccAplicarDeducciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSccAplicarDeducciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSraBusquedaExpediente.Designer.vb">
+      <DependentUpon>frmSraBusquedaExpediente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSraBusquedaExpediente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSeleccionCuentas.Designer.vb">
+      <DependentUpon>frmSccSeleccionCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Caja\frmSccSeleccionCuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmAsignarBecaEditar.Designer.vb">
+      <DependentUpon>frmAsignarBecaEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmAsignarBecaEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\Mora\frmSccEditMora.designer.vb">
+      <DependentUpon>frmSccEditMora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\Mora\frmSccEditMora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\Mora\frmSccMantMora.Designer.vb">
+      <DependentUpon>frmSccMantMora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\Mora\frmSccMantMora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontCuentaSelector.Designer.vb">
+      <DependentUpon>frmScontCuentaSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmScontCuentaSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmBuscarEvidencias.Designer.vb">
+      <DependentUpon>frmBuscarEvidencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmBuscarEvidencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmEvaluacionNivel.Designer.vb">
+      <DependentUpon>frmEvaluacionNivel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmEvaluacionNivel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmEvaluacionSecundaria2.Designer.vb">
+      <DependentUpon>frmEvaluacionSecundaria2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmEvaluacionSecundaria2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmEvaluacionSecundaria.Designer.vb">
+      <DependentUpon>frmEvaluacionSecundaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmEvaluacionSecundaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmCuentaSelector.Designer.vb">
+      <DependentUpon>frmCuentaSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmCuentaSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmGrupoSelector.Designer.vb">
+      <DependentUpon>frmGrupoSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmGrupoSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEvidenciasEditar.Designer.vb">
+      <DependentUpon>frmSraEvidenciasEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEvidenciasEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmExcelenciaAcademica.Designer.vb">
+      <DependentUpon>frmExcelenciaAcademica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmExcelenciaAcademica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmRendimientoAcademicoAsignatura.Designer.vb">
+      <DependentUpon>frmRendimientoAcademicoAsignatura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmRendimientoAcademicoAsignatura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmRendimiento.Designer.vb">
+      <DependentUpon>frmRendimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmRendimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSraAplicarBecas.Designer.vb">
+      <DependentUpon>frmSraAplicarBecas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSraAplicarBecas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContContabilizar.Designer.vb">
+      <DependentUpon>frmSContContabilizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContContabilizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmRetirarMatricula.Designer.vb">
+      <DependentUpon>frmRetirarMatricula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmRetirarMatricula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraCapturarFoto.Designer.vb">
+      <DependentUpon>frmSraCapturarFoto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraCapturarFoto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContCentroCosto.Designer.vb">
+      <DependentUpon>frmSContCentroCosto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\frmSContCentroCosto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGruposDetalle.Designer.vb">
+      <DependentUpon>frmSraGruposDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGruposDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGrupos.Designer.vb">
+      <DependentUpon>frmSraGrupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGrupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraAsignarGrupos.Designer.vb">
+      <DependentUpon>frmSraAsignarGrupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraAsignarGrupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSraAlumnosSolventes.Designer.vb">
+      <DependentUpon>frmSraAlumnosSolventes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CuentasXCobrar\frmSraAlumnosSolventes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarParcial.Designer.vb">
+      <DependentUpon>frmSraSeleccionarParcial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarParcial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarPeriodoEvidencias.Designer.vb">
+      <DependentUpon>frmSraSeleccionarPeriodoEvidencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarPeriodoEvidencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarRendimiento.Designer.vb">
+      <DependentUpon>frmSraSeleccionarRendimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarRendimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarParametros.Designer.vb">
+      <DependentUpon>frmSraSeleccionarParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraTipoReporteProfesor.Designer.vb">
+      <DependentUpon>frmSraTipoReporteProfesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraTipoReporteProfesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarPeriodo.Designer.vb">
+      <DependentUpon>frmSraSeleccionarPeriodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraSeleccionarPeriodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGruposEditar.Designer.vb">
+      <DependentUpon>frmSraGruposEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGruposEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEnfermedadEditar.Designer.vb">
+      <DependentUpon>frmSraEnfermedadEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraEnfermedadEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraPeriodos.Designer.vb">
+      <DependentUpon>frmSraPeriodos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraPeriodos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraPeriodoEditar.Designer.vb">
+      <DependentUpon>frmSraPeriodoEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraPeriodoEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGradoEditar.Designer.vb">
+      <DependentUpon>frmSraGradoEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGradoEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGrado.Designer.vb">
+      <DependentUpon>frmSraGrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraBecasEditar.Designer.vb">
+      <DependentUpon>frmSraBecasEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraBecasEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraBecas.Designer.vb">
+      <DependentUpon>frmSraBecas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraBecas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraAsignaturasEditar.Designer.vb">
+      <DependentUpon>frmSraAsignaturasEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraAsignaturasEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraAsignaturas.Designer.vb">
+      <DependentUpon>frmSraAsignaturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\frmSraAsignaturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmGradosSelector.Designer.vb">
+      <DependentUpon>frmGradosSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmGradosSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmAsignaturasSelector.Designer.vb">
+      <DependentUpon>frmAsignaturasSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmAsignaturasSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGrupoAsignaturasProfesor.Designer.vb">
+      <DependentUpon>frmSraGrupoAsignaturasProfesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraGrupoAsignaturasProfesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraMatriculas.Designer.vb">
+      <DependentUpon>frmSraMatriculas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraMatriculas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraMatriculaEdit.Designer.vb">
+      <DependentUpon>frmSraMatriculaEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraMatriculaEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraAsignaturasProfesor.Designer.vb">
+      <DependentUpon>frmSraAsignaturasProfesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmSraAsignaturasProfesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbProfesores.Designer.vb">
+      <DependentUpon>frmStbProfesores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbProfesores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbAlumnos.Designer.vb">
+      <DependentUpon>frmStbAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbProfesorEditar.Designer.vb">
+      <DependentUpon>frmStbProfesorEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbProfesorEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbAlumnosEdit.Designer.vb">
+      <DependentUpon>frmStbAlumnosEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Registro Academico\frmStbAlumnosEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmPersonaSelector.Designer.vb">
+      <DependentUpon>frmPersonaSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmPersonaSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonaBuscar.Designer.vb">
+      <DependentUpon>frmStbPersonaBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonaBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonas.Designer.vb">
+      <DependentUpon>frmStbPersonas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonasContactos.Designer.vb">
+      <DependentUpon>frmStbPersonasContactos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonasContactos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonasEditar.Designer.vb">
+      <DependentUpon>frmStbPersonasEditar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonasEditar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonasTipoPersonas.Designer.vb">
+      <DependentUpon>frmStbPersonasTipoPersonas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmStbPersonasTipoPersonas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmVisorCedula.Designer.vb">
+      <DependentUpon>frmVisorCedula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PIM\frmVisorCedula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Principal\frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Principal\frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptArqueoCajaDepositos.Designer.vb">
+      <DependentUpon>RptArqueoCajaDepositos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptArqueoCajaDepositos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptGastos.Designer.vb">
+      <DependentUpon>RptGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptGastos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptDepositos.Designer.vb">
+      <DependentUpon>RptDepositos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptDepositos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptSccReciboCH.Designer.vb">
+      <DependentUpon>RptSccReciboCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptSccReciboCH.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptSccRecibo.Designer.vb">
+      <DependentUpon>RptSccRecibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptSccRecibo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptArqueoCajaCH.Designer.vb">
+      <DependentUpon>RptArqueoCajaCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptArqueoCajaCH.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptArqueoCaja.Designer.vb">
+      <DependentUpon>RptArqueoCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\RptArqueoCaja.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoDesCor.Designer.vb">
+      <DependentUpon>XtraArqueoDesCor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoDesCor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoCheques.Designer.vb">
+      <DependentUpon>XtraArqueoCheques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoCheques.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoDesDol.Designer.vb">
+      <DependentUpon>XtraArqueoDesDol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoDesDol.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoDepositos.Designer.vb">
+      <DependentUpon>XtraArqueoDepositos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Caja\XtraArqueoDepositos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\frmRptBecas.Designer.vb">
+      <DependentUpon>frmRptBecas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\frmRptBecas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\rptAsignaturas.Designer.vb">
+      <DependentUpon>rptAsignaturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\rptAsignaturas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\rptEvidencias.Designer.vb">
+      <DependentUpon>rptEvidencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\rptEvidencias.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\rptRangosCualitativos.Designer.vb">
+      <DependentUpon>rptRangosCualitativos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\rptRangosCualitativos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\RptBecas.Designer.vb">
+      <DependentUpon>RptBecas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Catalogos\RptBecas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptAuxiliar.Designer.vb">
+      <DependentUpon>frmScontRptAuxiliar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptAuxiliar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptIngresosEgresos.Designer.vb">
+      <DependentUpon>frmScontRptIngresosEgresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptIngresosEgresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptFlujoNeto.Designer.vb">
+      <DependentUpon>frmScontRptFlujoNeto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptFlujoNeto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptGastos.Designer.vb">
+      <DependentUpon>frmScontRptGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptDepositos.Designer.vb">
+      <DependentUpon>frmScontRptDepositos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptDepositos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptBalanzaComprobacion.Designer.vb">
+      <DependentUpon>frmScontRptBalanzaComprobacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptBalanzaComprobacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptBalanceGeneral.Designer.vb">
+      <DependentUpon>frmScontRptBalanceGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptBalanceGeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptEstadoResultado.Designer.vb">
+      <DependentUpon>frmScontRptEstadoResultado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\frmScontRptEstadoResultado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanceGeneral2.Designer.vb">
+      <DependentUpon>rptBalanceGeneral2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanceGeneral2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanceGeneral.Designer.vb">
+      <DependentUpon>rptBalanceGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanceGeneral.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptEstadoResultadoCondensado.Designer.vb">
+      <DependentUpon>rptEstadoResultadoCondensado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptEstadoResultadoCondensado.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptMatrizIngresosEgresos.Designer.vb">
+      <DependentUpon>rptMatrizIngresosEgresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptMatrizIngresosEgresos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptFlujoEfectivoCentroCosto.Designer.vb">
+      <DependentUpon>rptFlujoEfectivoCentroCosto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptFlujoEfectivoCentroCosto.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanzaComprobacionAll.Designer.vb">
+      <DependentUpon>rptBalanzaComprobacionAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanzaComprobacionAll.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptScontAuxiliarCuentas.Designer.vb">
+      <DependentUpon>rptScontAuxiliarCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptScontAuxiliarCuentas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanzaComprobacion.Designer.vb">
+      <DependentUpon>rptBalanzaComprobacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptBalanzaComprobacion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptEstadoResultadoGeneralo.Designer.vb">
+      <DependentUpon>rptEstadoResultadoGeneralo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptEstadoResultadoGeneralo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\RptComprobante.Designer.vb">
+      <DependentUpon>RptComprobante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\RptComprobante.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\RptComprobantePago.Designer.vb">
+      <DependentUpon>RptComprobantePago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\RptComprobantePago.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptCentroCosto.Designer.vb">
+      <DependentUpon>rptCentroCosto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptCentroCosto.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptCuentasContables.Designer.vb">
+      <DependentUpon>rptCuentasContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptCuentasContables.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptSaldos.Designer.vb">
+      <DependentUpon>rptSaldos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\rptSaldos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraTotalesGeneral.Designer.vb">
+      <DependentUpon>XtraTotalesGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraTotalesGeneral.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraIngresosCorrientes.Designer.vb">
+      <DependentUpon>XtraIngresosCorrientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraIngresosCorrientes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraGastosOperativos.Designer.vb">
+      <DependentUpon>XtraGastosOperativos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraGastosOperativos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraTotalBalance.Designer.vb">
+      <DependentUpon>XtraTotalBalance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraTotalBalance.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraActivos.Designer.vb">
+      <DependentUpon>XtraActivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraActivos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraCapital.Designer.vb">
+      <DependentUpon>XtraCapital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraCapital.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraPasivos.Designer.vb">
+      <DependentUpon>XtraPasivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraPasivos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraOtrosIngresos.Designer.vb">
+      <DependentUpon>XtraOtrosIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraOtrosIngresos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraTotalPasivoCapital.Designer.vb">
+      <DependentUpon>XtraTotalPasivoCapital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Contabilidad\XtraTotalPasivoCapital.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptEstadoCuentaEmpleado.Designer.vb">
+      <DependentUpon>rptEstadoCuentaEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptEstadoCuentaEmpleado.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptEstadoCuenta.Designer.vb">
+      <DependentUpon>rptEstadoCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptEstadoCuenta.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptGruposAlumnosMorosos.Designer.vb">
+      <DependentUpon>rptGruposAlumnosMorosos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptGruposAlumnosMorosos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmRptGruposAlumnos.Designer.vb">
+      <DependentUpon>frmRptGruposAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmRptGruposAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraPivotNotas.Designer.vb">
+      <DependentUpon>frmSraPivotNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraPivotNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraRptAlumnos.Designer.vb">
+      <DependentUpon>frmSraRptAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraRptAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraRptNotas.Designer.vb">
+      <DependentUpon>frmSraRptNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraRptNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraRptMatriculas.Designer.vb">
+      <DependentUpon>frmSraRptMatriculas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\frmSraRptMatriculas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptAlumnos.Designer.vb">
+      <DependentUpon>rptAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptAlumnos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionPrimaria2.Designer.vb">
+      <DependentUpon>rptEvaluacionPrimaria2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionPrimaria2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionPrimaria1.Designer.vb">
+      <DependentUpon>rptEvaluacionPrimaria1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionPrimaria1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptExcelenciaacademica.Designer.vb">
+      <DependentUpon>rptExcelenciaacademica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptExcelenciaacademica.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptGruposAlumnosSolventes.Designer.vb">
+      <DependentUpon>rptGruposAlumnosSolventes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\CuentasXCobrar\rptGruposAlumnosSolventes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptAlumnosPadres.Designer.vb">
+      <DependentUpon>rptAlumnosPadres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptAlumnosPadres.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptNotas.Designer.vb">
+      <DependentUpon>rptNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptNotas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptMatriculasLista.Designer.vb">
+      <DependentUpon>rptMatriculasLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptMatriculasLista.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptGruposAlumnos.Designer.vb">
+      <DependentUpon>rptGruposAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptGruposAlumnos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptRendimientoacademicoAsig.Designer.vb">
+      <DependentUpon>rptRendimientoacademicoAsig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptRendimientoacademicoAsig.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptRendimientoacademico.Designer.vb">
+      <DependentUpon>rptRendimientoacademico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptRendimientoacademico.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionInicial.Designer.vb">
+      <DependentUpon>rptEvaluacionInicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionInicial.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptGruposAsignaturas.Designer.vb">
+      <DependentUpon>rptGruposAsignaturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptGruposAsignaturas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionSecundaria.Designer.vb">
+      <DependentUpon>rptEvaluacionSecundaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptEvaluacionSecundaria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptProfesoresAsignaturas.Designer.vb">
+      <DependentUpon>rptProfesoresAsignaturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptProfesoresAsignaturas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptMatricula.Designer.vb">
+      <DependentUpon>rptMatricula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptMatricula.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptProfesores.Designer.vb">
+      <DependentUpon>rptProfesores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptProfesores.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptGrados.Designer.vb">
+      <DependentUpon>rptGrados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Registro academico\rptGrados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\clsReportes.vb" />
+    <Compile Include="Reportes\frmStbVisor.Designer.vb">
+      <DependentUpon>frmStbVisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmStbVisor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reportes\frmParamImpDestinoReporte.Designer.vb">
+      <DependentUpon>frmParamImpDestinoReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmParamImpDestinoReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="SIRADataSet.Designer.vb">
+      <DependentUpon>SIRADataSet.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios\Caja\frmRptArqueo.resx">
+      <DependentUpon>frmRptArqueo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccArqueoCH.resx">
+      <DependentUpon>frmSccArqueoCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccDepositos.resx">
+      <DependentUpon>frmSccDepositos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccArquo.resx">
+      <DependentUpon>frmSccArquo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccConfiguracionCajasCH.resx">
+      <DependentUpon>frmSccConfiguracionCajasCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccConfiguracionCajas.resx">
+      <DependentUpon>frmSccConfiguracionCajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccConfiguracionCajasEdit.resx">
+      <DependentUpon>frmSccConfiguracionCajasEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccConsultarDetalleArqueo.resx">
+      <DependentUpon>frmSccConsultarDetalleArqueo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccConsultarArqueoCH.resx">
+      <DependentUpon>frmSccConsultarArqueoCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccAmpliarTechoCajaCH.resx">
+      <DependentUpon>frmSccAmpliarTechoCajaCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccSalidaCajaCHEdit.resx">
+      <DependentUpon>frmSccSalidaCajaCHEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccSalidaCajaCH.resx">
+      <DependentUpon>frmSccSalidaCajaCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccReembolsoCajaCH.resx">
+      <DependentUpon>frmSccReembolsoCajaCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccConfiguracionCajasEditCH.resx">
+      <DependentUpon>frmSccConfiguracionCajasEditCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccConsultarArqueo.resx">
+      <DependentUpon>frmSccConsultarArqueo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccEditReciboCaja.resx">
+      <DependentUpon>frmSccEditReciboCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccReciboCaja.resx">
+      <DependentUpon>frmSccReciboCaja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccDepositosEdit.resx">
+      <DependentUpon>frmSccDepositosEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccSeleccionCuentasEmpleados.resx">
+      <DependentUpon>frmSccSeleccionCuentasEmpleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmStbEditTasaCambioOficial.resx">
+      <DependentUpon>frmStbEditTasaCambioOficial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmStbImportarTasaCambio.resx">
+      <DependentUpon>frmStbImportarTasaCambio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmStbMantTasaCambioOficial.resx">
+      <DependentUpon>frmStbMantTasaCambioOficial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraCiudadEditar.resx">
+      <DependentUpon>frmSraCiudadEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraEvidenciasMaestroEditar.resx">
+      <DependentUpon>frmSraEvidenciasMaestroEditar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraActivarParcial.resx">
+      <DependentUpon>frmSraActivarParcial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraParcialPermisos.resx">
+      <DependentUpon>frmSraParcialPermisos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContAgrupacionBalance.resx">
+      <DependentUpon>frmSContAgrupacionBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContAgrupacionBalanceEdit.resx">
+      <DependentUpon>frmSContAgrupacionBalanceEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontCentroCostoEdit.resx">
+      <DependentUpon>frmScontCentroCostoEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContConceptosCuentasEdit.resx">
+      <DependentUpon>frmSContConceptosCuentasEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContConceptosCuentas.resx">
+      <DependentUpon>frmSContConceptosCuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContCheques.resx">
+      <DependentUpon>frmSContCheques.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontChequesEdit.resx">
+      <DependentUpon>frmScontChequesEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontComprobanteEdit.resx">
+      <DependentUpon>frmScontComprobanteEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontCuentaContableEdit.resx">
+      <DependentUpon>frmScontCuentaContableEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContCuentasContables.resx">
+      <DependentUpon>frmSContCuentasContables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontContabilizarEdit.resx">
+      <DependentUpon>frmScontContabilizarEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraNotaBoletinEdit.resx">
+      <DependentUpon>frmSraNotaBoletinEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraNotaBoletin.resx">
+      <DependentUpon>frmSraNotaBoletin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraAranceles.resx">
+      <DependentUpon>frmSraAranceles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraEvidenciasAprendizaje.resx">
+      <DependentUpon>frmSraEvidenciasAprendizaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraArancelesEdit.resx">
+      <DependentUpon>frmSraArancelesEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraNotasCualitativasEdit.resx">
+      <DependentUpon>frmSraNotasCualitativasEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraNotasCualitativas.resx">
+      <DependentUpon>frmSraNotasCualitativas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontParametrosCerrarMess.resx">
+      <DependentUpon>frmScontParametrosCerrarMess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontParametrosMayorizarMes.resx">
+      <DependentUpon>frmScontParametrosMayorizarMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontParametrosSaldos.resx">
+      <DependentUpon>frmScontParametrosSaldos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContPeriodoContableEditar.resx">
+      <DependentUpon>frmSContPeriodoContableEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContComprobantes.resx">
+      <DependentUpon>frmSContComprobantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContPeriodosContable.resx">
+      <DependentUpon>frmSContPeriodosContable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmStbEmpleadosEditar.resx">
+      <DependentUpon>frmStbEmpleadosEditar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmStbEmpleados.resx">
+      <DependentUpon>frmStbEmpleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContSaldos.resx">
+      <DependentUpon>frmSContSaldos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContSaldosMes.resx">
+      <DependentUpon>frmSContSaldosMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContSaldosMesMayorizar.resx">
+      <DependentUpon>frmSContSaldosMesMayorizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmStbBuscarCheques.resx">
+      <DependentUpon>frmStbBuscarCheques.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleadosAgregar.resx">
+      <DependentUpon>frmSccCuentasEmpleadosAgregar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleadosEditar.resx">
+      <DependentUpon>frmSccCuentasEmpleadosEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSccCuentasEmpleado.resx">
+      <DependentUpon>frmSccCuentasEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSccCuentas.resx">
+      <DependentUpon>frmSccCuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSccCuentasEditar.resx">
+      <DependentUpon>frmSccCuentasEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSccAplicarDeducciones.resx">
+      <DependentUpon>frmSccAplicarDeducciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSraBusquedaExpediente.resx">
+      <DependentUpon>frmSraBusquedaExpediente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Caja\frmSccSeleccionCuentas.resx">
+      <DependentUpon>frmSccSeleccionCuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmAsignarBecaEditar.resx">
+      <DependentUpon>frmAsignarBecaEditar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\Mora\frmSccEditMora.resx">
+      <DependentUpon>frmSccEditMora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\Mora\frmSccMantMora.resx">
+      <DependentUpon>frmSccMantMora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmScontCuentaSelector.resx">
+      <DependentUpon>frmScontCuentaSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmBuscarEvidencias.resx">
+      <DependentUpon>frmBuscarEvidencias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmEvaluacionNivel.resx">
+      <DependentUpon>frmEvaluacionNivel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmEvaluacionSecundaria2.resx">
+      <DependentUpon>frmEvaluacionSecundaria2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmEvaluacionSecundaria.resx">
+      <DependentUpon>frmEvaluacionSecundaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmCuentaSelector.resx">
+      <DependentUpon>frmCuentaSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmGrupoSelector.resx">
+      <DependentUpon>frmGrupoSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraEvidenciasEditar.resx">
+      <DependentUpon>frmSraEvidenciasEditar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmExcelenciaAcademica.resx">
+      <DependentUpon>frmExcelenciaAcademica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmRendimientoAcademicoAsignatura.resx">
+      <DependentUpon>frmRendimientoAcademicoAsignatura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmRendimiento.resx">
+      <DependentUpon>frmRendimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSraAplicarBecas.resx">
+      <DependentUpon>frmSraAplicarBecas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContContabilizar.resx">
+      <DependentUpon>frmSContContabilizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmRetirarMatricula.resx">
+      <DependentUpon>frmRetirarMatricula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraCapturarFoto.resx">
+      <DependentUpon>frmSraCapturarFoto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\frmSContCentroCosto.resx">
+      <DependentUpon>frmSContCentroCosto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraGruposDetalle.resx">
+      <DependentUpon>frmSraGruposDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraGrupos.resx">
+      <DependentUpon>frmSraGrupos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraAsignarGrupos.resx">
+      <DependentUpon>frmSraAsignarGrupos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CuentasXCobrar\frmSraAlumnosSolventes.resx">
+      <DependentUpon>frmSraAlumnosSolventes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraSeleccionarParcial.resx">
+      <DependentUpon>frmSraSeleccionarParcial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraSeleccionarPeriodoEvidencias.resx">
+      <DependentUpon>frmSraSeleccionarPeriodoEvidencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraSeleccionarRendimiento.resx">
+      <DependentUpon>frmSraSeleccionarRendimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraSeleccionarParametros.resx">
+      <DependentUpon>frmSraSeleccionarParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraTipoReporteProfesor.resx">
+      <DependentUpon>frmSraTipoReporteProfesor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraSeleccionarPeriodo.resx">
+      <DependentUpon>frmSraSeleccionarPeriodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraGruposEditar.resx">
+      <DependentUpon>frmSraGruposEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraEnfermedadEditar.resx">
+      <DependentUpon>frmSraEnfermedadEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraPeriodos.resx">
+      <DependentUpon>frmSraPeriodos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraPeriodoEditar.resx">
+      <DependentUpon>frmSraPeriodoEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraGradoEditar.resx">
+      <DependentUpon>frmSraGradoEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraGrado.resx">
+      <DependentUpon>frmSraGrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraBecasEditar.resx">
+      <DependentUpon>frmSraBecasEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraBecas.resx">
+      <DependentUpon>frmSraBecas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraAsignaturasEditar.resx">
+      <DependentUpon>frmSraAsignaturasEditar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\frmSraAsignaturas.resx">
+      <DependentUpon>frmSraAsignaturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmGradosSelector.resx">
+      <DependentUpon>frmGradosSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmAsignaturasSelector.resx">
+      <DependentUpon>frmAsignaturasSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraGrupoAsignaturasProfesor.resx">
+      <DependentUpon>frmSraGrupoAsignaturasProfesor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraMatriculas.resx">
+      <DependentUpon>frmSraMatriculas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraMatriculaEdit.resx">
+      <DependentUpon>frmSraMatriculaEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmSraAsignaturasProfesor.resx">
+      <DependentUpon>frmSraAsignaturasProfesor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmStbProfesores.resx">
+      <DependentUpon>frmStbProfesores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmStbAlumnos.resx">
+      <DependentUpon>frmStbAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmStbProfesorEditar.resx">
+      <DependentUpon>frmStbProfesorEditar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro Academico\frmStbAlumnosEdit.resx">
+      <DependentUpon>frmStbAlumnosEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PIM\frmPersonaSelector.resx">
+      <DependentUpon>frmPersonaSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PIM\frmStbPersonaBuscar.resx">
+      <DependentUpon>frmStbPersonaBuscar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PIM\frmStbPersonas.resx">
+      <DependentUpon>frmStbPersonas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PIM\frmStbPersonasContactos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStbPersonasContactos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PIM\frmStbPersonasEditar.resx">
+      <DependentUpon>frmStbPersonasEditar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PIM\frmStbPersonasTipoPersonas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStbPersonasTipoPersonas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PIM\frmVisorCedula.resx">
+      <DependentUpon>frmVisorCedula.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Principal\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\RptArqueoCajaDepositos.resx">
+      <DependentUpon>RptArqueoCajaDepositos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\RptGastos.resx">
+      <DependentUpon>RptGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\RptDepositos.resx">
+      <DependentUpon>RptDepositos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\RptSccReciboCH.resx">
+      <DependentUpon>RptSccReciboCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\RptSccRecibo.resx">
+      <DependentUpon>RptSccRecibo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\RptArqueoCajaCH.resx">
+      <DependentUpon>RptArqueoCajaCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\RptArqueoCaja.resx">
+      <DependentUpon>RptArqueoCaja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\XtraArqueoDesCor.resx">
+      <DependentUpon>XtraArqueoDesCor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\XtraArqueoCheques.resx">
+      <DependentUpon>XtraArqueoCheques.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\XtraArqueoDesDol.resx">
+      <DependentUpon>XtraArqueoDesDol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Caja\XtraArqueoDepositos.resx">
+      <DependentUpon>XtraArqueoDepositos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Catalogos\frmRptBecas.resx">
+      <DependentUpon>frmRptBecas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Catalogos\rptAsignaturas.resx">
+      <DependentUpon>rptAsignaturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Catalogos\rptEvidencias.resx">
+      <DependentUpon>rptEvidencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Catalogos\rptRangosCualitativos.resx">
+      <DependentUpon>rptRangosCualitativos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Catalogos\RptBecas.resx">
+      <DependentUpon>RptBecas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptAuxiliar.resx">
+      <DependentUpon>frmScontRptAuxiliar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptIngresosEgresos.resx">
+      <DependentUpon>frmScontRptIngresosEgresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptFlujoNeto.resx">
+      <DependentUpon>frmScontRptFlujoNeto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptGastos.resx">
+      <DependentUpon>frmScontRptGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptDepositos.resx">
+      <DependentUpon>frmScontRptDepositos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptBalanzaComprobacion.resx">
+      <DependentUpon>frmScontRptBalanzaComprobacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptBalanceGeneral.resx">
+      <DependentUpon>frmScontRptBalanceGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\frmScontRptEstadoResultado.resx">
+      <DependentUpon>frmScontRptEstadoResultado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptBalanceGeneral2.resx">
+      <DependentUpon>rptBalanceGeneral2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptBalanceGeneral.resx">
+      <DependentUpon>rptBalanceGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptEstadoResultadoCondensado.resx">
+      <DependentUpon>rptEstadoResultadoCondensado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptMatrizIngresosEgresos.resx">
+      <DependentUpon>rptMatrizIngresosEgresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptFlujoEfectivoCentroCosto.resx">
+      <DependentUpon>rptFlujoEfectivoCentroCosto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptBalanzaComprobacionAll.resx">
+      <DependentUpon>rptBalanzaComprobacionAll.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptScontAuxiliarCuentas.resx">
+      <DependentUpon>rptScontAuxiliarCuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptBalanzaComprobacion.resx">
+      <DependentUpon>rptBalanzaComprobacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptEstadoResultadoGeneralo.resx">
+      <DependentUpon>rptEstadoResultadoGeneralo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\RptComprobante.resx">
+      <DependentUpon>RptComprobante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\RptComprobantePago.resx">
+      <DependentUpon>RptComprobantePago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptCentroCosto.resx">
+      <DependentUpon>rptCentroCosto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptCuentasContables.resx">
+      <DependentUpon>rptCuentasContables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\rptSaldos.resx">
+      <DependentUpon>rptSaldos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraTotalesGeneral.resx">
+      <DependentUpon>XtraTotalesGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraIngresosCorrientes.resx">
+      <DependentUpon>XtraIngresosCorrientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraGastosOperativos.resx">
+      <DependentUpon>XtraGastosOperativos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraTotalBalance.resx">
+      <DependentUpon>XtraTotalBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraActivos.resx">
+      <DependentUpon>XtraActivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraCapital.resx">
+      <DependentUpon>XtraCapital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraPasivos.resx">
+      <DependentUpon>XtraPasivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraOtrosIngresos.resx">
+      <DependentUpon>XtraOtrosIngresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Contabilidad\XtraTotalPasivoCapital.resx">
+      <DependentUpon>XtraTotalPasivoCapital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CuentasXCobrar\rptEstadoCuentaEmpleado.resx">
+      <DependentUpon>rptEstadoCuentaEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CuentasXCobrar\rptEstadoCuenta.resx">
+      <DependentUpon>rptEstadoCuenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CuentasXCobrar\rptGruposAlumnosMorosos.resx">
+      <DependentUpon>rptGruposAlumnosMorosos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\frmRptGruposAlumnos.resx">
+      <DependentUpon>frmRptGruposAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\frmSraPivotNotas.resx">
+      <DependentUpon>frmSraPivotNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\frmSraRptAlumnos.resx">
+      <DependentUpon>frmSraRptAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\frmSraRptNotas.resx">
+      <DependentUpon>frmSraRptNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\frmSraRptMatriculas.resx">
+      <DependentUpon>frmSraRptMatriculas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptAlumnos.resx">
+      <DependentUpon>rptAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptEvaluacionPrimaria2.resx">
+      <DependentUpon>rptEvaluacionPrimaria2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptEvaluacionPrimaria1.resx">
+      <DependentUpon>rptEvaluacionPrimaria1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptExcelenciaacademica.resx">
+      <DependentUpon>rptExcelenciaacademica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CuentasXCobrar\rptGruposAlumnosSolventes.resx">
+      <DependentUpon>rptGruposAlumnosSolventes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptAlumnosPadres.resx">
+      <DependentUpon>rptAlumnosPadres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptNotas.resx">
+      <DependentUpon>rptNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptMatriculasLista.resx">
+      <DependentUpon>rptMatriculasLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptGruposAlumnos.resx">
+      <DependentUpon>rptGruposAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptRendimientoacademicoAsig.resx">
+      <DependentUpon>rptRendimientoacademicoAsig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptRendimientoacademico.resx">
+      <DependentUpon>rptRendimientoacademico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptEvaluacionInicial.resx">
+      <DependentUpon>rptEvaluacionInicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptGruposAsignaturas.resx">
+      <DependentUpon>rptGruposAsignaturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptEvaluacionSecundaria.resx">
+      <DependentUpon>rptEvaluacionSecundaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptProfesoresAsignaturas.resx">
+      <DependentUpon>rptProfesoresAsignaturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptMatricula.resx">
+      <DependentUpon>rptMatricula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptProfesores.resx">
+      <DependentUpon>rptProfesores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Registro academico\rptGrados.resx">
+      <DependentUpon>rptGrados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmStbVisor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStbVisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmParamImpDestinoReporte.resx">
+      <DependentUpon>frmParamImpDestinoReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="SIRADataSet.xsc">
+      <DependentUpon>SIRADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SIRADataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SIRADataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SIRADataSet.xss">
+      <DependentUpon>SIRADataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aprobar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Procesar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_mimetype_source_moc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Autorizar Pedido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CargosDependecias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CatalogoValor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaST %28Cobalt%29 Find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaST %28Cobalt%29 Fonts Folders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaST %28Cobalt%29 Internet File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaST %28Cobalt%29 Library Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaST %28Cobalt%29 Users Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opts_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prefs_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte de Facturas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Run.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secuencias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tasa Cambio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UbicacionesGeograficas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UbicacionGeograf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UbicacionGeografica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zonas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zonas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bonificaciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carpeta.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carpeta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Catalogos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Catalogos2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CerrarSesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facturacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IniciarSesion.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IniciarSesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NuevoRegProducto.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Productos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prueba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seguridad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuario.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo.jpg" />
+    <None Include="Resources\Office2003Olive.jpg" />
+    <None Include="Resources\balanza.bmp" />
+    <Content Include="favicon.ico" />
+    <None Include="Resources\add16x16.png" />
+    <Content Include="Resources\Banner.jpg" />
+    <Content Include="Resources\Bitacora.png" />
+    <None Include="Resources\Cancel16.png" />
+    <None Include="Resources\cancel16x16.png" />
+    <None Include="Resources\disabled16x16.png" />
+    <None Include="Resources\edit16x16.png" />
+    <None Include="Resources\empleado16x16.png" />
+    <Content Include="Resources\Fact.png" />
+    <None Include="Resources\Guardar32.png" />
+    <None Include="Resources\Guardar16.png" />
+    <Content Include="Resources\Home.ico" />
+    <None Include="Resources\kardex16x16.png" />
+    <None Include="Resources\kardex16x161.png" />
+    <None Include="Resources\if_Load_132741.png" />
+    <Content Include="Resources\Logo.jpg" />
+    <Content Include="Resources\MdiChild.png" />
+    <Content Include="Resources\Office2007Black.jpg" />
+    <Content Include="Resources\Office2007Blue.jpg" />
+    <Content Include="Resources\Office2007Silver.jpg" />
+    <Content Include="Resources\Officexp.jpg" />
+    <Content Include="Resources\pedidos.jpg" />
+    <Content Include="Resources\Proveedor.ico" />
+    <None Include="Resources\Sello.png" />
+    <None Include="Resources\ProveedorEstilo1.jpg" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\updated24x24.png" />
+    <None Include="Resources\save16x16.png" />
+    <None Include="Resources\updated16x16.png" />
+    <Content Include="VentanaConfiguracion.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIRA.BO\SIRA.BO.vbproj">
+      <Project>{c9cc746b-0b3a-4f47-8638-772bc3aa75bd}</Project>
+      <Name>SIRA.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIRA.Catalogos.Datos\Catalogos.Datos.vbproj">
+      <Project>{33da4e3e-a1d1-4d09-857a-4884251cbb4b}</Project>
+      <Name>Catalogos.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIRA.Catalogos.Formularios\Catalogos.Formularios.vbproj">
+      <Project>{cac48429-c201-4e7b-9864-d76b30ed6382}</Project>
+      <Name>Catalogos.Formularios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIRA.Seguridad.Datos\Seguridad.Datos.vbproj">
+      <Project>{1d3e4a0c-f671-4890-9a17-f6b64951cca2}</Project>
+      <Name>Seguridad.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIRA.Seguridad.Formularios\Seguridad.Formularios.vbproj">
+      <Project>{7a293fdd-5637-4bdf-9a92-a6b37db742ee}</Project>
+      <Name>Seguridad.Formularios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

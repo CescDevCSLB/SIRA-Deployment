@@ -1,0 +1,1022 @@
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.exe.config
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.exe.manifest
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.application
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.exe
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.Chart.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.PdfExport.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.Viewer3.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.XlsExport.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ActiveReports3.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Controls.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Video.DirectShow.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Video.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.C1Excel.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Command.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Input.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1List.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Ribbon.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Sizer.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1SuperTooltip.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1TrueDBGrid.2.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DAL.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Extensions.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.UI.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.Extensions.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Datos.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Formularios.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Configuracion.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Datos.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Formularios.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.BO.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Imaging.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\EnvDTE.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ADODB.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Math.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\VSLangProj.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\EnvDTE80.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\stdole.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDialogs.v20.1.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Dialogs.v20.1.Core.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.MSXML.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\SIRA.BO.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Datos.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Datos.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Formularios.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Datos.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Datos.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Formularios.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Formularios.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Controls.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.C1Excel.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Command.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Input.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1List.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Ribbon.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Sizer.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1SuperTooltip.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1TrueDBGrid.2.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Extensions.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.UI.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.Extensions.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Imaging.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\AForge.Math.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Snap.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Snap.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Snap.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Snap.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Snap.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Snap.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Snap.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Snap.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.AssemblyReference.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRptArqueo.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccArqueoCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccDepositos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccArquo.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajasCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajasEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConsultarDetalleArqueo.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConsultarArqueoCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccAmpliarTechoCajaCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSalidaCajaCHEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSalidaCajaCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccReembolsoCajaCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajasEditCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConsultarArqueo.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccEditReciboCaja.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccReciboCaja.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccDepositosEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSeleccionCuentasEmpleados.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbEditTasaCambioOficial.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbImportarTasaCambio.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbMantTasaCambioOficial.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraCiudadEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEvidenciasMaestroEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraActivarParcial.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraParcialPermisos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContAgrupacionBalance.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContAgrupacionBalanceEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontCentroCostoEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContConceptosCuentasEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContConceptosCuentas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContCheques.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontChequesEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontComprobanteEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontCuentaContableEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContCuentasContables.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontContabilizarEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotaBoletinEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotaBoletin.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAranceles.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEvidenciasAprendizaje.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraArancelesEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotasCualitativasEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotasCualitativas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontParametrosCerrarMess.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontParametrosMayorizarMes.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontParametrosSaldos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContPeriodoContableEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContComprobantes.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContPeriodosContable.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbEmpleadosEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbEmpleados.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContSaldos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContSaldosMes.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContSaldosMesMayorizar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbBuscarCheques.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEmpleadosAgregar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEmpleadosEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEmpleado.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccAplicarDeducciones.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraBusquedaExpediente.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSeleccionCuentas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmAsignarBecaEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccEditMora.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccMantMora.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontCuentaSelector.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmBuscarEvidencias.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmEvaluacionNivel.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmEvaluacionSecundaria2.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmEvaluacionSecundaria.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmCuentaSelector.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmGrupoSelector.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEvidenciasEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmExcelenciaAcademica.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRendimientoAcademicoAsignatura.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRendimiento.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAplicarBecas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContContabilizar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRetirarMatricula.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraCapturarFoto.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContCentroCosto.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGruposDetalle.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGrupos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignarGrupos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAlumnosSolventes.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarParcial.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarPeriodoEvidencias.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarRendimiento.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarParametros.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraTipoReporteProfesor.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarPeriodo.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGruposEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEnfermedadEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraPeriodos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraPeriodoEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGradoEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGrado.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraBecasEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraBecas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignaturasEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignaturas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmGradosSelector.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmAsignaturasSelector.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGrupoAsignaturasProfesor.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraMatriculas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraMatriculaEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignaturasProfesor.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbProfesores.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbAlumnos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbProfesorEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbAlumnosEdit.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmPersonaSelector.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonaBuscar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonasContactos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonasEditar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonasTipoPersonas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmVisorCedula.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmPrincipal.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptArqueoCajaDepositos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptGastos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptDepositos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptSccReciboCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptSccRecibo.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptArqueoCajaCH.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptArqueoCaja.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoDesCor.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoCheques.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoDesDol.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoDepositos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRptBecas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptAsignaturas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvidencias.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptRangosCualitativos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptBecas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptAuxiliar.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptIngresosEgresos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptFlujoNeto.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptGastos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptDepositos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptBalanzaComprobacion.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptBalanceGeneral.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptEstadoResultado.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanceGeneral2.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanceGeneral.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoResultadoCondensado.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptMatrizIngresosEgresos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptFlujoEfectivoCentroCosto.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanzaComprobacionAll.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptScontAuxiliarCuentas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanzaComprobacion.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoResultadoGeneralo.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptComprobante.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptComprobantePago.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptCentroCosto.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptCuentasContables.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptSaldos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraTotalesGeneral.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraIngresosCorrientes.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraGastosOperativos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraTotalBalance.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraActivos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraCapital.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraPasivos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraOtrosIngresos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraTotalPasivoCapital.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoCuentaEmpleado.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoCuenta.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAlumnosMorosos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRptGruposAlumnos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraPivotNotas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraRptAlumnos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraRptNotas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraRptMatriculas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptAlumnos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionPrimaria2.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionPrimaria1.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptExcelenciaacademica.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAlumnosSolventes.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptAlumnosPadres.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptNotas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptMatriculasLista.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAlumnos.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptRendimientoacademicoAsig.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptRendimientoacademico.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionInicial.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAsignaturas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionSecundaria.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptProfesoresAsignaturas.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptMatricula.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptProfesores.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGrados.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbVisor.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.Resources.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmParamImpDestinoReporte.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.GenerateResource.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.exe.licenses
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.CoreCompileInputs.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.exe.manifest
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.application
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.CopyComplete
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.exe
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA\obj\Debug\SIRA.pdb
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.exe.config
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.exe.manifest
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.application
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.exe
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.pdb
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.Chart.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.PdfExport.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.Viewer3.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ActiveReports.XlsExport.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ActiveReports3.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Controls.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Video.DirectShow.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Video.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.C1Excel.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Command.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Input.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1List.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Ribbon.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Sizer.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1SuperTooltip.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1TrueDBGrid.2.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DAL.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Images.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Extensions.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.UI.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.Extensions.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Datos.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Formularios.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Configuracion.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Datos.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Formularios.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.BO.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Imaging.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\EnvDTE.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ADODB.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Math.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\VSLangProj.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\EnvDTE80.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\stdole.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDialogs.v20.1.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Dialogs.v20.1.Core.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.MSXML.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\SIRA.BO.pdb
+D:\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Datos.pdb
+D:\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Datos.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\Proyecto.Catalogos.Formularios.pdb
+D:\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Datos.pdb
+D:\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Datos.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Formularios.pdb
+D:\SIRA-Deployment\SIRA\bin\Debug\Seguridad.Formularios.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Controls.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.C1Excel.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Command.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Input.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1List.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Ribbon.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1Sizer.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1SuperTooltip.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\C1.Win.C1TrueDBGrid.2.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Snap.v20.1.Extensions.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.UI.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.Extensions.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Imaging.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraScheduler.v20.1.Reporting.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\AForge.Math.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\DevExpress.XtraDialogs.v20.1.xml
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Snap.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Snap.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Snap.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Snap.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Snap.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Snap.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Snap.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Snap.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Snap.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Reporting.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\de\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\es\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ja\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\bin\Debug\ru\DevExpress.Dialogs.v20.1.Core.resources.dll
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.AssemblyReference.cache
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRptArqueo.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccArqueoCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccDepositos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccArquo.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajasCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajasEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConsultarDetalleArqueo.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConsultarArqueoCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccAmpliarTechoCajaCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSalidaCajaCHEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSalidaCajaCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccReembolsoCajaCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConfiguracionCajasEditCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccConsultarArqueo.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccEditReciboCaja.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccReciboCaja.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccDepositosEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSeleccionCuentasEmpleados.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbEditTasaCambioOficial.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbImportarTasaCambio.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbMantTasaCambioOficial.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraCiudadEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEvidenciasMaestroEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraActivarParcial.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraParcialPermisos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContAgrupacionBalance.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContAgrupacionBalanceEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontCentroCostoEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContConceptosCuentasEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContConceptosCuentas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContCheques.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontChequesEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontComprobanteEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontCuentaContableEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContCuentasContables.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontContabilizarEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotaBoletinEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotaBoletin.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAranceles.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEvidenciasAprendizaje.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraArancelesEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotasCualitativasEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraNotasCualitativas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontParametrosCerrarMess.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontParametrosMayorizarMes.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontParametrosSaldos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContPeriodoContableEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContComprobantes.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContPeriodosContable.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbEmpleadosEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbEmpleados.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContSaldos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContSaldosMes.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContSaldosMesMayorizar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbBuscarCheques.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEmpleadosAgregar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEmpleadosEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEmpleado.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccCuentasEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccAplicarDeducciones.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraBusquedaExpediente.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccSeleccionCuentas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmAsignarBecaEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccEditMora.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSccMantMora.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontCuentaSelector.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmBuscarEvidencias.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmEvaluacionNivel.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmEvaluacionSecundaria2.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmEvaluacionSecundaria.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmCuentaSelector.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmGrupoSelector.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEvidenciasEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmExcelenciaAcademica.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRendimientoAcademicoAsignatura.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRendimiento.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAplicarBecas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContContabilizar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRetirarMatricula.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraCapturarFoto.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSContCentroCosto.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGruposDetalle.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGrupos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignarGrupos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAlumnosSolventes.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarParcial.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarPeriodoEvidencias.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarRendimiento.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarParametros.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraTipoReporteProfesor.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraSeleccionarPeriodo.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGruposEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraEnfermedadEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraPeriodos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraPeriodoEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGradoEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGrado.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraBecasEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraBecas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignaturasEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignaturas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmGradosSelector.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmAsignaturasSelector.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraGrupoAsignaturasProfesor.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraMatriculas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraMatriculaEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraAsignaturasProfesor.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbProfesores.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbAlumnos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbProfesorEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbAlumnosEdit.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmPersonaSelector.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonaBuscar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonasContactos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonasEditar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbPersonasTipoPersonas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmVisorCedula.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmPrincipal.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptArqueoCajaDepositos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptGastos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptDepositos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptSccReciboCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptSccRecibo.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptArqueoCajaCH.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptArqueoCaja.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoDesCor.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoCheques.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoDesDol.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraArqueoDepositos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRptBecas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptAsignaturas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvidencias.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptRangosCualitativos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptBecas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptAuxiliar.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptIngresosEgresos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptFlujoNeto.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptGastos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptDepositos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptBalanzaComprobacion.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptBalanceGeneral.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmScontRptEstadoResultado.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanceGeneral2.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanceGeneral.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoResultadoCondensado.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptMatrizIngresosEgresos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptFlujoEfectivoCentroCosto.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanzaComprobacionAll.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptScontAuxiliarCuentas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptBalanzaComprobacion.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoResultadoGeneralo.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptComprobante.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.RptComprobantePago.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptCentroCosto.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptCuentasContables.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptSaldos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraTotalesGeneral.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraIngresosCorrientes.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraGastosOperativos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraTotalBalance.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraActivos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraCapital.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraPasivos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraOtrosIngresos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.XtraTotalPasivoCapital.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoCuentaEmpleado.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEstadoCuenta.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAlumnosMorosos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmRptGruposAlumnos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraPivotNotas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraRptAlumnos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraRptNotas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmSraRptMatriculas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptAlumnos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionPrimaria2.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionPrimaria1.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptExcelenciaacademica.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAlumnosSolventes.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptAlumnosPadres.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptNotas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptMatriculasLista.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAlumnos.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptRendimientoacademicoAsig.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptRendimientoacademico.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionInicial.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGruposAsignaturas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptEvaluacionSecundaria.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptProfesoresAsignaturas.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptMatricula.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptProfesores.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.rptGrados.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmStbVisor.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.Resources.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.frmParamImpDestinoReporte.resources
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.GenerateResource.cache
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.exe.licenses
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.CoreCompileInputs.cache
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.exe.manifest
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.application
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.vbproj.CopyComplete
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.exe
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.xml
+D:\SIRA-Deployment\SIRA\obj\Debug\SIRA.pdb

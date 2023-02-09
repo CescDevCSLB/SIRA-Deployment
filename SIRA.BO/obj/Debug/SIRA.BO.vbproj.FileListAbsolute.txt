@@ -1,0 +1,12 @@
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\bin\Debug\SIRA.BO.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\bin\Debug\SIRA.BO.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\bin\Debug\Proyecto.BO.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\bin\Debug\DAL.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\SIRA.BO.vbproj.AssemblyReference.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\SIRA.BO.Resources.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\SIRA.BO.vbproj.GenerateResource.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\SIRA.BO.vbproj.CoreCompileInputs.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\SIRA.BO.vbproj.CopyComplete
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\SIRA.BO.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\Proyecto.BO.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.BO\obj\Debug\SIRA.BO.pdb

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DtMorosidadS" targetNamespace="http://tempuri.org/DtMorosidadS.xsd" xmlns:mstns="http://tempuri.org/DtMorosidadS.xsd" xmlns="http://tempuri.org/DtMorosidadS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SCCUMLASTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SCCUMLASTConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SIFAC.My.MySettings.GlobalReference.Default.SCCUMLASTConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwRptCuotasVencidasTableAdapter" GeneratorDataComponentClassName="vwRptCuotasVencidasTableAdapter" Name="vwRptCuotasVencidas" UserDataComponentName="vwRptCuotasVencidasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SCCUMLASTConnectionString (MySettings)" DbObjectName="SELECT Tienda,objTiendaID, COUNT(Mora30) AS Moras30,0 AS Mora60, 0 AS MoraOver60, 0 AS d FROM vwRptCuotasVencidas WHERE Mora30&lt;&gt;0 GROUP BY Tienda,objTiendaID UNION SELECT Tienda,objTiendaID, 0 AS Mora30 , COUNT(Mora60) AS Moras60,0 AS MoraOver60, 0 AS d FROM vwRptCuotasVencidas WHERE Mora60&lt;&gt;0 GROUP BY Tienda, objTiendaID UNION SELECT Tienda, objTiendaID, 0 AS Mora30 ,0 A

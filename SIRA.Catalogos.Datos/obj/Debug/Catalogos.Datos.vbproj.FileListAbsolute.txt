@@ -1,0 +1,14 @@
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\bin\Debug\Proyecto.Catalogos.Datos.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\bin\Debug\Proyecto.Catalogos.Datos.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\bin\Debug\Proyecto.Catalogos.Datos.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\bin\Debug\DAL.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\bin\Debug\SIRA.BO.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\bin\Debug\SIRA.BO.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Catalogos.Datos.vbproj.AssemblyReference.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Proyecto.Catalogos.Datos.Resources.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Catalogos.Datos.vbproj.GenerateResource.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Catalogos.Datos.vbproj.CoreCompileInputs.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Catalogos.Datos.vbproj.CopyComplete
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Proyecto.Catalogos.Datos.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Proyecto.Catalogos.Datos.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Catalogos.Datos\obj\Debug\Proyecto.Catalogos.Datos.pdb

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9CC746B-0B3A-4F47-8638-772BC3AA75BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SIRA.BO</RootNamespace>
+    <AssemblyName>SIRA.BO</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Proyecto.BO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Proyecto.BO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLS\DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsConsultas.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SccAmpliarTecho.vb" />
+    <Compile Include="SccArqueoCaja.vb" />
+    <Compile Include="SccArqueoCajaCH.vb" />
+    <Compile Include="SccArqueoCajaDetalle.vb" />
+    <Compile Include="SccArqueoCajaDetalleCH.vb" />
+    <Compile Include="SccArqueoRecibo.vb" />
+    <Compile Include="SccCajaChica.vb" />
+    <Compile Include="SccCajaChicaReembolsos.vb" />
+    <Compile Include="SccCajas.vb" />
+    <Compile Include="SccConsolidadoMora.vb" />
+    <Compile Include="SccCuentaPorCobrar.vb" />
+    <Compile Include="SccCuentaPorCobrarDetalle.vb" />
+    <Compile Include="SccCuentaPorCobrarDetalleEmpleados.vb" />
+    <Compile Include="SccCuentaPorCobrarEmpleados.vb" />
+    <Compile Include="SccCuotasAplicadas.vb" />
+    <Compile Include="SccDenominacionBilletes.vb" />
+    <Compile Include="SccMora.vb" />
+    <Compile Include="SccOtrosPagosRecibo.vb" />
+    <Compile Include="SccReciboCaja.vb" />
+    <Compile Include="SccReciboDetalle.vb" />
+    <Compile Include="SccReciboDetallePrestamo.vb" />
+    <Compile Include="SccReciboDetMora.vb" />
+    <Compile Include="SccReembolsoArqueo.vb" />
+    <Compile Include="SccSalidaArqueo.vb" />
+    <Compile Include="SccSalidasCajaChica.vb" />
+    <Compile Include="ScontAgrupacionBalanceDetalle.vb" />
+    <Compile Include="ScontAgrupacionBalanceGeneral.vb" />
+    <Compile Include="ScontCentroCostoCuentas.vb" />
+    <Compile Include="ScontCentrosCosto.vb" />
+    <Compile Include="ScontCheque.vb" />
+    <Compile Include="SContChequeDetalle.vb" />
+    <Compile Include="SContComprobanteDetalle.vb" />
+    <Compile Include="ScontComprobanteID.vb" />
+    <Compile Include="SContConceptosCuentas.vb" />
+    <Compile Include="SContCuentasContables.vb" />
+    <Compile Include="ScontDepositoDetalle.vb" />
+    <Compile Include="ScontDepositos.vb" />
+    <Compile Include="ScontMesCerrado.vb" />
+    <Compile Include="SContPeriodos.vb" />
+    <Compile Include="ScontSaldos.vb" />
+    <Compile Include="SContSubCuentasContables.vb" />
+    <Compile Include="SContSubSubCuentasContables.vb" />
+    <Compile Include="SraAlumnos_Becas.vb" />
+    <Compile Include="SraAlumnos_Notas.vb" />
+    <Compile Include="SraAlumno_Grupo.vb" />
+    <Compile Include="SraAranceles.vb" />
+    <Compile Include="SraAsignaturas.vb" />
+    <Compile Include="SraAsignaturasConfiguracion.vb" />
+    <Compile Include="SraAsignaturasPrueba.vb" />
+    <Compile Include="SraAsignaturas_Grado.vb" />
+    <Compile Include="SraAsignatura_Profesor.vb" />
+    <Compile Include="SraBecas.vb" />
+    <Compile Include="SraConsolidadoNotas.vb" />
+    <Compile Include="SraEvidenciaDetalle.vb" />
+    <Compile Include="SraEvidenciaGrados.vb" />
+    <Compile Include="SraEvidencias.vb" />
+    <Compile Include="SraGrado.vb" />
+    <Compile Include="SraGrados_Profesor.vb" />
+    <Compile Include="SraGrupo.vb" />
+    <Compile Include="SraGrupos_Profesor_Asignaturas.vb" />
+    <Compile Include="SraMatricula_Alumnos.vb" />
+    <Compile Include="SraNotaBoletin.vb" />
+    <Compile Include="SraNotas.vb" />
+    <Compile Include="SraNotasEvidencias.vb" />
+    <Compile Include="SraNotasReepetidas.vb" />
+    <Compile Include="SraNotas_Cualitativas.vb" />
+    <Compile Include="SraParcialActivo.vb" />
+    <Compile Include="SraParcialReportes.vb" />
+    <Compile Include="SraPeriodos.vb" />
+    <Compile Include="SraProfesor_Grupo.vb" />
+    <Compile Include="SraRangosGrados.vb" />
+    <Compile Include="SraRetiroMatricula.vb" />
+    <Compile Include="StbAlumnos.vb" />
+    <Compile Include="StbAlumno_Enfermedad.vb" />
+    <Compile Include="StbCiudad.vb" />
+    <Compile Include="StbContactos_CF.vb" />
+    <Compile Include="StbEmpleados.vb" />
+    <Compile Include="StbPadres.vb" />
+    <Compile Include="StbPais.vb" />
+    <Compile Include="StbPersona.vb" />
+    <Compile Include="StbPersonaClasificacion.vb" />
+    <Compile Include="StbProfesores.vb" />
+    <Compile Include="StbResponsable.vb" />
+    <Compile Include="StbTasaCambioOficial.vb" />
+    <Compile Include="StbTipoPersona_CF.vb" />
+    <Compile Include="StbTiposEntrada_CF.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

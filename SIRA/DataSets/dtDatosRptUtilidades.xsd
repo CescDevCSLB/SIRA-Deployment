@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtDatosRptUtilidades" targetNamespace="http://tempuri.org/dtDatosRptUtilidades.xsd" xmlns:mstns="http://tempuri.org/dtDatosRptUtilidades.xsd" xmlns="http://tempuri.org/dtDatosRptUtilidades.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SIRAonnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SIRAonnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SIFAC.My.MySettings.GlobalReference.Default.SIRAonnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwRptUtilidadesTableAdapter" GeneratorDataComponentClassName="vwRptUtilidadesTableAdapter" Name="vwRptUtilidades" UserDataComponentName="vwRptUtilidadesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SIRAonnectionString (MySettings)" DbObjectName="SIFUM.dbo.vwRptUtilidades" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FechaFactura, objTiendaID, NombreTienda, CodigoTienda, objRepuestoID, DescripcionCorta, TCantidadFacturada, TPrecio, TDescuento, TCosto, TUtilidad FROM dbo.vwRptUtilidades</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FechaFactura" DataSetColumn="FechaFactura" />
+              <Mapping SourceColumn="objTiendaID" DataSetColumn="objTiendaID" />
+              <Mapping SourceColumn="NombreTienda" DataSetColumn="NombreTienda" />
+              <Mapping SourceColumn="CodigoTienda" DataSetColumn="CodigoTienda" />
+              <Mapping SourceColumn="objRepuestoID" DataSetColumn="objRepuestoID" />
+              <Mapping SourceColumn="DescripcionCorta" DataSetColumn="DescripcionCorta" />
+              <Mapping SourceColumn="TCantidadFacturada" DataSetColumn="TCantidadFacturada" />
+              <Mapping SourceColumn="TPrecio" DataSetColumn="TPrecio" />
+              <Mapping SourceColumn="TDescuento" DataSetColumn="TDescuento" />
+              <Mapping SourceColumn="TCosto" DataSetColumn="TCosto" />
+              <Mapping SourceColumn="TUtilidad" DataSetColumn="TUtilidad" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtDatosRptUtilidades" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dtDatosRptUtilidades" msprop:Generator_UserDSName="dtDatosRptUtilidades">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vwRptUtilidades" msprop:Generator_TableClassName="vwRptUtilidadesDataTable" msprop:Generator_RowEvArgName="vwRptUtilidadesRowChangeEvent" msprop:Generator_TableVarName="tablevwRptUtilidades" msprop:Generator_TablePropName="vwRptUtilidades" msprop:Generator_RowDeletingName="vwRptUtilidadesRowDeleting" msprop:Generator_RowChangingName="vwRptUtilidadesRowChanging" msprop:Generator_RowEvHandlerName="vwRptUtilidadesRowChangeEventHandler" msprop:Generator_RowDeletedName="vwRptUtilidadesRowDeleted" msprop:Generator_RowChangedName="vwRptUtilidadesRowChanged" msprop:Generator_UserTableName="vwRptUtilidades" msprop:Generator_RowClassName="vwRptUtilidadesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FechaFactura" msprop:Generator_ColumnVarNameInTable="columnFechaFactura" msprop:Generator_ColumnPropNameInRow="FechaFactura" msprop:Generator_ColumnPropNameInTable="FechaFacturaColumn" msprop:Generator_UserColumnName="FechaFactura" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="objTiendaID" msprop:Generator_ColumnVarNameInTable="columnobjTiendaID" msprop:Generator_ColumnPropNameInRow="objTiendaID" msprop:Generator_ColumnPropNameInTable="objTiendaIDColumn" msprop:Generator_UserColumnName="objTiendaID" type="xs:int" />
+              <xs:element name="NombreTienda" msprop:Generator_ColumnVarNameInTable="columnNombreTienda" msprop:Generator_ColumnPropNameInRow="NombreTienda" msprop:Generator_ColumnPropNameInTable="NombreTiendaColumn" msprop:Generator_UserColumnName="NombreTienda">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodigoTienda" msprop:Generator_ColumnVarNameInTable="columnCodigoTienda" msprop:Generator_ColumnPropNameInRow="CodigoTienda" msprop:Generator_ColumnPropNameInTable="CodigoTiendaColumn" msprop:Generator_UserColumnName="CodigoTienda" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="objRepuestoID" msprop:Generator_ColumnVarNameInTable="columnobjRepuestoID" msprop:Generator_ColumnPropNameInRow="objRepuestoID" msprop:Generator_ColumnPropNameInTable="objRepuestoIDColumn" msprop:Generator_UserColumnName="objRepuestoID" type="xs:int" />
+              <xs:element name="DescripcionCorta" msprop:Generator_ColumnVarNameInTable="columnDescripcionCorta" msprop:Generator_ColumnPropNameInRow="DescripcionCorta" msprop:Generator_ColumnPropNameInTable="DescripcionCortaColumn" msprop:Generator_UserColumnName="DescripcionCorta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TCantidadFacturada" msprop:Generator_ColumnVarNameInTable="columnTCantidadFacturada" msprop:Generator_ColumnPropNameInRow="TCantidadFacturada" msprop:Generator_ColumnPropNameInTable="TCantidadFacturadaColumn" msprop:Generator_UserColumnName="TCantidadFacturada" type="xs:int" minOccurs="0" />
+              <xs:element name="TPrecio" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTPrecio" msprop:Generator_ColumnPropNameInRow="TPrecio" msprop:Generator_ColumnPropNameInTable="TPrecioColumn" msprop:Generator_UserColumnName="TPrecio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TDescuento" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTDescuento" msprop:Generator_ColumnPropNameInRow="TDescuento" msprop:Generator_ColumnPropNameInTable="TDescuentoColumn" msprop:Generator_UserColumnName="TDescuento" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TCosto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTCosto" msprop:Generator_ColumnPropNameInRow="TCosto" msprop:Generator_ColumnPropNameInTable="TCostoColumn" msprop:Generator_UserColumnName="TCosto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TUtilidad" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTUtilidad" msprop:Generator_ColumnPropNameInRow="TUtilidad" msprop:Generator_ColumnPropNameInTable="TUtilidadColumn" msprop:Generator_UserColumnName="TUtilidad" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

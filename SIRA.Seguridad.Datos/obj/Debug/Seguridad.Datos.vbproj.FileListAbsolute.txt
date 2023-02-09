@@ -1,0 +1,12 @@
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\bin\Debug\Seguridad.Datos.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\bin\Debug\Seguridad.Datos.pdb
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\bin\Debug\Seguridad.Datos.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\bin\Debug\DAL.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.vbproj.AssemblyReference.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.Resources.resources
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.vbproj.GenerateResource.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.vbproj.CoreCompileInputs.cache
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.vbproj.CopyComplete
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.dll
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.xml
+D:\Información Descargas\SIRA\SIRA-Deployment\SIRA.Seguridad.Datos\obj\Debug\Seguridad.Datos.pdb
