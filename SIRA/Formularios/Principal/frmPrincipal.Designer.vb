@@ -480,7 +480,6 @@ Partial Class frmPrincipal
         'grpCaja
         '
         Me.grpCaja.Caption = "Caja"
-        Me.grpCaja.Expanded = True
         Me.grpCaja.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavTasaCambio), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem2), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarConfiguracionCaja), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarReciboCaja), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarDepositos), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarArqueo), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem3), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarCajaChica), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarSalidaCajaChica), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarArqueoCajaCH), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarIReporteCaja), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarReporteGastos), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarArqueoDeposito)})
         Me.grpCaja.Name = "grpCaja"
         '
@@ -564,6 +563,7 @@ Partial Class frmPrincipal
         'grpContabilidad
         '
         Me.grpContabilidad.Caption = "Contabilidad"
+        Me.grpContabilidad.Expanded = True
         Me.grpContabilidad.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem4), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarPeriodoContable), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarCentroCosto), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarCatCuentas), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarRelacionConceptos), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarAgrupacionesBalance), New DevExpress.XtraNavBar.NavBarItemLink(Me.Comprobantes), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarContabilizar), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarComprobante), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarCheque), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem5), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarMayorizar), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarCerrarMes), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarReporteContable), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarBalance), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarAuxiliar), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarBComprobacion), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarEstadoResultado), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarCSaldos), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarDepositosRpt), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarFlujo), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarMatriz)})
         Me.grpContabilidad.Name = "grpContabilidad"
         '

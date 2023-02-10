@@ -149,20 +149,17 @@ Partial Class frmScontChequesEdit
         Me.grpDatos.Controls.Add(Me.cmdCancelar)
         Me.grpDatos.Controls.Add(Me.cmdGuardar)
         Me.grpDatos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpDatos.Location = New System.Drawing.Point(7, 5)
-        Me.grpDatos.Margin = New System.Windows.Forms.Padding(4)
+        Me.grpDatos.Location = New System.Drawing.Point(5, 4)
         Me.grpDatos.Name = "grpDatos"
-        Me.grpDatos.Padding = New System.Windows.Forms.Padding(4)
-        Me.grpDatos.Size = New System.Drawing.Size(1203, 692)
+        Me.grpDatos.Size = New System.Drawing.Size(902, 562)
         Me.grpDatos.TabIndex = 0
         Me.grpDatos.TabStop = False
         '
         'txtConcepto
         '
-        Me.txtConcepto.Location = New System.Drawing.Point(180, 153)
-        Me.txtConcepto.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtConcepto.Location = New System.Drawing.Point(135, 124)
         Me.txtConcepto.Name = "txtConcepto"
-        Me.txtConcepto.Size = New System.Drawing.Size(608, 59)
+        Me.txtConcepto.Size = New System.Drawing.Size(456, 48)
         Me.txtConcepto.TabIndex = 189
         '
         'Label22
@@ -170,19 +167,17 @@ Partial Class frmScontChequesEdit
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(23, 119)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label22.Location = New System.Drawing.Point(17, 97)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(99, 17)
+        Me.Label22.Size = New System.Drawing.Size(78, 13)
         Me.Label22.TabIndex = 188
         Me.Label22.Text = "Beneficiario:"
         '
         'txtBeneficiario
         '
-        Me.txtBeneficiario.Location = New System.Drawing.Point(180, 116)
-        Me.txtBeneficiario.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtBeneficiario.Location = New System.Drawing.Point(135, 94)
         Me.txtBeneficiario.Name = "txtBeneficiario"
-        Me.txtBeneficiario.Size = New System.Drawing.Size(441, 23)
+        Me.txtBeneficiario.Size = New System.Drawing.Size(332, 20)
         Me.txtBeneficiario.TabIndex = 187
         '
         'cmdProcesar
@@ -190,12 +185,11 @@ Partial Class frmScontChequesEdit
         Me.cmdProcesar.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdProcesar.Appearance.Options.UseFont = True
         Me.cmdProcesar.ImageOptions.Image = CType(resources.GetObject("cmdProcesar.ImageOptions.Image"), System.Drawing.Image)
-        Me.cmdProcesar.Location = New System.Drawing.Point(917, 640)
+        Me.cmdProcesar.Location = New System.Drawing.Point(688, 520)
         Me.cmdProcesar.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.cmdProcesar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdProcesar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdProcesar.Name = "cmdProcesar"
-        Me.cmdProcesar.Size = New System.Drawing.Size(124, 34)
+        Me.cmdProcesar.Size = New System.Drawing.Size(93, 28)
         Me.cmdProcesar.TabIndex = 186
         Me.cmdProcesar.Tag = "PROCESAR"
         Me.cmdProcesar.Text = "&Contabilizar"
@@ -205,10 +199,9 @@ Partial Class frmScontChequesEdit
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.Black
-        Me.Label21.Location = New System.Drawing.Point(23, 89)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label21.Location = New System.Drawing.Point(17, 72)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(63, 17)
+        Me.Label21.Size = New System.Drawing.Size(50, 13)
         Me.Label21.TabIndex = 185
         Me.Label21.Tag = "OBLIGATORIO"
         Me.Label21.Text = "Estado:"
@@ -217,21 +210,19 @@ Partial Class frmScontChequesEdit
         '
         Me.txtEstado.Enabled = False
         Me.txtEstado.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEstado.Location = New System.Drawing.Point(179, 84)
-        Me.txtEstado.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtEstado.Location = New System.Drawing.Point(134, 68)
         Me.txtEstado.Name = "txtEstado"
-        Me.txtEstado.Size = New System.Drawing.Size(211, 23)
+        Me.txtEstado.Size = New System.Drawing.Size(159, 20)
         Me.txtEstado.TabIndex = 184
         Me.txtEstado.Tag = "BLOQUEADO"
         '
         'txtTasaCambio
         '
         Me.txtTasaCambio.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTasaCambio.Location = New System.Drawing.Point(796, 91)
-        Me.txtTasaCambio.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtTasaCambio.Location = New System.Drawing.Point(597, 74)
         Me.txtTasaCambio.Name = "txtTasaCambio"
         Me.txtTasaCambio.ReadOnly = True
-        Me.txtTasaCambio.Size = New System.Drawing.Size(95, 23)
+        Me.txtTasaCambio.Size = New System.Drawing.Size(72, 20)
         Me.txtTasaCambio.TabIndex = 182
         Me.txtTasaCambio.Tag = "BLOQUEADO"
         '
@@ -240,10 +231,9 @@ Partial Class frmScontChequesEdit
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(653, 95)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Location = New System.Drawing.Point(490, 77)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(128, 17)
+        Me.Label20.Size = New System.Drawing.Size(101, 13)
         Me.Label20.TabIndex = 183
         Me.Label20.Text = "Tasa de cambio:"
         '
@@ -252,10 +242,9 @@ Partial Class frmScontChequesEdit
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(648, 32)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(486, 26)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(70, 17)
+        Me.Label11.Size = New System.Drawing.Size(56, 13)
         Me.Label11.TabIndex = 181
         Me.Label11.Text = "Moneda:"
         '
@@ -269,16 +258,15 @@ Partial Class frmScontChequesEdit
         Me.cmbMoeda.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbMoeda.ColumnCaptionHeight = 17
         Me.cmbMoeda.ColumnFooterHeight = 17
-        Me.cmbMoeda.ContentHeight = 18
+        Me.cmbMoeda.ContentHeight = 15
         Me.cmbMoeda.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbMoeda.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbMoeda.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbMoeda.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbMoeda.EditorHeight = 18
+        Me.cmbMoeda.EditorHeight = 15
         Me.cmbMoeda.Images.Add(CType(resources.GetObject("cmbMoeda.Images"), System.Drawing.Image))
         Me.cmbMoeda.ItemHeight = 15
-        Me.cmbMoeda.Location = New System.Drawing.Point(796, 26)
-        Me.cmbMoeda.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbMoeda.Location = New System.Drawing.Point(597, 21)
         Me.cmbMoeda.MatchEntryTimeout = CType(2000, Long)
         Me.cmbMoeda.MaxDropDownItems = CType(5, Short)
         Me.cmbMoeda.MaxLength = 32767
@@ -287,7 +275,7 @@ Partial Class frmScontChequesEdit
         Me.cmbMoeda.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbMoeda.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbMoeda.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbMoeda.Size = New System.Drawing.Size(267, 24)
+        Me.cmbMoeda.Size = New System.Drawing.Size(200, 21)
         Me.cmbMoeda.TabIndex = 180
         Me.cmbMoeda.Tag = "OBLIGATORIO"
         Me.cmbMoeda.PropBag = resources.GetString("cmbMoeda.PropBag")
@@ -307,11 +295,9 @@ Partial Class frmScontChequesEdit
         Me.GroupBox1.Controls.Add(Me.Label14)
         Me.GroupBox1.Controls.Add(Me.cmdAgregar)
         Me.GroupBox1.Controls.Add(Me.cmdEliminar)
-        Me.GroupBox1.Location = New System.Drawing.Point(25, 219)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(19, 178)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(1151, 100)
+        Me.GroupBox1.Size = New System.Drawing.Size(863, 81)
         Me.GroupBox1.TabIndex = 179
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Agregar"
@@ -322,12 +308,11 @@ Partial Class frmScontChequesEdit
         Me.cmdCuentaContableAdd.Appearance.Options.UseFont = True
         Me.cmdCuentaContableAdd.ImageOptions.Image = CType(resources.GetObject("cmdCuentaContableAdd.ImageOptions.Image"), System.Drawing.Image)
         Me.cmdCuentaContableAdd.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.cmdCuentaContableAdd.Location = New System.Drawing.Point(645, 65)
+        Me.cmdCuentaContableAdd.Location = New System.Drawing.Point(484, 53)
         Me.cmdCuentaContableAdd.LookAndFeel.SkinName = "Caramel"
         Me.cmdCuentaContableAdd.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdCuentaContableAdd.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdCuentaContableAdd.Name = "cmdCuentaContableAdd"
-        Me.cmdCuentaContableAdd.Size = New System.Drawing.Size(43, 34)
+        Me.cmdCuentaContableAdd.Size = New System.Drawing.Size(32, 28)
         Me.cmdCuentaContableAdd.TabIndex = 185
         Me.cmdCuentaContableAdd.Tag = "AGREGAR"
         '
@@ -336,10 +321,9 @@ Partial Class frmScontChequesEdit
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Black
-        Me.Label19.Location = New System.Drawing.Point(231, 38)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Location = New System.Drawing.Point(173, 31)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(128, 17)
+        Me.Label19.Size = New System.Drawing.Size(101, 13)
         Me.Label19.TabIndex = 183
         Me.Label19.Text = "Centro de costo:"
         '
@@ -353,17 +337,16 @@ Partial Class frmScontChequesEdit
         Me.cmbCentroCosto.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbCentroCosto.ColumnCaptionHeight = 17
         Me.cmbCentroCosto.ColumnFooterHeight = 17
-        Me.cmbCentroCosto.ContentHeight = 18
+        Me.cmbCentroCosto.ContentHeight = 15
         Me.cmbCentroCosto.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbCentroCosto.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbCentroCosto.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbCentroCosto.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbCentroCosto.EditorHeight = 18
+        Me.cmbCentroCosto.EditorHeight = 15
         Me.cmbCentroCosto.Enabled = False
         Me.cmbCentroCosto.Images.Add(CType(resources.GetObject("cmbCentroCosto.Images"), System.Drawing.Image))
         Me.cmbCentroCosto.ItemHeight = 15
-        Me.cmbCentroCosto.Location = New System.Drawing.Point(371, 32)
-        Me.cmbCentroCosto.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbCentroCosto.Location = New System.Drawing.Point(278, 26)
         Me.cmbCentroCosto.MatchEntryTimeout = CType(2000, Long)
         Me.cmbCentroCosto.MaxDropDownItems = CType(5, Short)
         Me.cmbCentroCosto.MaxLength = 32767
@@ -372,7 +355,7 @@ Partial Class frmScontChequesEdit
         Me.cmbCentroCosto.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbCentroCosto.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbCentroCosto.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbCentroCosto.Size = New System.Drawing.Size(267, 24)
+        Me.cmbCentroCosto.Size = New System.Drawing.Size(200, 21)
         Me.cmbCentroCosto.TabIndex = 182
         Me.cmbCentroCosto.Tag = "OBLIGATORIO"
         Me.cmbCentroCosto.PropBag = resources.GetString("cmbCentroCosto.PropBag")
@@ -380,10 +363,9 @@ Partial Class frmScontChequesEdit
         'chkCentro
         '
         Me.chkCentro.AutoSize = True
-        Me.chkCentro.Location = New System.Drawing.Point(5, 37)
-        Me.chkCentro.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkCentro.Location = New System.Drawing.Point(4, 30)
         Me.chkCentro.Name = "chkCentro"
-        Me.chkCentro.Size = New System.Drawing.Size(202, 21)
+        Me.chkCentro.Size = New System.Drawing.Size(161, 17)
         Me.chkCentro.TabIndex = 168
         Me.chkCentro.Text = "Asociar centro de costo"
         Me.chkCentro.UseVisualStyleBackColor = True
@@ -391,10 +373,9 @@ Partial Class frmScontChequesEdit
         'txtCuenta
         '
         Me.txtCuenta.Enabled = False
-        Me.txtCuenta.Location = New System.Drawing.Point(155, 69)
-        Me.txtCuenta.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtCuenta.Location = New System.Drawing.Point(116, 56)
         Me.txtCuenta.Name = "txtCuenta"
-        Me.txtCuenta.Size = New System.Drawing.Size(441, 23)
+        Me.txtCuenta.Size = New System.Drawing.Size(332, 20)
         Me.txtCuenta.TabIndex = 121
         '
         'Label6
@@ -402,10 +383,9 @@ Partial Class frmScontChequesEdit
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(1, 75)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(1, 61)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(131, 17)
+        Me.Label6.Size = New System.Drawing.Size(104, 13)
         Me.Label6.TabIndex = 122
         Me.Label6.Text = "Cuenta contable:"
         '
@@ -414,10 +394,9 @@ Partial Class frmScontChequesEdit
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(705, 32)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Location = New System.Drawing.Point(529, 26)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(79, 17)
+        Me.Label13.Size = New System.Drawing.Size(62, 13)
         Me.Label13.TabIndex = 163
         Me.Label13.Text = "Acreditar:"
         '
@@ -425,10 +404,9 @@ Partial Class frmScontChequesEdit
         '
         Me.numAcreditar.BackColor = System.Drawing.Color.Transparent
         Me.numAcreditar.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.numAcreditar.Location = New System.Drawing.Point(796, 30)
-        Me.numAcreditar.Margin = New System.Windows.Forms.Padding(4)
+        Me.numAcreditar.Location = New System.Drawing.Point(597, 24)
         Me.numAcreditar.Name = "numAcreditar"
-        Me.numAcreditar.Size = New System.Drawing.Size(196, 23)
+        Me.numAcreditar.Size = New System.Drawing.Size(147, 20)
         Me.numAcreditar.TabIndex = 164
         Me.numAcreditar.Tag = Nothing
         Me.numAcreditar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -439,10 +417,9 @@ Partial Class frmScontChequesEdit
         '
         Me.numDebitar.BackColor = System.Drawing.Color.Transparent
         Me.numDebitar.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.numDebitar.Location = New System.Drawing.Point(796, 65)
-        Me.numDebitar.Margin = New System.Windows.Forms.Padding(4)
+        Me.numDebitar.Location = New System.Drawing.Point(597, 53)
         Me.numDebitar.Name = "numDebitar"
-        Me.numDebitar.Size = New System.Drawing.Size(196, 23)
+        Me.numDebitar.Size = New System.Drawing.Size(147, 20)
         Me.numDebitar.TabIndex = 166
         Me.numDebitar.Tag = Nothing
         Me.numDebitar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -451,10 +428,9 @@ Partial Class frmScontChequesEdit
         '
         'cmdBuscar
         '
-        Me.cmdBuscar.Location = New System.Drawing.Point(605, 69)
-        Me.cmdBuscar.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmdBuscar.Location = New System.Drawing.Point(454, 56)
         Me.cmdBuscar.Name = "cmdBuscar"
-        Me.cmdBuscar.Size = New System.Drawing.Size(32, 28)
+        Me.cmdBuscar.Size = New System.Drawing.Size(24, 23)
         Me.cmdBuscar.TabIndex = 167
         Me.cmdBuscar.Tag = "Buscar Existente"
         Me.cmdBuscar.Text = "..."
@@ -465,10 +441,9 @@ Partial Class frmScontChequesEdit
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(708, 69)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Location = New System.Drawing.Point(531, 56)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(66, 17)
+        Me.Label14.Size = New System.Drawing.Size(52, 13)
         Me.Label14.TabIndex = 165
         Me.Label14.Text = "Debitar:"
         '
@@ -478,12 +453,11 @@ Partial Class frmScontChequesEdit
         Me.cmdAgregar.Appearance.Options.UseFont = True
         Me.cmdAgregar.ImageOptions.Image = CType(resources.GetObject("cmdAgregar.ImageOptions.Image"), System.Drawing.Image)
         Me.cmdAgregar.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.cmdAgregar.Location = New System.Drawing.Point(1016, 55)
+        Me.cmdAgregar.Location = New System.Drawing.Point(762, 45)
         Me.cmdAgregar.LookAndFeel.SkinName = "Caramel"
         Me.cmdAgregar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdAgregar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdAgregar.Name = "cmdAgregar"
-        Me.cmdAgregar.Size = New System.Drawing.Size(43, 34)
+        Me.cmdAgregar.Size = New System.Drawing.Size(32, 28)
         Me.cmdAgregar.TabIndex = 125
         Me.cmdAgregar.Tag = "AGREGAR"
         '
@@ -493,12 +467,11 @@ Partial Class frmScontChequesEdit
         Me.cmdEliminar.Appearance.Options.UseFont = True
         Me.cmdEliminar.ImageOptions.Image = CType(resources.GetObject("cmdEliminar.ImageOptions.Image"), System.Drawing.Image)
         Me.cmdEliminar.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.cmdEliminar.Location = New System.Drawing.Point(1067, 55)
+        Me.cmdEliminar.Location = New System.Drawing.Point(800, 45)
         Me.cmdEliminar.LookAndFeel.SkinName = "Caramel"
         Me.cmdEliminar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdEliminar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdEliminar.Name = "cmdEliminar"
-        Me.cmdEliminar.Size = New System.Drawing.Size(43, 34)
+        Me.cmdEliminar.Size = New System.Drawing.Size(32, 28)
         Me.cmdEliminar.TabIndex = 126
         Me.cmdEliminar.Tag = "AGREGAR"
         '
@@ -507,10 +480,9 @@ Partial Class frmScontChequesEdit
         Me.numTotal.BackColor = System.Drawing.Color.Transparent
         Me.numTotal.Enabled = False
         Me.numTotal.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.numTotal.Location = New System.Drawing.Point(975, 597)
-        Me.numTotal.Margin = New System.Windows.Forms.Padding(4)
+        Me.numTotal.Location = New System.Drawing.Point(731, 485)
         Me.numTotal.Name = "numTotal"
-        Me.numTotal.Size = New System.Drawing.Size(175, 23)
+        Me.numTotal.Size = New System.Drawing.Size(131, 20)
         Me.numTotal.TabIndex = 173
         Me.numTotal.Tag = Nothing
         Me.numTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -522,10 +494,9 @@ Partial Class frmScontChequesEdit
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Black
-        Me.Label17.Location = New System.Drawing.Point(884, 601)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Location = New System.Drawing.Point(663, 488)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(54, 17)
+        Me.Label17.Size = New System.Drawing.Size(43, 13)
         Me.Label17.TabIndex = 172
         Me.Label17.Text = "Saldo:"
         '
@@ -534,10 +505,9 @@ Partial Class frmScontChequesEdit
         Me.numCreditoT.BackColor = System.Drawing.Color.Transparent
         Me.numCreditoT.Enabled = False
         Me.numCreditoT.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.numCreditoT.Location = New System.Drawing.Point(975, 565)
-        Me.numCreditoT.Margin = New System.Windows.Forms.Padding(4)
+        Me.numCreditoT.Location = New System.Drawing.Point(731, 459)
         Me.numCreditoT.Name = "numCreditoT"
-        Me.numCreditoT.Size = New System.Drawing.Size(175, 23)
+        Me.numCreditoT.Size = New System.Drawing.Size(131, 20)
         Me.numCreditoT.TabIndex = 171
         Me.numCreditoT.Tag = Nothing
         Me.numCreditoT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -549,10 +519,9 @@ Partial Class frmScontChequesEdit
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
-        Me.Label16.Location = New System.Drawing.Point(884, 569)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Location = New System.Drawing.Point(663, 462)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(65, 17)
+        Me.Label16.Size = New System.Drawing.Size(51, 13)
         Me.Label16.TabIndex = 170
         Me.Label16.Text = "Credito:"
         '
@@ -561,10 +530,9 @@ Partial Class frmScontChequesEdit
         Me.numDebitoT.BackColor = System.Drawing.Color.Transparent
         Me.numDebitoT.Enabled = False
         Me.numDebitoT.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.numDebitoT.Location = New System.Drawing.Point(975, 537)
-        Me.numDebitoT.Margin = New System.Windows.Forms.Padding(4)
+        Me.numDebitoT.Location = New System.Drawing.Point(731, 436)
         Me.numDebitoT.Name = "numDebitoT"
-        Me.numDebitoT.Size = New System.Drawing.Size(175, 23)
+        Me.numDebitoT.Size = New System.Drawing.Size(131, 20)
         Me.numDebitoT.TabIndex = 169
         Me.numDebitoT.Tag = Nothing
         Me.numDebitoT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -576,10 +544,9 @@ Partial Class frmScontChequesEdit
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Black
-        Me.Label15.Location = New System.Drawing.Point(884, 540)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Location = New System.Drawing.Point(663, 439)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(60, 17)
+        Me.Label15.Size = New System.Drawing.Size(48, 13)
         Me.Label15.TabIndex = 168
         Me.Label15.Text = "Debito:"
         '
@@ -588,10 +555,9 @@ Partial Class frmScontChequesEdit
         Me.NumMonto.BackColor = System.Drawing.Color.Transparent
         Me.NumMonto.Enabled = False
         Me.NumMonto.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.NumMonto.Location = New System.Drawing.Point(796, 59)
-        Me.NumMonto.Margin = New System.Windows.Forms.Padding(4)
+        Me.NumMonto.Location = New System.Drawing.Point(597, 48)
         Me.NumMonto.Name = "NumMonto"
-        Me.NumMonto.Size = New System.Drawing.Size(196, 23)
+        Me.NumMonto.Size = New System.Drawing.Size(147, 20)
         Me.NumMonto.TabIndex = 162
         Me.NumMonto.Tag = Nothing
         Me.NumMonto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -603,19 +569,17 @@ Partial Class frmScontChequesEdit
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(649, 63)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(487, 51)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(57, 17)
+        Me.Label12.Size = New System.Drawing.Size(46, 13)
         Me.Label12.TabIndex = 161
         Me.Label12.Text = "Monto:"
         '
         'txtObservaciones
         '
-        Me.txtObservaciones.Location = New System.Drawing.Point(107, 537)
-        Me.txtObservaciones.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtObservaciones.Location = New System.Drawing.Point(80, 436)
         Me.txtObservaciones.Name = "txtObservaciones"
-        Me.txtObservaciones.Size = New System.Drawing.Size(576, 79)
+        Me.txtObservaciones.Size = New System.Drawing.Size(432, 64)
         Me.txtObservaciones.TabIndex = 160
         '
         'Label10
@@ -623,10 +587,9 @@ Partial Class frmScontChequesEdit
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(40, 538)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(30, 437)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(55, 17)
+        Me.Label10.Size = New System.Drawing.Size(44, 13)
         Me.Label10.TabIndex = 159
         Me.Label10.Text = "Notas:"
         '
@@ -635,10 +598,9 @@ Partial Class frmScontChequesEdit
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(27, 155)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(20, 126)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(81, 17)
+        Me.Label9.Size = New System.Drawing.Size(65, 13)
         Me.Label9.TabIndex = 158
         Me.Label9.Text = "Concepto:"
         '
@@ -666,10 +628,9 @@ Partial Class frmScontChequesEdit
             Or C1.Win.C1Input.FormatInfoInheritFlags.TrimEnd), C1.Win.C1Input.FormatInfoInheritFlags)
         Me.dtpFecha.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpFecha.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate
-        Me.dtpFecha.Location = New System.Drawing.Point(179, 55)
-        Me.dtpFecha.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtpFecha.Location = New System.Drawing.Point(134, 45)
         Me.dtpFecha.Name = "dtpFecha"
-        Me.dtpFecha.Size = New System.Drawing.Size(196, 23)
+        Me.dtpFecha.Size = New System.Drawing.Size(147, 20)
         Me.dtpFecha.TabIndex = 155
         Me.dtpFecha.Tag = Nothing
         Me.dtpFecha.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown
@@ -679,10 +640,9 @@ Partial Class frmScontChequesEdit
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(21, 59)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(16, 48)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(57, 17)
+        Me.Label8.Size = New System.Drawing.Size(46, 13)
         Me.Label8.TabIndex = 156
         Me.Label8.Tag = "OBLIGATORIO"
         Me.Label8.Text = "Fecha:"
@@ -692,38 +652,35 @@ Partial Class frmScontChequesEdit
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(21, 27)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(16, 22)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(150, 17)
+        Me.Label7.Size = New System.Drawing.Size(118, 13)
         Me.Label7.TabIndex = 148
         Me.Label7.Text = "Número de cheque:"
         '
         'txtNumCheque
         '
         Me.txtNumCheque.Enabled = False
-        Me.txtNumCheque.Location = New System.Drawing.Point(179, 23)
-        Me.txtNumCheque.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtNumCheque.Location = New System.Drawing.Point(134, 19)
         Me.txtNumCheque.Name = "txtNumCheque"
-        Me.txtNumCheque.Size = New System.Drawing.Size(141, 23)
+        Me.txtNumCheque.Size = New System.Drawing.Size(107, 20)
         Me.txtNumCheque.TabIndex = 147
         '
         'grdGradosA
         '
-        Me.grdGradosA.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
-        Me.grdGradosA.Location = New System.Drawing.Point(75, 325)
+        Me.grdGradosA.Location = New System.Drawing.Point(56, 264)
         Me.grdGradosA.LookAndFeel.SkinName = "Office 2010 Blue"
         Me.grdGradosA.LookAndFeel.UseDefaultLookAndFeel = False
         Me.grdGradosA.MainView = Me.grdGradosATable
-        Me.grdGradosA.Margin = New System.Windows.Forms.Padding(4)
         Me.grdGradosA.Name = "grdGradosA"
-        Me.grdGradosA.Size = New System.Drawing.Size(1075, 204)
+        Me.grdGradosA.Size = New System.Drawing.Size(806, 166)
         Me.grdGradosA.TabIndex = 124
         Me.grdGradosA.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grdGradosATable, Me.GridView3})
         '
         'grdGradosATable
         '
         Me.grdGradosATable.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colobjSContSubCuentasContablesID, Me.colIDCuenta, Me.colDescripcion, Me.colMontoDebitar, Me.colMontoAcreditar, Me.colCentroCosto})
+        Me.grdGradosATable.DetailHeight = 284
         Me.grdGradosATable.GridControl = Me.grdGradosA
         Me.grdGradosATable.GroupPanelText = "Arrastrar un encabezado de columna aquí para agrupar por esa columna"
         Me.grdGradosATable.Name = "grdGradosATable"
@@ -736,7 +693,9 @@ Partial Class frmScontChequesEdit
         '
         Me.colobjSContSubCuentasContablesID.Caption = "objSContSubCuentasContablesID"
         Me.colobjSContSubCuentasContablesID.FieldName = "objSContSubCuentasContablesID"
+        Me.colobjSContSubCuentasContablesID.MinWidth = 15
         Me.colobjSContSubCuentasContablesID.Name = "colobjSContSubCuentasContablesID"
+        Me.colobjSContSubCuentasContablesID.Width = 56
         '
         'colIDCuenta
         '
@@ -748,13 +707,14 @@ Partial Class frmScontChequesEdit
         Me.colIDCuenta.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colIDCuenta.Caption = "Codigo"
         Me.colIDCuenta.FieldName = "IDCuenta"
+        Me.colIDCuenta.MinWidth = 15
         Me.colIDCuenta.Name = "colIDCuenta"
         Me.colIDCuenta.OptionsColumn.AllowEdit = False
         Me.colIDCuenta.OptionsColumn.AllowFocus = False
         Me.colIDCuenta.OptionsColumn.ReadOnly = True
         Me.colIDCuenta.Visible = True
         Me.colIDCuenta.VisibleIndex = 2
-        Me.colIDCuenta.Width = 78
+        Me.colIDCuenta.Width = 58
         '
         'colDescripcion
         '
@@ -764,13 +724,14 @@ Partial Class frmScontChequesEdit
         Me.colDescripcion.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colDescripcion.Caption = "Nombre"
         Me.colDescripcion.FieldName = "Descripcion"
+        Me.colDescripcion.MinWidth = 15
         Me.colDescripcion.Name = "colDescripcion"
         Me.colDescripcion.OptionsColumn.AllowEdit = False
         Me.colDescripcion.OptionsColumn.AllowFocus = False
         Me.colDescripcion.OptionsColumn.ReadOnly = True
         Me.colDescripcion.Visible = True
         Me.colDescripcion.VisibleIndex = 3
-        Me.colDescripcion.Width = 291
+        Me.colDescripcion.Width = 218
         '
         'colMontoDebitar
         '
@@ -780,11 +741,12 @@ Partial Class frmScontChequesEdit
         Me.colMontoDebitar.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colMontoDebitar.Caption = "Debe"
         Me.colMontoDebitar.FieldName = "MontoDebitar"
+        Me.colMontoDebitar.MinWidth = 15
         Me.colMontoDebitar.Name = "colMontoDebitar"
         Me.colMontoDebitar.OptionsColumn.AllowEdit = False
         Me.colMontoDebitar.Visible = True
         Me.colMontoDebitar.VisibleIndex = 4
-        Me.colMontoDebitar.Width = 122
+        Me.colMontoDebitar.Width = 91
         '
         'colMontoAcreditar
         '
@@ -794,11 +756,12 @@ Partial Class frmScontChequesEdit
         Me.colMontoAcreditar.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colMontoAcreditar.Caption = "Haber"
         Me.colMontoAcreditar.FieldName = "MontoAcreditar"
+        Me.colMontoAcreditar.MinWidth = 15
         Me.colMontoAcreditar.Name = "colMontoAcreditar"
         Me.colMontoAcreditar.OptionsColumn.AllowEdit = False
         Me.colMontoAcreditar.Visible = True
         Me.colMontoAcreditar.VisibleIndex = 5
-        Me.colMontoAcreditar.Width = 106
+        Me.colMontoAcreditar.Width = 79
         '
         'colCentroCosto
         '
@@ -808,15 +771,17 @@ Partial Class frmScontChequesEdit
         Me.colCentroCosto.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colCentroCosto.Caption = "Centro de costo"
         Me.colCentroCosto.FieldName = "Centro"
+        Me.colCentroCosto.MinWidth = 15
         Me.colCentroCosto.Name = "colCentroCosto"
         Me.colCentroCosto.OptionsColumn.AllowEdit = False
         Me.colCentroCosto.Visible = True
         Me.colCentroCosto.VisibleIndex = 1
-        Me.colCentroCosto.Width = 116
+        Me.colCentroCosto.Width = 87
         '
         'GridView3
         '
         Me.GridView3.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn5, Me.GridColumn6, Me.GridColumn7, Me.GridColumn8})
+        Me.GridView3.DetailHeight = 284
         Me.GridView3.GridControl = Me.grdGradosA
         Me.GridView3.Name = "GridView3"
         Me.GridView3.OptionsBehavior.AutoPopulateColumns = False
@@ -828,51 +793,58 @@ Partial Class frmScontChequesEdit
         '
         Me.GridColumn5.Caption = "SccCuentaID"
         Me.GridColumn5.FieldName = "SccCuentaID"
+        Me.GridColumn5.MinWidth = 15
         Me.GridColumn5.Name = "GridColumn5"
         Me.GridColumn5.Visible = True
         Me.GridColumn5.VisibleIndex = 0
+        Me.GridColumn5.Width = 56
         '
         'GridColumn6
         '
         Me.GridColumn6.Caption = "Producto"
         Me.GridColumn6.FieldName = "Producto"
+        Me.GridColumn6.MinWidth = 15
         Me.GridColumn6.Name = "GridColumn6"
         Me.GridColumn6.OptionsColumn.AllowEdit = False
         Me.GridColumn6.OptionsFilter.AllowAutoFilter = False
         Me.GridColumn6.Visible = True
         Me.GridColumn6.VisibleIndex = 1
+        Me.GridColumn6.Width = 56
         '
         'GridColumn7
         '
         Me.GridColumn7.Caption = "Modelo/Marca"
         Me.GridColumn7.FieldName = "ModeloMarca"
+        Me.GridColumn7.MinWidth = 15
         Me.GridColumn7.Name = "GridColumn7"
         Me.GridColumn7.OptionsColumn.AllowEdit = False
         Me.GridColumn7.OptionsFilter.AllowAutoFilter = False
         Me.GridColumn7.Visible = True
         Me.GridColumn7.VisibleIndex = 2
+        Me.GridColumn7.Width = 56
         '
         'GridColumn8
         '
         Me.GridColumn8.Caption = "Saldo"
         Me.GridColumn8.FieldName = "Saldo"
+        Me.GridColumn8.MinWidth = 15
         Me.GridColumn8.Name = "GridColumn8"
         Me.GridColumn8.OptionsColumn.AllowEdit = False
         Me.GridColumn8.OptionsFilter.AllowAutoFilter = False
         Me.GridColumn8.Visible = True
         Me.GridColumn8.VisibleIndex = 3
+        Me.GridColumn8.Width = 56
         '
         'cmdCancelar
         '
         Me.cmdCancelar.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdCancelar.Appearance.Options.UseFont = True
         Me.cmdCancelar.ImageOptions.Image = Global.SIRA.My.Resources.Resources.cancel16x16
-        Me.cmdCancelar.Location = New System.Drawing.Point(1049, 640)
+        Me.cmdCancelar.Location = New System.Drawing.Point(787, 520)
         Me.cmdCancelar.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.cmdCancelar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdCancelar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdCancelar.Name = "cmdCancelar"
-        Me.cmdCancelar.Size = New System.Drawing.Size(100, 34)
+        Me.cmdCancelar.Size = New System.Drawing.Size(75, 28)
         Me.cmdCancelar.TabIndex = 5
         Me.cmdCancelar.Tag = "CANCELAR"
         Me.cmdCancelar.Text = "&Cancelar"
@@ -882,12 +854,11 @@ Partial Class frmScontChequesEdit
         Me.cmdGuardar.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdGuardar.Appearance.Options.UseFont = True
         Me.cmdGuardar.ImageOptions.Image = Global.SIRA.My.Resources.Resources.save16x16
-        Me.cmdGuardar.Location = New System.Drawing.Point(803, 640)
+        Me.cmdGuardar.Location = New System.Drawing.Point(602, 520)
         Me.cmdGuardar.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.cmdGuardar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdGuardar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdGuardar.Name = "cmdGuardar"
-        Me.cmdGuardar.Size = New System.Drawing.Size(107, 34)
+        Me.cmdGuardar.Size = New System.Drawing.Size(80, 28)
         Me.cmdGuardar.TabIndex = 4
         Me.cmdGuardar.Tag = "GUARDAR"
         Me.cmdGuardar.Text = "&Guardar"
@@ -902,12 +873,12 @@ Partial Class frmScontChequesEdit
         Me.cmbPeriodo.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbPeriodo.ColumnCaptionHeight = 17
         Me.cmbPeriodo.ColumnFooterHeight = 17
-        Me.cmbPeriodo.ContentHeight = 18
+        Me.cmbPeriodo.ContentHeight = 15
         Me.cmbPeriodo.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbPeriodo.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbPeriodo.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbPeriodo.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbPeriodo.EditorHeight = 18
+        Me.cmbPeriodo.EditorHeight = 15
         Me.cmbPeriodo.Images.Add(CType(resources.GetObject("cmbPeriodo.Images"), System.Drawing.Image))
         Me.cmbPeriodo.ItemHeight = 15
         Me.cmbPeriodo.Location = New System.Drawing.Point(92, 22)
@@ -920,7 +891,7 @@ Partial Class frmScontChequesEdit
         Me.cmbPeriodo.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbPeriodo.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbPeriodo.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbPeriodo.Size = New System.Drawing.Size(154, 24)
+        Me.cmbPeriodo.Size = New System.Drawing.Size(154, 21)
         Me.cmbPeriodo.TabIndex = 118
         Me.cmbPeriodo.Tag = "OBLIGATORIO"
         Me.cmbPeriodo.PropBag = resources.GetString("cmbPeriodo.PropBag")
@@ -935,12 +906,12 @@ Partial Class frmScontChequesEdit
         Me.cmbProfesorGuia.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbProfesorGuia.ColumnCaptionHeight = 17
         Me.cmbProfesorGuia.ColumnFooterHeight = 17
-        Me.cmbProfesorGuia.ContentHeight = 18
+        Me.cmbProfesorGuia.ContentHeight = 15
         Me.cmbProfesorGuia.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbProfesorGuia.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbProfesorGuia.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbProfesorGuia.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbProfesorGuia.EditorHeight = 18
+        Me.cmbProfesorGuia.EditorHeight = 15
         Me.cmbProfesorGuia.Images.Add(CType(resources.GetObject("cmbProfesorGuia.Images"), System.Drawing.Image))
         Me.cmbProfesorGuia.ItemHeight = 15
         Me.cmbProfesorGuia.Location = New System.Drawing.Point(364, 46)
@@ -953,7 +924,7 @@ Partial Class frmScontChequesEdit
         Me.cmbProfesorGuia.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbProfesorGuia.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbProfesorGuia.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbProfesorGuia.Size = New System.Drawing.Size(235, 24)
+        Me.cmbProfesorGuia.Size = New System.Drawing.Size(235, 21)
         Me.cmbProfesorGuia.TabIndex = 116
         Me.cmbProfesorGuia.Tag = "OBLIGATORIO"
         Me.cmbProfesorGuia.PropBag = resources.GetString("cmbProfesorGuia.PropBag")
@@ -968,12 +939,12 @@ Partial Class frmScontChequesEdit
         Me.cmbSeccion.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbSeccion.ColumnCaptionHeight = 17
         Me.cmbSeccion.ColumnFooterHeight = 17
-        Me.cmbSeccion.ContentHeight = 18
+        Me.cmbSeccion.ContentHeight = 15
         Me.cmbSeccion.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbSeccion.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbSeccion.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbSeccion.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbSeccion.EditorHeight = 18
+        Me.cmbSeccion.EditorHeight = 15
         Me.cmbSeccion.Images.Add(CType(resources.GetObject("cmbSeccion.Images"), System.Drawing.Image))
         Me.cmbSeccion.ItemHeight = 15
         Me.cmbSeccion.Location = New System.Drawing.Point(364, 19)
@@ -986,7 +957,7 @@ Partial Class frmScontChequesEdit
         Me.cmbSeccion.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbSeccion.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbSeccion.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbSeccion.Size = New System.Drawing.Size(154, 24)
+        Me.cmbSeccion.Size = New System.Drawing.Size(154, 21)
         Me.cmbSeccion.TabIndex = 115
         Me.cmbSeccion.Tag = "OBLIGATORIO"
         Me.cmbSeccion.PropBag = resources.GetString("cmbSeccion.PropBag")
@@ -1001,12 +972,12 @@ Partial Class frmScontChequesEdit
         Me.cmbGrado.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbGrado.ColumnCaptionHeight = 17
         Me.cmbGrado.ColumnFooterHeight = 17
-        Me.cmbGrado.ContentHeight = 18
+        Me.cmbGrado.ContentHeight = 15
         Me.cmbGrado.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbGrado.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbGrado.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbGrado.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbGrado.EditorHeight = 18
+        Me.cmbGrado.EditorHeight = 15
         Me.cmbGrado.Images.Add(CType(resources.GetObject("cmbGrado.Images"), System.Drawing.Image))
         Me.cmbGrado.ItemHeight = 15
         Me.cmbGrado.Location = New System.Drawing.Point(92, 49)
@@ -1019,7 +990,7 @@ Partial Class frmScontChequesEdit
         Me.cmbGrado.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbGrado.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbGrado.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbGrado.Size = New System.Drawing.Size(154, 24)
+        Me.cmbGrado.Size = New System.Drawing.Size(154, 21)
         Me.cmbGrado.TabIndex = 114
         Me.cmbGrado.Tag = "OBLIGATORIO"
         Me.cmbGrado.PropBag = resources.GetString("cmbGrado.PropBag")
@@ -1070,12 +1041,12 @@ Partial Class frmScontChequesEdit
         Me.cmbciudad.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbciudad.ColumnCaptionHeight = 17
         Me.cmbciudad.ColumnFooterHeight = 17
-        Me.cmbciudad.ContentHeight = 18
+        Me.cmbciudad.ContentHeight = 15
         Me.cmbciudad.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbciudad.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbciudad.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbciudad.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbciudad.EditorHeight = 18
+        Me.cmbciudad.EditorHeight = 15
         Me.cmbciudad.Images.Add(CType(resources.GetObject("cmbciudad.Images"), System.Drawing.Image))
         Me.cmbciudad.ItemHeight = 15
         Me.cmbciudad.Location = New System.Drawing.Point(142, 16)
@@ -1087,7 +1058,7 @@ Partial Class frmScontChequesEdit
         Me.cmbciudad.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbciudad.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbciudad.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbciudad.Size = New System.Drawing.Size(229, 24)
+        Me.cmbciudad.Size = New System.Drawing.Size(229, 21)
         Me.cmbciudad.TabIndex = 0
         Me.cmbciudad.Tag = "OBLIGATORIO"
         Me.cmbciudad.PropBag = resources.GetString("cmbciudad.PropBag")
@@ -1128,10 +1099,9 @@ Partial Class frmScontChequesEdit
         '
         Me.Panel1.BackgroundImage = Global.SIRA.My.Resources.Resources.BackgroundImage
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 691)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel1.Location = New System.Drawing.Point(0, 562)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1232, 20)
+        Me.Panel1.Size = New System.Drawing.Size(924, 16)
         Me.Panel1.TabIndex = 26
         '
         'panelcliente
@@ -1141,21 +1111,19 @@ Partial Class frmScontChequesEdit
         Me.panelcliente.Location = New System.Drawing.Point(0, 0)
         Me.panelcliente.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.panelcliente.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.panelcliente.Margin = New System.Windows.Forms.Padding(4)
         Me.panelcliente.Name = "panelcliente"
-        Me.panelcliente.Size = New System.Drawing.Size(1232, 711)
+        Me.panelcliente.Size = New System.Drawing.Size(924, 578)
         Me.panelcliente.TabIndex = 27
         '
         'frmScontChequesEdit
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1232, 711)
+        Me.ClientSize = New System.Drawing.Size(924, 578)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.panelcliente)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmScontChequesEdit"

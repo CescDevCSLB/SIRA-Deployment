@@ -112,8 +112,8 @@ Public Class frmSContComprobantes
                                 End If
                             Else
                                 MsgBox("No ha sido posible cargar el Identificador de estado (objEstadoID) del cheque.", MsgBoxStyle.Critical, clsProyecto.SiglasSistema)
-                            Exit Sub
-                        End If
+                                Exit Sub
+                            End If
                             ConsultarPeriodo.ChqeueID = Me.dtCheques.DefaultView.Item(FilaActual)("ScontComprobanteID")
                             intPeriodo = objPeriodo.SContPeriodoID
                             ConsultarPeriodo.PeriodoID = intPeriodo

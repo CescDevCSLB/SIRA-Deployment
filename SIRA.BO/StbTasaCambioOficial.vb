@@ -298,22 +298,22 @@ Partial Public Class StbTasaCambioOficial
     End Function
 
 	''' <summary>
-    ''' Devuelve de la base de datos un objeto StbTasaCambioOficial usando un filter.
-    ''' </summary>
-    ''' <param name="pFilter">Filtro a aplicar en el select que carga la clase</param>    
+	''' Devuelve de la base de datos un objeto StbTasaCambioOficial usando un filter.
+	''' </summary>
+	''' <param name="pFilter">Filtro a aplicar en el select que carga la clase</param>    
 	''' <param name="pTransac">Opcional. La transacci?n en cuyo ?mbito ser? ejecutado el m?todo Retrieve.</param>    
-    Public Function RetrieveByFilter(ByVal pFilter as String, optional Byval pTransac as TransactionManager = Nothing) As Boolean
-        Dim sSQL As String = "select * from StbTasaCambioOficial where " & pFilter				
-        Dim dr As SqlDataReader = Nothing
-		
-        Try
-            If pTransac Is Nothing Then
-                dr = SqlHelper.ExecuteReader(CommandType.Text, sSQL)
-            Else
-                dr = SqlHelper.ExecuteReader(pTransac.Transaction, CommandType.Text, sSQL)
-            End If
-				
-			If dr.Read() Then  				
+	Public Function RetrieveByFilter(ByVal pFilter As String, Optional ByVal pTransac As TransactionManager = Nothing) As Boolean
+		Dim sSQL As String = "select * from StbTasaCambioOficial where " & pFilter
+		Dim dr As SqlDataReader = Nothing
+
+		Try
+			If pTransac Is Nothing Then
+				dr = SqlHelper.ExecuteReader(CommandType.Text, sSQL)
+			Else
+				dr = SqlHelper.ExecuteReader(pTransac.Transaction, CommandType.Text, sSQL)
+			End If
+
+			If dr.Read() Then
 				m_StbTasaCambioOficialID = dr("StbTasaCambioOficialID")
 				m_Mes = IIf(IsDBNull(dr("Mes")), Nothing, dr("Mes"))
 				m_Anio = IIf(IsDBNull(dr("Anio")), Nothing, dr("Anio"))
@@ -329,39 +329,40 @@ Partial Public Class StbTasaCambioOficial
 				Return True
 			Else
 				Return False
-			End If			
-        Catch ex As Exception
-            Throw
-        Finally
-            If Not dr Is Nothing Then
-                If Not dr.IsClosed Then
-                    dr.Close()
-                End If
-                dr = Nothing
-            End If
-        End Try			
-    End Function
+			End If
+		Catch ex As Exception
+			Throw
+		Finally
+			If Not dr Is Nothing Then
+				If Not dr.IsClosed Then
+					dr.Close()
+				End If
+				dr = Nothing
+			End If
+		End Try
+	End Function
+
 
 	''' <summary>
-    ''' Trae de la base de datos un conjunto de objetos StbTasaCambioOficial en un objeto DataTable
-    ''' </summary>
-    ''' <param name="sFilter">Condici?n que filtra los objetos a traer (WHERE)</param>
-    ''' <param name="OrderBy">Campos por los que se ordenar? la salida</param>
-    ''' <returns></returns> 
-    Public Shared Function RetrieveDT(Optional ByVal sFilter As String = "", Optional ByVal OrderBy As String = "", Optional Byval pFields as String = "*", optional Byval pTransac as TransactionManager = Nothing) As DataTable
-        Dim sSQL As String = "select " & pFields &" from StbTasaCambioOficial"
+	''' Trae de la base de datos un conjunto de objetos StbTasaCambioOficial en un objeto DataTable
+	''' </summary>
+	''' <param name="sFilter">Condici?n que filtra los objetos a traer (WHERE)</param>
+	''' <param name="OrderBy">Campos por los que se ordenar? la salida</param>
+	''' <returns></returns> 
+	Public Shared Function RetrieveDT(Optional ByVal sFilter As String = "", Optional ByVal OrderBy As String = "", Optional ByVal pFields As String = "*", Optional ByVal pTransac As TransactionManager = Nothing) As DataTable
+		Dim sSQL As String = "select " & pFields & " from StbTasaCambioOficial"
 
-        If sFilter <> "" Then
-            sSQL &= " where " & sFilter
-        End If
+		If sFilter <> "" Then
+			sSQL &= " where " & sFilter
+		End If
 
-        If OrderBy <> "" Then
-            sSQL &= " order by " & OrderBy
-        End If
+		If OrderBy <> "" Then
+			sSQL &= " order by " & OrderBy
+		End If
 
-        Dim ds As DataSet 
+		Dim ds As DataSet
 		Try
-			If pTransac is nothing Then 
+			If pTransac Is Nothing Then
 				ds = SqlHelper.ExecuteDataset(CommandType.Text, sSQL)
 			Else
 				ds = SqlHelper.ExecuteDataset(pTransac.Transaction, CommandType.Text, sSQL)
@@ -369,17 +370,17 @@ Partial Public Class StbTasaCambioOficial
 			ds.Tables(0).TableName = "StbTasaCambioOficial"
 			Return (ds.Tables(0))
 		Catch ex As Exception
-			Throw        
-        End Try		
-    End Function
+			Throw
+		End Try
+	End Function
 
 	''' <summary>
-    ''' Trae de la base de datos un conjunto de objetos StbTasaCambioOficial en un objeto DataSet
-    ''' </summary>
-    ''' <param name="sFilter">Condici?n que filtra los objetos a traer (WHERE)</param>
-    ''' <param name="OrderBy">Campos por los que se ordenar? la salida</param>
-    ''' <returns></returns> 
-    Public Shared Function RetrieveDS(Optional ByVal sFilter As String = "", Optional ByVal OrderBy As String = "", Optional Byval pFields as String = "*", optional Byval pTransac as TransactionManager = Nothing) As DataSet
+	''' Trae de la base de datos un conjunto de objetos StbTasaCambioOficial en un objeto DataSet
+	''' </summary>
+	''' <param name="sFilter">Condici?n que filtra los objetos a traer (WHERE)</param>
+	''' <param name="OrderBy">Campos por los que se ordenar? la salida</param>
+	''' <returns></returns> 
+	Public Shared Function RetrieveDS(Optional ByVal sFilter As String = "", Optional ByVal OrderBy As String = "", Optional Byval pFields as String = "*", optional Byval pTransac as TransactionManager = Nothing) As DataSet
         Dim sSQL As String = "select " & pFields &" from StbTasaCambioOficial"
 
         If sFilter <> "" Then

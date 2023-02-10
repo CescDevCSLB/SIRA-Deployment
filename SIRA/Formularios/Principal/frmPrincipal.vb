@@ -72,7 +72,7 @@ Public Class frmPrincipal
             Me.clsAppConfig = New clsAppconfiguration
             Me.BkColor = New System.Drawing.Color
 
-            clsProyecto.SiglasSistema = Me.clsAppConfig.Getkey("NombreSistema")
+            'clsProyecto.SiglasSistema = Me.clsAppConfig.Getkey("NombreSistema")
             'clsProyecto.Sucursal = Me.clsAppConfig.Getkey("Bodega")
             gblCaja = Me.clsAppConfig.Getkey("Caja")
             gblCajaChica = Me.clsAppConfig.Getkey("CajaChica")

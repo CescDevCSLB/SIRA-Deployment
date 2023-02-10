@@ -208,7 +208,7 @@ Public Class frmSccCuentas
         Dim sCaso As String = String.Empty
         Try
             Try
-                If objTasaCambio.RetrieveByFilter("Anio=" & clsProyecto.Conexion.FechaServidor.Year.ToString & _
+                If objTasaCambio.RetrieveByFilter("Anio=" & clsProyecto.Conexion.FechaServidor.Year.ToString &
                                                   " AND Mes =" & clsProyecto.Conexion.FechaServidor.Month.ToString) Then
                     If objTasaCambio.objEstadoID <> idConfirmada Then
                         If MsgBox("La tasa de cambio existente no ha sido confirmada aún, para continuar debe confirmarla. ¿Hacerlo Ahora?.", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, clsProyecto.SiglasSistema) = MsgBoxResult.Yes Then

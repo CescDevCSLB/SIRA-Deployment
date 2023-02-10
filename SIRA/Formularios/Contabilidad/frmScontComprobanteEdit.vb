@@ -830,10 +830,10 @@ Public Class frmScontComprobanteEdit
             'Fecha = dtpFecha.Value
             'objMes.RetrieveByFilter("Cerrado=1 AND objPeriodoID=" & PeriodoID & " AND Mes=" & Fecha.Month)
 
-            'If objMes.ScontMesCerradoID <> 0 Then
-            '    MsgBox("No es posible registrar movimientos en un mes cerrado.", MsgBoxStyle.Critical, clsProyecto.SiglasSistema)
-            '    Exit Sub
-            'End If
+            If objMes.ScontMesCerradoID <> 0 Then
+                MsgBox("No es posible registrar movimientos en un mes cerrado.", MsgBoxStyle.Critical, clsProyecto.SiglasSistema)
+                Exit Sub
+            End If
 
 
             Select Case TypeID

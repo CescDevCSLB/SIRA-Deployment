@@ -49,18 +49,17 @@ Partial Class frmStbEditTasaCambioOficial
         Me.cmbMoneda.ColumnCaptionHeight = 17
         Me.cmbMoneda.ColumnFooterHeight = 17
         Me.cmbMoneda.ComboStyle = C1.Win.C1List.ComboStyleEnum.DropdownList
-        Me.cmbMoneda.ContentHeight = 18
+        Me.cmbMoneda.ContentHeight = 15
         Me.cmbMoneda.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbMoneda.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbMoneda.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbMoneda.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbMoneda.EditorHeight = 18
+        Me.cmbMoneda.EditorHeight = 15
         Me.cmbMoneda.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbMoneda.Images.Add(CType(resources.GetObject("cmbMoneda.Images"), System.Drawing.Image))
         Me.cmbMoneda.ItemHeight = 15
         Me.cmbMoneda.LimitToList = True
-        Me.cmbMoneda.Location = New System.Drawing.Point(144, 26)
-        Me.cmbMoneda.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbMoneda.Location = New System.Drawing.Point(108, 21)
         Me.cmbMoneda.MatchEntryTimeout = CType(2000, Long)
         Me.cmbMoneda.MaxDropDownItems = CType(5, Short)
         Me.cmbMoneda.MaxLength = 32767
@@ -69,7 +68,7 @@ Partial Class frmStbEditTasaCambioOficial
         Me.cmbMoneda.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbMoneda.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbMoneda.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbMoneda.Size = New System.Drawing.Size(325, 24)
+        Me.cmbMoneda.Size = New System.Drawing.Size(244, 21)
         Me.cmbMoneda.TabIndex = 0
         Me.cmbMoneda.PropBag = resources.GetString("cmbMoneda.PropBag")
         '
@@ -80,10 +79,9 @@ Partial Class frmStbEditTasaCambioOficial
         'lblMes
         '
         Me.lblMes.AutoSize = True
-        Me.lblMes.Location = New System.Drawing.Point(15, 66)
-        Me.lblMes.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMes.Location = New System.Drawing.Point(11, 54)
         Me.lblMes.Name = "lblMes"
-        Me.lblMes.Size = New System.Drawing.Size(53, 17)
+        Me.lblMes.Size = New System.Drawing.Size(43, 13)
         Me.lblMes.TabIndex = 7
         Me.lblMes.Text = "Fecha:"
         '
@@ -96,52 +94,46 @@ Partial Class frmStbEditTasaCambioOficial
         Me.GroupBox1.Controls.Add(Me.lblMes)
         Me.GroupBox1.Controls.Add(Me.cmbMoneda)
         Me.GroupBox1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(16, 12)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 10)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(489, 143)
+        Me.GroupBox1.Size = New System.Drawing.Size(367, 116)
         Me.GroupBox1.TabIndex = 8
         Me.GroupBox1.TabStop = False
         '
         'dtFecha
         '
         Me.dtFecha.EditValue = Nothing
-        Me.dtFecha.Location = New System.Drawing.Point(144, 65)
-        Me.dtFecha.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtFecha.Location = New System.Drawing.Point(108, 53)
         Me.dtFecha.Name = "dtFecha"
         Me.dtFecha.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtFecha.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.dtFecha.Size = New System.Drawing.Size(168, 22)
+        Me.dtFecha.Size = New System.Drawing.Size(126, 20)
         Me.dtFecha.TabIndex = 1
         '
         'nmuMonto
         '
         Me.nmuMonto.DecimalPlaces = 2
         Me.nmuMonto.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nmuMonto.Location = New System.Drawing.Point(144, 98)
-        Me.nmuMonto.Margin = New System.Windows.Forms.Padding(4)
+        Me.nmuMonto.Location = New System.Drawing.Point(108, 80)
         Me.nmuMonto.Name = "nmuMonto"
-        Me.nmuMonto.Size = New System.Drawing.Size(171, 24)
+        Me.nmuMonto.Size = New System.Drawing.Size(128, 21)
         Me.nmuMonto.TabIndex = 2
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(15, 101)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(11, 82)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(58, 17)
+        Me.Label3.Size = New System.Drawing.Size(46, 13)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Monto:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(15, 36)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(11, 29)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(87, 17)
+        Me.Label2.Size = New System.Drawing.Size(73, 13)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Respecto al"
         '
@@ -149,10 +141,9 @@ Partial Class frmStbEditTasaCambioOficial
         '
         Me.Panel3.BackgroundImage = Global.SIRA.My.Resources.Resources.BackgroundImage
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(0, 215)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel3.Location = New System.Drawing.Point(0, 175)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(521, 26)
+        Me.Panel3.Size = New System.Drawing.Size(391, 21)
         Me.Panel3.TabIndex = 23
         '
         'SimpleButton1
@@ -160,12 +151,11 @@ Partial Class frmStbEditTasaCambioOficial
         Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SimpleButton1.Appearance.Options.UseFont = True
         Me.SimpleButton1.ImageOptions.Image = Global.SIRA.My.Resources.Resources.cancel16x16
-        Me.SimpleButton1.Location = New System.Drawing.Point(403, 167)
+        Me.SimpleButton1.Location = New System.Drawing.Point(302, 136)
         Me.SimpleButton1.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.SimpleButton1.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(100, 34)
+        Me.SimpleButton1.Size = New System.Drawing.Size(75, 28)
         Me.SimpleButton1.TabIndex = 1
         Me.SimpleButton1.Tag = "CANCELAR"
         Me.SimpleButton1.Text = "&Cancelar"
@@ -175,28 +165,26 @@ Partial Class frmStbEditTasaCambioOficial
         Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SimpleButton2.Appearance.Options.UseFont = True
         Me.SimpleButton2.ImageOptions.Image = Global.SIRA.My.Resources.Resources.save16x16
-        Me.SimpleButton2.Location = New System.Drawing.Point(285, 167)
+        Me.SimpleButton2.Location = New System.Drawing.Point(214, 136)
         Me.SimpleButton2.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.SimpleButton2.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(107, 34)
+        Me.SimpleButton2.Size = New System.Drawing.Size(80, 28)
         Me.SimpleButton2.TabIndex = 0
         Me.SimpleButton2.Tag = "GUARDAR"
         Me.SimpleButton2.Text = "&Guardar"
         '
         'frmStbEditTasaCambioOficial
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(521, 241)
+        Me.ClientSize = New System.Drawing.Size(391, 196)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmStbEditTasaCambioOficial"

@@ -178,7 +178,7 @@ Public Class frmStbMantTasaCambioOficial
                 FilaActual = Me.grdTasaTabla.GetDataSourceRowIndex(selectedRow(0))
 
                 '-- Verificar si hay registros que Confirmar
-                objTasaCambio.RetrieveByFilter("StbTasaCambioOficialID = " & Me.dtTCO.DefaultView.Item(FilaActual)("StbTasaCambioOficialID"))
+                'objTasaCambio.RetrieveByFilter("StbTasaCambioOficialID = " & Me.dtTCO.DefaultView.Item(FilaActual)("StbTasaCambioOficialID"))
                 If objTasaCambio.objEstadoID = ClsCatalogos.ObtenerIDSTbCatalogo("EstadoTasaCambio", "REGISTRADO") Then
                     Select Case MsgBox("¿Desea confirmar las tasas de cambio registradas?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, clsProyecto.SiglasSistema)
                         Case MsgBoxResult.Yes

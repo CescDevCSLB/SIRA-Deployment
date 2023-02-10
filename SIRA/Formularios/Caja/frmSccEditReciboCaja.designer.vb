@@ -178,22 +178,20 @@ Partial Class frmSccEditReciboCaja
         '
         Me.tbControl.Controls.Add(Me.tbpDetMensualidades)
         Me.tbControl.Controls.Add(Me.tbpFormasPago)
-        Me.tbControl.Location = New System.Drawing.Point(9, 187)
-        Me.tbControl.Margin = New System.Windows.Forms.Padding(4)
+        Me.tbControl.Location = New System.Drawing.Point(7, 152)
         Me.tbControl.Name = "tbControl"
         Me.tbControl.SelectedIndex = 0
-        Me.tbControl.Size = New System.Drawing.Size(1364, 306)
+        Me.tbControl.Size = New System.Drawing.Size(1023, 249)
         Me.tbControl.TabIndex = 2
         '
         'tbpDetMensualidades
         '
         Me.tbpDetMensualidades.Controls.Add(Me.grdMensualidades)
         Me.tbpDetMensualidades.Controls.Add(Me.grdNotaDebito)
-        Me.tbpDetMensualidades.Location = New System.Drawing.Point(4, 25)
-        Me.tbpDetMensualidades.Margin = New System.Windows.Forms.Padding(4)
+        Me.tbpDetMensualidades.Location = New System.Drawing.Point(4, 22)
         Me.tbpDetMensualidades.Name = "tbpDetMensualidades"
-        Me.tbpDetMensualidades.Padding = New System.Windows.Forms.Padding(4)
-        Me.tbpDetMensualidades.Size = New System.Drawing.Size(1356, 277)
+        Me.tbpDetMensualidades.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.tbpDetMensualidades.Size = New System.Drawing.Size(1015, 223)
         Me.tbpDetMensualidades.TabIndex = 0
         Me.tbpDetMensualidades.Text = "Detalle de mensalidades"
         Me.tbpDetMensualidades.UseVisualStyleBackColor = True
@@ -201,21 +199,20 @@ Partial Class frmSccEditReciboCaja
         'grdMensualidades
         '
         Me.grdMensualidades.Dock = System.Windows.Forms.DockStyle.Top
-        Me.grdMensualidades.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
-        Me.grdMensualidades.Location = New System.Drawing.Point(4, 4)
+        Me.grdMensualidades.Location = New System.Drawing.Point(3, 3)
         Me.grdMensualidades.LookAndFeel.SkinName = "Office 2010 Blue"
         Me.grdMensualidades.LookAndFeel.UseDefaultLookAndFeel = False
         Me.grdMensualidades.MainView = Me.grdMensualidadesTabla
-        Me.grdMensualidades.Margin = New System.Windows.Forms.Padding(4)
         Me.grdMensualidades.Name = "grdMensualidades"
         Me.grdMensualidades.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.chkIncluir, Me.chkCancelar, Me.chkAbonar, Me.RepositoryItemSpinEdit2})
-        Me.grdMensualidades.Size = New System.Drawing.Size(1348, 153)
+        Me.grdMensualidades.Size = New System.Drawing.Size(1009, 124)
         Me.grdMensualidades.TabIndex = 98
         Me.grdMensualidades.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grdMensualidadesTabla, Me.GridView1})
         '
         'grdMensualidadesTabla
         '
         Me.grdMensualidadesTabla.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colMontoCordobas, Me.colIncluir, Me.colMes, Me.colMontoTotal, Me.colAbonar, Me.colCancelar, Me.colMontoAbonar, Me.colFecha, Me.colSaldos})
+        Me.grdMensualidadesTabla.DetailHeight = 284
         Me.grdMensualidadesTabla.GridControl = Me.grdMensualidades
         Me.grdMensualidadesTabla.GroupPanelText = "Arrastrar un encabezado de columna aquí para agrupar por esa columna"
         Me.grdMensualidadesTabla.Name = "grdMensualidadesTabla"
@@ -234,11 +231,12 @@ Partial Class frmSccEditReciboCaja
         Me.colMontoCordobas.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colMontoCordobas.Caption = "Saldo C$"
         Me.colMontoCordobas.FieldName = "MontoCordobas"
+        Me.colMontoCordobas.MinWidth = 15
         Me.colMontoCordobas.Name = "colMontoCordobas"
         Me.colMontoCordobas.OptionsColumn.AllowEdit = False
         Me.colMontoCordobas.Visible = True
         Me.colMontoCordobas.VisibleIndex = 8
-        Me.colMontoCordobas.Width = 87
+        Me.colMontoCordobas.Width = 65
         '
         'colIncluir
         '
@@ -249,10 +247,11 @@ Partial Class frmSccEditReciboCaja
         Me.colIncluir.Caption = "Incluir"
         Me.colIncluir.ColumnEdit = Me.chkIncluir
         Me.colIncluir.FieldName = "Seleccion"
+        Me.colIncluir.MinWidth = 15
         Me.colIncluir.Name = "colIncluir"
         Me.colIncluir.Visible = True
         Me.colIncluir.VisibleIndex = 0
-        Me.colIncluir.Width = 73
+        Me.colIncluir.Width = 55
         '
         'chkIncluir
         '
@@ -267,12 +266,13 @@ Partial Class frmSccEditReciboCaja
         Me.colMes.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colMes.Caption = "Mes"
         Me.colMes.FieldName = "MesLetra"
+        Me.colMes.MinWidth = 15
         Me.colMes.Name = "colMes"
         Me.colMes.OptionsColumn.AllowEdit = False
         Me.colMes.OptionsColumn.ReadOnly = True
         Me.colMes.Visible = True
         Me.colMes.VisibleIndex = 1
-        Me.colMes.Width = 154
+        Me.colMes.Width = 115
         '
         'colMontoTotal
         '
@@ -282,13 +282,14 @@ Partial Class frmSccEditReciboCaja
         Me.colMontoTotal.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colMontoTotal.Caption = "Monto Total"
         Me.colMontoTotal.FieldName = "MontoInicial"
+        Me.colMontoTotal.MinWidth = 15
         Me.colMontoTotal.Name = "colMontoTotal"
         Me.colMontoTotal.OptionsColumn.AllowEdit = False
         Me.colMontoTotal.OptionsColumn.AllowFocus = False
         Me.colMontoTotal.OptionsColumn.ReadOnly = True
         Me.colMontoTotal.Visible = True
         Me.colMontoTotal.VisibleIndex = 2
-        Me.colMontoTotal.Width = 133
+        Me.colMontoTotal.Width = 100
         '
         'colAbonar
         '
@@ -299,10 +300,11 @@ Partial Class frmSccEditReciboCaja
         Me.colAbonar.Caption = "Abonar"
         Me.colAbonar.ColumnEdit = Me.chkAbonar
         Me.colAbonar.FieldName = "Abonar"
+        Me.colAbonar.MinWidth = 15
         Me.colAbonar.Name = "colAbonar"
         Me.colAbonar.Visible = True
         Me.colAbonar.VisibleIndex = 3
-        Me.colAbonar.Width = 83
+        Me.colAbonar.Width = 62
         '
         'chkAbonar
         '
@@ -318,10 +320,11 @@ Partial Class frmSccEditReciboCaja
         Me.colCancelar.Caption = "Cancelar"
         Me.colCancelar.ColumnEdit = Me.chkCancelar
         Me.colCancelar.FieldName = "Cancelar"
+        Me.colCancelar.MinWidth = 15
         Me.colCancelar.Name = "colCancelar"
         Me.colCancelar.Visible = True
         Me.colCancelar.VisibleIndex = 4
-        Me.colCancelar.Width = 81
+        Me.colCancelar.Width = 61
         '
         'chkCancelar
         '
@@ -336,10 +339,11 @@ Partial Class frmSccEditReciboCaja
         Me.colMontoAbonar.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colMontoAbonar.Caption = "Monto Abonar"
         Me.colMontoAbonar.FieldName = "CantAbonar"
+        Me.colMontoAbonar.MinWidth = 15
         Me.colMontoAbonar.Name = "colMontoAbonar"
         Me.colMontoAbonar.Visible = True
         Me.colMontoAbonar.VisibleIndex = 5
-        Me.colMontoAbonar.Width = 137
+        Me.colMontoAbonar.Width = 103
         '
         'colFecha
         '
@@ -349,12 +353,13 @@ Partial Class frmSccEditReciboCaja
         Me.colFecha.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colFecha.Caption = "Fecha"
         Me.colFecha.FieldName = "FechaVencimiento"
+        Me.colFecha.MinWidth = 15
         Me.colFecha.Name = "colFecha"
         Me.colFecha.OptionsColumn.AllowEdit = False
         Me.colFecha.OptionsColumn.AllowFocus = False
         Me.colFecha.Visible = True
         Me.colFecha.VisibleIndex = 6
-        Me.colFecha.Width = 120
+        Me.colFecha.Width = 90
         '
         'colSaldos
         '
@@ -364,12 +369,13 @@ Partial Class frmSccEditReciboCaja
         Me.colSaldos.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colSaldos.Caption = "Saldo $"
         Me.colSaldos.FieldName = "Saldo"
+        Me.colSaldos.MinWidth = 15
         Me.colSaldos.Name = "colSaldos"
         Me.colSaldos.OptionsColumn.AllowEdit = False
         Me.colSaldos.OptionsColumn.AllowFocus = False
         Me.colSaldos.Visible = True
         Me.colSaldos.VisibleIndex = 7
-        Me.colSaldos.Width = 98
+        Me.colSaldos.Width = 73
         '
         'RepositoryItemSpinEdit2
         '
@@ -381,6 +387,7 @@ Partial Class frmSccEditReciboCaja
         '
         'GridView1
         '
+        Me.GridView1.DetailHeight = 284
         Me.GridView1.GridControl = Me.grdMensualidades
         Me.GridView1.Name = "GridView1"
         '
@@ -392,15 +399,14 @@ Partial Class frmSccEditReciboCaja
         Me.grdNotaDebito.ExtendRightColumn = True
         Me.grdNotaDebito.GroupByCaption = "Drag a column header here to group by that column"
         Me.grdNotaDebito.Images.Add(CType(resources.GetObject("grdNotaDebito.Images"), System.Drawing.Image))
-        Me.grdNotaDebito.Location = New System.Drawing.Point(4, 153)
-        Me.grdNotaDebito.Margin = New System.Windows.Forms.Padding(4)
+        Me.grdNotaDebito.Location = New System.Drawing.Point(3, 124)
         Me.grdNotaDebito.Name = "grdNotaDebito"
         Me.grdNotaDebito.PreviewInfo.Location = New System.Drawing.Point(0, 0)
         Me.grdNotaDebito.PreviewInfo.Size = New System.Drawing.Size(0, 0)
         Me.grdNotaDebito.PreviewInfo.ZoomFactor = 75.0R
         Me.grdNotaDebito.PrintInfo.PageSettings = CType(resources.GetObject("grdNotaDebito.PrintInfo.PageSettings"), System.Drawing.Printing.PageSettings)
         Me.grdNotaDebito.RowHeight = 15
-        Me.grdNotaDebito.Size = New System.Drawing.Size(1345, 125)
+        Me.grdNotaDebito.Size = New System.Drawing.Size(1009, 102)
         Me.grdNotaDebito.TabIndex = 1
         Me.grdNotaDebito.PropBag = resources.GetString("grdNotaDebito.PropBag")
         '
@@ -408,11 +414,10 @@ Partial Class frmSccEditReciboCaja
         '
         Me.tbpFormasPago.Controls.Add(Me.grpFormaPago)
         Me.tbpFormasPago.Controls.Add(Me.cmdEliminar)
-        Me.tbpFormasPago.Location = New System.Drawing.Point(4, 25)
-        Me.tbpFormasPago.Margin = New System.Windows.Forms.Padding(4)
+        Me.tbpFormasPago.Location = New System.Drawing.Point(4, 22)
         Me.tbpFormasPago.Name = "tbpFormasPago"
-        Me.tbpFormasPago.Padding = New System.Windows.Forms.Padding(4)
-        Me.tbpFormasPago.Size = New System.Drawing.Size(1356, 277)
+        Me.tbpFormasPago.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.tbpFormasPago.Size = New System.Drawing.Size(1015, 223)
         Me.tbpFormasPago.TabIndex = 2
         Me.tbpFormasPago.Text = "Pago"
         Me.tbpFormasPago.UseVisualStyleBackColor = True
@@ -424,11 +429,9 @@ Partial Class frmSccEditReciboCaja
         Me.grpFormaPago.Controls.Add(Me.GroupBox2)
         Me.grpFormaPago.Controls.Add(Me.NumMontoDolares)
         Me.grpFormaPago.Controls.Add(Me.lblMontoRecibo)
-        Me.grpFormaPago.Location = New System.Drawing.Point(11, 22)
-        Me.grpFormaPago.Margin = New System.Windows.Forms.Padding(4)
+        Me.grpFormaPago.Location = New System.Drawing.Point(8, 18)
         Me.grpFormaPago.Name = "grpFormaPago"
-        Me.grpFormaPago.Padding = New System.Windows.Forms.Padding(4)
-        Me.grpFormaPago.Size = New System.Drawing.Size(1304, 245)
+        Me.grpFormaPago.Size = New System.Drawing.Size(978, 199)
         Me.grpFormaPago.TabIndex = 14
         Me.grpFormaPago.TabStop = False
         '
@@ -442,16 +445,15 @@ Partial Class frmSccEditReciboCaja
         Me.cmbConceptoMensualidad.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbConceptoMensualidad.ColumnCaptionHeight = 17
         Me.cmbConceptoMensualidad.ColumnFooterHeight = 17
-        Me.cmbConceptoMensualidad.ContentHeight = 18
+        Me.cmbConceptoMensualidad.ContentHeight = 15
         Me.cmbConceptoMensualidad.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbConceptoMensualidad.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbConceptoMensualidad.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbConceptoMensualidad.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbConceptoMensualidad.EditorHeight = 18
+        Me.cmbConceptoMensualidad.EditorHeight = 15
         Me.cmbConceptoMensualidad.Images.Add(CType(resources.GetObject("cmbConceptoMensualidad.Images"), System.Drawing.Image))
         Me.cmbConceptoMensualidad.ItemHeight = 15
-        Me.cmbConceptoMensualidad.Location = New System.Drawing.Point(8, 66)
-        Me.cmbConceptoMensualidad.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbConceptoMensualidad.Location = New System.Drawing.Point(6, 54)
         Me.cmbConceptoMensualidad.MatchEntryTimeout = CType(2000, Long)
         Me.cmbConceptoMensualidad.MaxDropDownItems = CType(5, Short)
         Me.cmbConceptoMensualidad.MaxLength = 32767
@@ -460,7 +462,7 @@ Partial Class frmSccEditReciboCaja
         Me.cmbConceptoMensualidad.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbConceptoMensualidad.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbConceptoMensualidad.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbConceptoMensualidad.Size = New System.Drawing.Size(236, 24)
+        Me.cmbConceptoMensualidad.Size = New System.Drawing.Size(177, 21)
         Me.cmbConceptoMensualidad.TabIndex = 117
         Me.cmbConceptoMensualidad.Tag = "OBLIGATORIO"
         Me.cmbConceptoMensualidad.PropBag = resources.GetString("cmbConceptoMensualidad.PropBag")
@@ -470,10 +472,9 @@ Partial Class frmSccEditReciboCaja
         Me.lblConceptoRecibo.AutoSize = True
         Me.lblConceptoRecibo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblConceptoRecibo.ForeColor = System.Drawing.Color.Black
-        Me.lblConceptoRecibo.Location = New System.Drawing.Point(3, 39)
-        Me.lblConceptoRecibo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblConceptoRecibo.Location = New System.Drawing.Point(2, 32)
         Me.lblConceptoRecibo.Name = "lblConceptoRecibo"
-        Me.lblConceptoRecibo.Size = New System.Drawing.Size(177, 17)
+        Me.lblConceptoRecibo.Size = New System.Drawing.Size(139, 13)
         Me.lblConceptoRecibo.TabIndex = 116
         Me.lblConceptoRecibo.Tag = "OBLIGATORIO"
         Me.lblConceptoRecibo.Text = "Concepto mensualidad:"
@@ -491,11 +492,9 @@ Partial Class frmSccEditReciboCaja
         Me.GroupBox2.Controls.Add(Me.cmdAgregar)
         Me.GroupBox2.Controls.Add(Me.cmdDelete)
         Me.GroupBox2.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(293, 18)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Location = New System.Drawing.Point(220, 15)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(991, 217)
+        Me.GroupBox2.Size = New System.Drawing.Size(743, 176)
         Me.GroupBox2.TabIndex = 23
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Otros pagos"
@@ -503,10 +502,9 @@ Partial Class frmSccEditReciboCaja
         'chkDólares
         '
         Me.chkDólares.AutoSize = True
-        Me.chkDólares.Location = New System.Drawing.Point(17, 81)
-        Me.chkDólares.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkDólares.Location = New System.Drawing.Point(13, 66)
         Me.chkDólares.Name = "chkDólares"
-        Me.chkDólares.Size = New System.Drawing.Size(81, 21)
+        Me.chkDólares.Size = New System.Drawing.Size(69, 17)
         Me.chkDólares.TabIndex = 178
         Me.chkDólares.Text = "Dólares"
         Me.chkDólares.UseVisualStyleBackColor = True
@@ -516,10 +514,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(221, 117)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Location = New System.Drawing.Point(166, 95)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(17, 17)
+        Me.Label20.Size = New System.Drawing.Size(14, 13)
         Me.Label20.TabIndex = 177
         Me.Label20.Tag = ""
         Me.Label20.Text = "="
@@ -528,10 +525,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.numConvertirT.BackColor = System.Drawing.Color.Transparent
         Me.numConvertirT.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.numConvertirT.Location = New System.Drawing.Point(101, 113)
-        Me.numConvertirT.Margin = New System.Windows.Forms.Padding(4)
+        Me.numConvertirT.Location = New System.Drawing.Point(76, 92)
         Me.numConvertirT.Name = "numConvertirT"
-        Me.numConvertirT.Size = New System.Drawing.Size(117, 24)
+        Me.numConvertirT.Size = New System.Drawing.Size(88, 21)
         Me.numConvertirT.TabIndex = 175
         Me.numConvertirT.Tag = Nothing
         Me.numConvertirT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -548,16 +544,15 @@ Partial Class frmSccEditReciboCaja
         Me.cmbConceptoRecibo.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbConceptoRecibo.ColumnCaptionHeight = 17
         Me.cmbConceptoRecibo.ColumnFooterHeight = 17
-        Me.cmbConceptoRecibo.ContentHeight = 18
+        Me.cmbConceptoRecibo.ContentHeight = 15
         Me.cmbConceptoRecibo.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbConceptoRecibo.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbConceptoRecibo.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbConceptoRecibo.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbConceptoRecibo.EditorHeight = 18
+        Me.cmbConceptoRecibo.EditorHeight = 15
         Me.cmbConceptoRecibo.Images.Add(CType(resources.GetObject("cmbConceptoRecibo.Images"), System.Drawing.Image))
         Me.cmbConceptoRecibo.ItemHeight = 15
-        Me.cmbConceptoRecibo.Location = New System.Drawing.Point(101, 48)
-        Me.cmbConceptoRecibo.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbConceptoRecibo.Location = New System.Drawing.Point(76, 39)
         Me.cmbConceptoRecibo.MatchEntryTimeout = CType(2000, Long)
         Me.cmbConceptoRecibo.MaxDropDownItems = CType(5, Short)
         Me.cmbConceptoRecibo.MaxLength = 32767
@@ -566,28 +561,27 @@ Partial Class frmSccEditReciboCaja
         Me.cmbConceptoRecibo.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbConceptoRecibo.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbConceptoRecibo.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbConceptoRecibo.Size = New System.Drawing.Size(267, 24)
+        Me.cmbConceptoRecibo.Size = New System.Drawing.Size(200, 21)
         Me.cmbConceptoRecibo.TabIndex = 115
         Me.cmbConceptoRecibo.Tag = "OBLIGATORIO"
         Me.cmbConceptoRecibo.PropBag = resources.GetString("cmbConceptoRecibo.PropBag")
         '
         'grdAsigmacion
         '
-        Me.grdAsigmacion.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4)
-        Me.grdAsigmacion.Location = New System.Drawing.Point(409, 16)
+        Me.grdAsigmacion.Location = New System.Drawing.Point(307, 13)
         Me.grdAsigmacion.LookAndFeel.SkinName = "Office 2010 Blue"
         Me.grdAsigmacion.LookAndFeel.UseDefaultLookAndFeel = False
         Me.grdAsigmacion.MainView = Me.grdAsignacionTable
-        Me.grdAsigmacion.Margin = New System.Windows.Forms.Padding(4)
         Me.grdAsigmacion.Name = "grdAsigmacion"
         Me.grdAsigmacion.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemCheckEdit1, Me.RepositoryItemCheckEdit2, Me.RepositoryItemDateEdit1, Me.RepositoryItemMemoEdit1, Me.RepositoryItemSpinEdit1})
-        Me.grdAsigmacion.Size = New System.Drawing.Size(543, 194)
+        Me.grdAsigmacion.Size = New System.Drawing.Size(407, 158)
         Me.grdAsigmacion.TabIndex = 20
         Me.grdAsigmacion.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grdAsignacionTable, Me.GridView2})
         '
         'grdAsignacionTable
         '
         Me.grdAsignacionTable.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colSeleccionar, Me.colNombre, Me.colConceptoID, Me.colConcepto})
+        Me.grdAsignacionTable.DetailHeight = 284
         Me.grdAsignacionTable.GridControl = Me.grdAsigmacion
         Me.grdAsignacionTable.GroupPanelText = "Arrastrar un encabezado de columna aquí para agrupar por esa columna"
         Me.grdAsignacionTable.Name = "grdAsignacionTable"
@@ -601,7 +595,9 @@ Partial Class frmSccEditReciboCaja
         Me.colSeleccionar.Caption = "Seleccionar"
         Me.colSeleccionar.ColumnEdit = Me.RepositoryItemCheckEdit1
         Me.colSeleccionar.FieldName = "Seleccionar"
+        Me.colSeleccionar.MinWidth = 15
         Me.colSeleccionar.Name = "colSeleccionar"
+        Me.colSeleccionar.Width = 56
         '
         'RepositoryItemCheckEdit1
         '
@@ -620,13 +616,14 @@ Partial Class frmSccEditReciboCaja
         Me.colNombre.Caption = "Monto"
         Me.colNombre.ColumnEdit = Me.RepositoryItemSpinEdit1
         Me.colNombre.FieldName = "Monto"
+        Me.colNombre.MinWidth = 15
         Me.colNombre.Name = "colNombre"
         Me.colNombre.OptionsColumn.AllowEdit = False
         Me.colNombre.OptionsColumn.AllowFocus = False
         Me.colNombre.OptionsColumn.ReadOnly = True
         Me.colNombre.Visible = True
         Me.colNombre.VisibleIndex = 2
-        Me.colNombre.Width = 131
+        Me.colNombre.Width = 98
         '
         'RepositoryItemSpinEdit1
         '
@@ -638,7 +635,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.colConceptoID.Caption = "objEvidenciasID"
         Me.colConceptoID.FieldName = "objConceptoID"
+        Me.colConceptoID.MinWidth = 15
         Me.colConceptoID.Name = "colConceptoID"
+        Me.colConceptoID.Width = 56
         '
         'colConcepto
         '
@@ -648,11 +647,12 @@ Partial Class frmSccEditReciboCaja
         Me.colConcepto.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colConcepto.Caption = "Concepto"
         Me.colConcepto.FieldName = "Concepto"
+        Me.colConcepto.MinWidth = 15
         Me.colConcepto.Name = "colConcepto"
         Me.colConcepto.OptionsColumn.AllowEdit = False
         Me.colConcepto.Visible = True
         Me.colConcepto.VisibleIndex = 1
-        Me.colConcepto.Width = 183
+        Me.colConcepto.Width = 137
         '
         'RepositoryItemCheckEdit2
         '
@@ -675,6 +675,7 @@ Partial Class frmSccEditReciboCaja
         'GridView2
         '
         Me.GridView2.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.ColSccCuentaID, Me.colProducto, Me.colModeloMarca, Me.colSaldo})
+        Me.GridView2.DetailHeight = 284
         Me.GridView2.GridControl = Me.grdAsigmacion
         Me.GridView2.Name = "GridView2"
         Me.GridView2.OptionsBehavior.AutoPopulateColumns = False
@@ -686,49 +687,56 @@ Partial Class frmSccEditReciboCaja
         '
         Me.ColSccCuentaID.Caption = "SccCuentaID"
         Me.ColSccCuentaID.FieldName = "SccCuentaID"
+        Me.ColSccCuentaID.MinWidth = 15
         Me.ColSccCuentaID.Name = "ColSccCuentaID"
         Me.ColSccCuentaID.Visible = True
         Me.ColSccCuentaID.VisibleIndex = 0
+        Me.ColSccCuentaID.Width = 56
         '
         'colProducto
         '
         Me.colProducto.Caption = "Producto"
         Me.colProducto.FieldName = "Producto"
+        Me.colProducto.MinWidth = 15
         Me.colProducto.Name = "colProducto"
         Me.colProducto.OptionsColumn.AllowEdit = False
         Me.colProducto.OptionsFilter.AllowAutoFilter = False
         Me.colProducto.Visible = True
         Me.colProducto.VisibleIndex = 1
+        Me.colProducto.Width = 56
         '
         'colModeloMarca
         '
         Me.colModeloMarca.Caption = "Modelo/Marca"
         Me.colModeloMarca.FieldName = "ModeloMarca"
+        Me.colModeloMarca.MinWidth = 15
         Me.colModeloMarca.Name = "colModeloMarca"
         Me.colModeloMarca.OptionsColumn.AllowEdit = False
         Me.colModeloMarca.OptionsFilter.AllowAutoFilter = False
         Me.colModeloMarca.Visible = True
         Me.colModeloMarca.VisibleIndex = 2
+        Me.colModeloMarca.Width = 56
         '
         'colSaldo
         '
         Me.colSaldo.Caption = "Saldo"
         Me.colSaldo.FieldName = "Saldo"
+        Me.colSaldo.MinWidth = 15
         Me.colSaldo.Name = "colSaldo"
         Me.colSaldo.OptionsColumn.AllowEdit = False
         Me.colSaldo.OptionsFilter.AllowAutoFilter = False
         Me.colSaldo.Visible = True
         Me.colSaldo.VisibleIndex = 3
+        Me.colSaldo.Width = 56
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(13, 53)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(10, 43)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(81, 17)
+        Me.Label11.Size = New System.Drawing.Size(65, 13)
         Me.Label11.TabIndex = 9
         Me.Label11.Tag = "OBLIGATORIO"
         Me.Label11.Text = "Concepto:"
@@ -738,10 +746,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Black
-        Me.Label17.Location = New System.Drawing.Point(13, 118)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Location = New System.Drawing.Point(10, 96)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(57, 17)
+        Me.Label17.Size = New System.Drawing.Size(46, 13)
         Me.Label17.TabIndex = 21
         Me.Label17.Text = "Monto:"
         '
@@ -750,10 +757,9 @@ Partial Class frmSccEditReciboCaja
         Me.numMontoDetalle.BackColor = System.Drawing.Color.Transparent
         Me.numMontoDetalle.Enabled = False
         Me.numMontoDetalle.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.numMontoDetalle.Location = New System.Drawing.Point(243, 113)
-        Me.numMontoDetalle.Margin = New System.Windows.Forms.Padding(4)
+        Me.numMontoDetalle.Location = New System.Drawing.Point(182, 92)
         Me.numMontoDetalle.Name = "numMontoDetalle"
-        Me.numMontoDetalle.Size = New System.Drawing.Size(117, 24)
+        Me.numMontoDetalle.Size = New System.Drawing.Size(88, 21)
         Me.numMontoDetalle.TabIndex = 22
         Me.numMontoDetalle.Tag = Nothing
         Me.numMontoDetalle.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -766,12 +772,11 @@ Partial Class frmSccEditReciboCaja
         Me.cmdAgregar.Appearance.Options.UseFont = True
         Me.cmdAgregar.ImageOptions.Image = Global.SIRA.My.Resources.Resources.add16x16
         Me.cmdAgregar.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.cmdAgregar.Location = New System.Drawing.Point(297, 159)
+        Me.cmdAgregar.Location = New System.Drawing.Point(223, 129)
         Me.cmdAgregar.LookAndFeel.SkinName = "Caramel"
         Me.cmdAgregar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdAgregar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdAgregar.Name = "cmdAgregar"
-        Me.cmdAgregar.Size = New System.Drawing.Size(43, 34)
+        Me.cmdAgregar.Size = New System.Drawing.Size(32, 28)
         Me.cmdAgregar.TabIndex = 18
         Me.cmdAgregar.Tag = "AGREGAR"
         '
@@ -781,12 +786,11 @@ Partial Class frmSccEditReciboCaja
         Me.cmdDelete.Appearance.Options.UseFont = True
         Me.cmdDelete.ImageOptions.Image = Global.SIRA.My.Resources.Resources.disabled16x16
         Me.cmdDelete.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.cmdDelete.Location = New System.Drawing.Point(345, 159)
+        Me.cmdDelete.Location = New System.Drawing.Point(259, 129)
         Me.cmdDelete.LookAndFeel.SkinName = "Caramel"
         Me.cmdDelete.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdDelete.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdDelete.Name = "cmdDelete"
-        Me.cmdDelete.Size = New System.Drawing.Size(43, 34)
+        Me.cmdDelete.Size = New System.Drawing.Size(32, 28)
         Me.cmdDelete.TabIndex = 19
         Me.cmdDelete.Tag = "AGREGAR"
         '
@@ -794,10 +798,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.NumMontoDolares.BackColor = System.Drawing.Color.Transparent
         Me.NumMontoDolares.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.NumMontoDolares.Location = New System.Drawing.Point(48, 159)
-        Me.NumMontoDolares.Margin = New System.Windows.Forms.Padding(4)
+        Me.NumMontoDolares.Location = New System.Drawing.Point(36, 129)
         Me.NumMontoDolares.Name = "NumMontoDolares"
-        Me.NumMontoDolares.Size = New System.Drawing.Size(196, 23)
+        Me.NumMontoDolares.Size = New System.Drawing.Size(147, 21)
         Me.NumMontoDolares.TabIndex = 17
         Me.NumMontoDolares.Tag = Nothing
         Me.NumMontoDolares.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -808,10 +811,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.lblMontoRecibo.AutoSize = True
         Me.lblMontoRecibo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMontoRecibo.Location = New System.Drawing.Point(3, 132)
-        Me.lblMontoRecibo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMontoRecibo.Location = New System.Drawing.Point(2, 107)
         Me.lblMontoRecibo.Name = "lblMontoRecibo"
-        Me.lblMontoRecibo.Size = New System.Drawing.Size(170, 17)
+        Me.lblMontoRecibo.Size = New System.Drawing.Size(134, 13)
         Me.lblMontoRecibo.TabIndex = 11
         Me.lblMontoRecibo.Text = "Monto Mensualidades:"
         '
@@ -819,10 +821,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.cmdEliminar.ImageIndex = 0
         Me.cmdEliminar.ImageList = Me.ListaImagenes
-        Me.cmdEliminar.Location = New System.Drawing.Point(8, 374)
-        Me.cmdEliminar.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmdEliminar.Location = New System.Drawing.Point(6, 304)
         Me.cmdEliminar.Name = "cmdEliminar"
-        Me.cmdEliminar.Size = New System.Drawing.Size(41, 32)
+        Me.cmdEliminar.Size = New System.Drawing.Size(31, 26)
         Me.cmdEliminar.TabIndex = 13
         Me.cmdEliminar.Tag = ""
         Me.cmdEliminar.Text = "&D"
@@ -840,10 +841,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(1089, 569)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(817, 462)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(98, 17)
+        Me.Label3.Size = New System.Drawing.Size(77, 13)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Total Pagar:"
         '
@@ -852,10 +852,9 @@ Partial Class frmSccEditReciboCaja
         Me.lblTotalFact.AutoSize = True
         Me.lblTotalFact.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTotalFact.ForeColor = System.Drawing.Color.Black
-        Me.lblTotalFact.Location = New System.Drawing.Point(1089, 503)
-        Me.lblTotalFact.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblTotalFact.Location = New System.Drawing.Point(817, 409)
         Me.lblTotalFact.Name = "lblTotalFact"
-        Me.lblTotalFact.Size = New System.Drawing.Size(55, 17)
+        Me.lblTotalFact.Size = New System.Drawing.Size(44, 13)
         Me.lblTotalFact.TabIndex = 7
         Me.lblTotalFact.Text = "Total :"
         '
@@ -866,10 +865,9 @@ Partial Class frmSccEditReciboCaja
         'lblError
         '
         Me.lblError.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.lblError.Location = New System.Drawing.Point(16, 551)
-        Me.lblError.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblError.Location = New System.Drawing.Point(12, 448)
         Me.lblError.Name = "lblError"
-        Me.lblError.Size = New System.Drawing.Size(24, 22)
+        Me.lblError.Size = New System.Drawing.Size(18, 18)
         Me.lblError.TabIndex = 14
         '
         'txtTotalFact
@@ -882,10 +880,9 @@ Partial Class frmSccEditReciboCaja
             Or C1.Win.C1Input.FormatInfoInheritFlags.TrimEnd), C1.Win.C1Input.FormatInfoInheritFlags)
         Me.txtTotalFact.Enabled = False
         Me.txtTotalFact.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.txtTotalFact.Location = New System.Drawing.Point(1205, 501)
-        Me.txtTotalFact.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtTotalFact.Location = New System.Drawing.Point(904, 407)
         Me.txtTotalFact.Name = "txtTotalFact"
-        Me.txtTotalFact.Size = New System.Drawing.Size(164, 23)
+        Me.txtTotalFact.Size = New System.Drawing.Size(123, 21)
         Me.txtTotalFact.TabIndex = 0
         Me.txtTotalFact.Tag = "BLOQUEADO"
         Me.txtTotalFact.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -905,10 +902,9 @@ Partial Class frmSccEditReciboCaja
             Or C1.Win.C1Input.FormatInfoInheritFlags.TrimEnd), C1.Win.C1Input.FormatInfoInheritFlags)
         Me.txtTotalPagar.Enabled = False
         Me.txtTotalPagar.FormatType = C1.Win.C1Input.FormatTypeEnum.Percent
-        Me.txtTotalPagar.Location = New System.Drawing.Point(1205, 564)
-        Me.txtTotalPagar.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtTotalPagar.Location = New System.Drawing.Point(904, 458)
         Me.txtTotalPagar.Name = "txtTotalPagar"
-        Me.txtTotalPagar.Size = New System.Drawing.Size(164, 23)
+        Me.txtTotalPagar.Size = New System.Drawing.Size(123, 21)
         Me.txtTotalPagar.TabIndex = 1
         Me.txtTotalPagar.Tag = "BLOQUEADO"
         Me.txtTotalPagar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -926,11 +922,9 @@ Partial Class frmSccEditReciboCaja
         Me.grpDatosRecibos.Controls.Add(Me.lblRecibo)
         Me.grpDatosRecibos.Controls.Add(Me.cmbMoeda)
         Me.grpDatosRecibos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpDatosRecibos.Location = New System.Drawing.Point(20, 11)
-        Me.grpDatosRecibos.Margin = New System.Windows.Forms.Padding(4)
+        Me.grpDatosRecibos.Location = New System.Drawing.Point(15, 9)
         Me.grpDatosRecibos.Name = "grpDatosRecibos"
-        Me.grpDatosRecibos.Padding = New System.Windows.Forms.Padding(4)
-        Me.grpDatosRecibos.Size = New System.Drawing.Size(383, 155)
+        Me.grpDatosRecibos.Size = New System.Drawing.Size(287, 126)
         Me.grpDatosRecibos.TabIndex = 19
         Me.grpDatosRecibos.TabStop = False
         Me.grpDatosRecibos.Text = "&DatosRecibos"
@@ -945,16 +939,15 @@ Partial Class frmSccEditReciboCaja
         Me.cmbPeriodos.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbPeriodos.ColumnCaptionHeight = 17
         Me.cmbPeriodos.ColumnFooterHeight = 17
-        Me.cmbPeriodos.ContentHeight = 18
+        Me.cmbPeriodos.ContentHeight = 15
         Me.cmbPeriodos.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbPeriodos.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbPeriodos.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbPeriodos.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbPeriodos.EditorHeight = 18
+        Me.cmbPeriodos.EditorHeight = 15
         Me.cmbPeriodos.Images.Add(CType(resources.GetObject("cmbPeriodos.Images"), System.Drawing.Image))
         Me.cmbPeriodos.ItemHeight = 15
-        Me.cmbPeriodos.Location = New System.Drawing.Point(107, 85)
-        Me.cmbPeriodos.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbPeriodos.Location = New System.Drawing.Point(80, 69)
         Me.cmbPeriodos.MatchEntryTimeout = CType(2000, Long)
         Me.cmbPeriodos.MaxDropDownItems = CType(5, Short)
         Me.cmbPeriodos.MaxLength = 32767
@@ -963,7 +956,7 @@ Partial Class frmSccEditReciboCaja
         Me.cmbPeriodos.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbPeriodos.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbPeriodos.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbPeriodos.Size = New System.Drawing.Size(213, 24)
+        Me.cmbPeriodos.Size = New System.Drawing.Size(160, 21)
         Me.cmbPeriodos.TabIndex = 114
         Me.cmbPeriodos.Tag = "OBLIGATORIO"
         Me.cmbPeriodos.PropBag = resources.GetString("cmbPeriodos.PropBag")
@@ -973,10 +966,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(8, 91)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(6, 74)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(69, 17)
+        Me.Label10.Size = New System.Drawing.Size(54, 13)
         Me.Label10.TabIndex = 8
         Me.Label10.Tag = "OBLIGATORIO"
         Me.Label10.Text = "Periodo:"
@@ -986,10 +978,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(8, 57)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(6, 46)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(63, 17)
+        Me.Label8.Size = New System.Drawing.Size(50, 13)
         Me.Label8.TabIndex = 6
         Me.Label8.Tag = "OBLIGATORIO"
         Me.Label8.Text = "Estado:"
@@ -998,10 +989,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.txtEstado.Enabled = False
         Me.txtEstado.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEstado.Location = New System.Drawing.Point(107, 53)
-        Me.txtEstado.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtEstado.Location = New System.Drawing.Point(80, 43)
         Me.txtEstado.Name = "txtEstado"
-        Me.txtEstado.Size = New System.Drawing.Size(211, 23)
+        Me.txtEstado.Size = New System.Drawing.Size(159, 20)
         Me.txtEstado.TabIndex = 1
         Me.txtEstado.Tag = "BLOQUEADO"
         '
@@ -1009,10 +999,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.txtNumRecibo.Enabled = False
         Me.txtNumRecibo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNumRecibo.Location = New System.Drawing.Point(107, 21)
-        Me.txtNumRecibo.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtNumRecibo.Location = New System.Drawing.Point(80, 17)
         Me.txtNumRecibo.Name = "txtNumRecibo"
-        Me.txtNumRecibo.Size = New System.Drawing.Size(211, 23)
+        Me.txtNumRecibo.Size = New System.Drawing.Size(159, 20)
         Me.txtNumRecibo.TabIndex = 0
         Me.txtNumRecibo.Tag = ""
         '
@@ -1021,10 +1010,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(9, 124)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Location = New System.Drawing.Point(7, 101)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(70, 17)
+        Me.Label14.Size = New System.Drawing.Size(56, 13)
         Me.Label14.TabIndex = 132
         Me.Label14.Text = "Moneda:"
         '
@@ -1033,10 +1021,9 @@ Partial Class frmSccEditReciboCaja
         Me.lblRecibo.AutoSize = True
         Me.lblRecibo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRecibo.ForeColor = System.Drawing.Color.Black
-        Me.lblRecibo.Location = New System.Drawing.Point(8, 25)
-        Me.lblRecibo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblRecibo.Location = New System.Drawing.Point(6, 20)
         Me.lblRecibo.Name = "lblRecibo"
-        Me.lblRecibo.Size = New System.Drawing.Size(88, 17)
+        Me.lblRecibo.Size = New System.Drawing.Size(71, 13)
         Me.lblRecibo.TabIndex = 0
         Me.lblRecibo.Tag = "OBLIGATORIO"
         Me.lblRecibo.Text = "No.Recibo:"
@@ -1051,16 +1038,15 @@ Partial Class frmSccEditReciboCaja
         Me.cmbMoeda.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbMoeda.ColumnCaptionHeight = 17
         Me.cmbMoeda.ColumnFooterHeight = 17
-        Me.cmbMoeda.ContentHeight = 18
+        Me.cmbMoeda.ContentHeight = 15
         Me.cmbMoeda.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbMoeda.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbMoeda.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbMoeda.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbMoeda.EditorHeight = 18
+        Me.cmbMoeda.EditorHeight = 15
         Me.cmbMoeda.Images.Add(CType(resources.GetObject("cmbMoeda.Images"), System.Drawing.Image))
         Me.cmbMoeda.ItemHeight = 15
-        Me.cmbMoeda.Location = New System.Drawing.Point(107, 118)
-        Me.cmbMoeda.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbMoeda.Location = New System.Drawing.Point(80, 96)
         Me.cmbMoeda.MatchEntryTimeout = CType(2000, Long)
         Me.cmbMoeda.MaxDropDownItems = CType(5, Short)
         Me.cmbMoeda.MaxLength = 32767
@@ -1069,7 +1055,7 @@ Partial Class frmSccEditReciboCaja
         Me.cmbMoeda.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbMoeda.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbMoeda.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbMoeda.Size = New System.Drawing.Size(267, 24)
+        Me.cmbMoeda.Size = New System.Drawing.Size(200, 21)
         Me.cmbMoeda.TabIndex = 131
         Me.cmbMoeda.Tag = "OBLIGATORIO"
         Me.cmbMoeda.PropBag = resources.GetString("cmbMoeda.PropBag")
@@ -1098,10 +1084,9 @@ Partial Class frmSccEditReciboCaja
             Or C1.Win.C1Input.FormatInfoInheritFlags.TrimEnd), C1.Win.C1Input.FormatInfoInheritFlags)
         Me.dtpFecha.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpFecha.FormatType = C1.Win.C1Input.FormatTypeEnum.ShortDate
-        Me.dtpFecha.Location = New System.Drawing.Point(753, 84)
-        Me.dtpFecha.Margin = New System.Windows.Forms.Padding(4)
+        Me.dtpFecha.Location = New System.Drawing.Point(565, 68)
         Me.dtpFecha.Name = "dtpFecha"
-        Me.dtpFecha.Size = New System.Drawing.Size(203, 23)
+        Me.dtpFecha.Size = New System.Drawing.Size(152, 20)
         Me.dtpFecha.TabIndex = 2
         Me.dtpFecha.Tag = Nothing
         Me.dtpFecha.VisibleButtons = C1.Win.C1Input.DropDownControlButtonFlags.DropDown
@@ -1111,10 +1096,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(587, 92)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(440, 75)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(57, 17)
+        Me.Label1.Size = New System.Drawing.Size(46, 13)
         Me.Label1.TabIndex = 2
         Me.Label1.Tag = "OBLIGATORIO"
         Me.Label1.Text = "Fecha:"
@@ -1136,11 +1120,9 @@ Partial Class frmSccEditReciboCaja
         Me.GrpExpediente.Controls.Add(Me.txtNumCuenta)
         Me.GrpExpediente.Controls.Add(Me.Label5)
         Me.GrpExpediente.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GrpExpediente.Location = New System.Drawing.Point(412, 11)
-        Me.GrpExpediente.Margin = New System.Windows.Forms.Padding(4)
+        Me.GrpExpediente.Location = New System.Drawing.Point(309, 9)
         Me.GrpExpediente.Name = "GrpExpediente"
-        Me.GrpExpediente.Padding = New System.Windows.Forms.Padding(4)
-        Me.GrpExpediente.Size = New System.Drawing.Size(961, 114)
+        Me.GrpExpediente.Size = New System.Drawing.Size(721, 93)
         Me.GrpExpediente.TabIndex = 18
         Me.GrpExpediente.TabStop = False
         Me.GrpExpediente.Text = "Datos Persona"
@@ -1149,10 +1131,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.chkEsPrestamo.AutoSize = True
         Me.chkEsPrestamo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkEsPrestamo.Location = New System.Drawing.Point(415, 21)
-        Me.chkEsPrestamo.Margin = New System.Windows.Forms.Padding(4)
+        Me.chkEsPrestamo.Location = New System.Drawing.Point(311, 17)
         Me.chkEsPrestamo.Name = "chkEsPrestamo"
-        Me.chkEsPrestamo.Size = New System.Drawing.Size(162, 21)
+        Me.chkEsPrestamo.Size = New System.Drawing.Size(128, 17)
         Me.chkEsPrestamo.TabIndex = 111
         Me.chkEsPrestamo.Text = "Pago de prestamo"
         Me.chkEsPrestamo.UseVisualStyleBackColor = True
@@ -1161,20 +1142,18 @@ Partial Class frmSccEditReciboCaja
         '
         Me.SpnPorcentaje.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
         Me.SpnPorcentaje.Enabled = False
-        Me.SpnPorcentaje.Location = New System.Drawing.Point(757, 47)
-        Me.SpnPorcentaje.Margin = New System.Windows.Forms.Padding(4)
+        Me.SpnPorcentaje.Location = New System.Drawing.Point(568, 38)
         Me.SpnPorcentaje.Name = "SpnPorcentaje"
         Me.SpnPorcentaje.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.SpnPorcentaje.Size = New System.Drawing.Size(133, 22)
+        Me.SpnPorcentaje.Size = New System.Drawing.Size(100, 20)
         Me.SpnPorcentaje.TabIndex = 110
         '
         'txtAtencionA
         '
         Me.txtAtencionA.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtencionA.Location = New System.Drawing.Point(152, 84)
-        Me.txtAtencionA.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtAtencionA.Location = New System.Drawing.Point(114, 68)
         Me.txtAtencionA.Name = "txtAtencionA"
-        Me.txtAtencionA.Size = New System.Drawing.Size(331, 23)
+        Me.txtAtencionA.Size = New System.Drawing.Size(249, 20)
         Me.txtAtencionA.TabIndex = 8
         Me.txtAtencionA.Tag = "BLOQUEADO"
         '
@@ -1183,10 +1162,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(23, 92)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(17, 75)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(95, 17)
+        Me.Label12.Size = New System.Drawing.Size(76, 13)
         Me.Label12.TabIndex = 9
         Me.Label12.Tag = "OBLIGATORIO"
         Me.Label12.Text = "Atencion a: "
@@ -1196,10 +1174,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(587, 52)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(440, 42)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(154, 17)
+        Me.Label2.Size = New System.Drawing.Size(122, 13)
         Me.Label2.TabIndex = 7
         Me.Label2.Tag = "OBLIGATORIO"
         Me.Label2.Text = "Porcentaje de beca:"
@@ -1207,11 +1184,10 @@ Partial Class frmSccEditReciboCaja
         'txtGrupo
         '
         Me.txtGrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGrupo.Location = New System.Drawing.Point(757, 14)
-        Me.txtGrupo.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtGrupo.Location = New System.Drawing.Point(568, 11)
         Me.txtGrupo.Name = "txtGrupo"
         Me.txtGrupo.ReadOnly = True
-        Me.txtGrupo.Size = New System.Drawing.Size(197, 23)
+        Me.txtGrupo.Size = New System.Drawing.Size(149, 20)
         Me.txtGrupo.TabIndex = 5
         Me.txtGrupo.Tag = "BLOQUEADO"
         '
@@ -1220,19 +1196,17 @@ Partial Class frmSccEditReciboCaja
         Me.lblCedula.AutoSize = True
         Me.lblCedula.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCedula.ForeColor = System.Drawing.Color.Black
-        Me.lblCedula.Location = New System.Drawing.Point(587, 21)
-        Me.lblCedula.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblCedula.Location = New System.Drawing.Point(440, 17)
         Me.lblCedula.Name = "lblCedula"
-        Me.lblCedula.Size = New System.Drawing.Size(58, 17)
+        Me.lblCedula.Size = New System.Drawing.Size(45, 13)
         Me.lblCedula.TabIndex = 6
         Me.lblCedula.Text = "Grupo:"
         '
         'cmdExpediente
         '
-        Me.cmdExpediente.Location = New System.Drawing.Point(377, 17)
-        Me.cmdExpediente.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmdExpediente.Location = New System.Drawing.Point(283, 14)
         Me.cmdExpediente.Name = "cmdExpediente"
-        Me.cmdExpediente.Size = New System.Drawing.Size(32, 28)
+        Me.cmdExpediente.Size = New System.Drawing.Size(24, 23)
         Me.cmdExpediente.TabIndex = 1
         Me.cmdExpediente.Text = "..."
         Me.cmdExpediente.UseVisualStyleBackColor = True
@@ -1240,10 +1214,9 @@ Partial Class frmSccEditReciboCaja
         'txtCliente
         '
         Me.txtCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCliente.Location = New System.Drawing.Point(152, 50)
-        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtCliente.Location = New System.Drawing.Point(114, 41)
         Me.txtCliente.Name = "txtCliente"
-        Me.txtCliente.Size = New System.Drawing.Size(331, 23)
+        Me.txtCliente.Size = New System.Drawing.Size(249, 20)
         Me.txtCliente.TabIndex = 2
         Me.txtCliente.Tag = "BLOQUEADO"
         '
@@ -1252,10 +1225,9 @@ Partial Class frmSccEditReciboCaja
         Me.lblNombre.AutoSize = True
         Me.lblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNombre.ForeColor = System.Drawing.Color.Black
-        Me.lblNombre.Location = New System.Drawing.Point(21, 58)
-        Me.lblNombre.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblNombre.Location = New System.Drawing.Point(16, 47)
         Me.lblNombre.Name = "lblNombre"
-        Me.lblNombre.Size = New System.Drawing.Size(66, 17)
+        Me.lblNombre.Size = New System.Drawing.Size(52, 13)
         Me.lblNombre.TabIndex = 4
         Me.lblNombre.Tag = "OBLIGATORIO"
         Me.lblNombre.Text = "Alumno:"
@@ -1263,10 +1235,9 @@ Partial Class frmSccEditReciboCaja
         'txtNumCuenta
         '
         Me.txtNumCuenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNumCuenta.Location = New System.Drawing.Point(152, 20)
-        Me.txtNumCuenta.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtNumCuenta.Location = New System.Drawing.Point(114, 16)
         Me.txtNumCuenta.Name = "txtNumCuenta"
-        Me.txtNumCuenta.Size = New System.Drawing.Size(216, 23)
+        Me.txtNumCuenta.Size = New System.Drawing.Size(163, 20)
         Me.txtNumCuenta.TabIndex = 0
         Me.txtNumCuenta.Tag = "BLOQUEADO"
         '
@@ -1275,10 +1246,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(21, 25)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(16, 20)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(69, 17)
+        Me.Label5.Size = New System.Drawing.Size(56, 13)
         Me.Label5.TabIndex = 1
         Me.Label5.Tag = "OBLIGATORIO"
         Me.Label5.Text = "No. Exp:"
@@ -1290,11 +1260,9 @@ Partial Class frmSccEditReciboCaja
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.lblMontoRestante)
         Me.GroupBox1.Controls.Add(Me.lblMontoAbonado)
-        Me.GroupBox1.Location = New System.Drawing.Point(25, 503)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Location = New System.Drawing.Point(19, 409)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(305, 73)
+        Me.GroupBox1.Size = New System.Drawing.Size(229, 59)
         Me.GroupBox1.TabIndex = 21
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Calculadora"
@@ -1303,20 +1271,18 @@ Partial Class frmSccEditReciboCaja
         'lblMontRest
         '
         Me.lblMontRest.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMontRest.Location = New System.Drawing.Point(147, 46)
-        Me.lblMontRest.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMontRest.Location = New System.Drawing.Point(110, 37)
         Me.lblMontRest.Name = "lblMontRest"
-        Me.lblMontRest.Size = New System.Drawing.Size(145, 20)
+        Me.lblMontRest.Size = New System.Drawing.Size(109, 16)
         Me.lblMontRest.TabIndex = 27
         Me.lblMontRest.Tag = "LAYOUT"
         '
         'lblMontAbon
         '
         Me.lblMontAbon.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMontAbon.Location = New System.Drawing.Point(147, 21)
-        Me.lblMontAbon.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMontAbon.Location = New System.Drawing.Point(110, 17)
         Me.lblMontAbon.Name = "lblMontAbon"
-        Me.lblMontAbon.Size = New System.Drawing.Size(145, 20)
+        Me.lblMontAbon.Size = New System.Drawing.Size(109, 16)
         Me.lblMontAbon.TabIndex = 26
         Me.lblMontAbon.Tag = "LAYOUT"
         '
@@ -1325,10 +1291,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(12, 25)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(9, 20)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(131, 17)
+        Me.Label9.Size = New System.Drawing.Size(104, 13)
         Me.Label9.TabIndex = 25
         Me.Label9.Text = "Monto Abarcado:"
         '
@@ -1337,20 +1302,18 @@ Partial Class frmSccEditReciboCaja
         Me.lblMontoRestante.AutoSize = True
         Me.lblMontoRestante.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMontoRestante.ForeColor = System.Drawing.Color.Black
-        Me.lblMontoRestante.Location = New System.Drawing.Point(12, 49)
-        Me.lblMontoRestante.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMontoRestante.Location = New System.Drawing.Point(9, 40)
         Me.lblMontoRestante.Name = "lblMontoRestante"
-        Me.lblMontoRestante.Size = New System.Drawing.Size(127, 17)
+        Me.lblMontoRestante.Size = New System.Drawing.Size(101, 13)
         Me.lblMontoRestante.TabIndex = 23
         Me.lblMontoRestante.Text = "Monto Restante:"
         '
         'lblMontoAbonado
         '
         Me.lblMontoAbonado.AutoSize = True
-        Me.lblMontoAbonado.Location = New System.Drawing.Point(-128, 30)
-        Me.lblMontoAbonado.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblMontoAbonado.Location = New System.Drawing.Point(-96, 24)
         Me.lblMontoAbonado.Name = "lblMontoAbonado"
-        Me.lblMontoAbonado.Size = New System.Drawing.Size(111, 17)
+        Me.lblMontoAbonado.Size = New System.Drawing.Size(87, 13)
         Me.lblMontoAbonado.TabIndex = 21
         Me.lblMontoAbonado.Text = "Monto Abonado:"
         '
@@ -1358,10 +1321,9 @@ Partial Class frmSccEditReciboCaja
         '
         Me.Panel1.BackgroundImage = Global.SIRA.My.Resources.Resources.BackgroundImage
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 666)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel1.Location = New System.Drawing.Point(0, 541)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1399, 22)
+        Me.Panel1.Size = New System.Drawing.Size(1049, 18)
         Me.Panel1.TabIndex = 22
         '
         'PanelControl1
@@ -1394,36 +1356,32 @@ Partial Class frmSccEditReciboCaja
         Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
         Me.PanelControl1.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.PanelControl1.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.PanelControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(1399, 688)
+        Me.PanelControl1.Size = New System.Drawing.Size(1049, 559)
         Me.PanelControl1.TabIndex = 99
         '
         'txtObservaciones
         '
-        Me.txtObservaciones.Location = New System.Drawing.Point(176, 599)
-        Me.txtObservaciones.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtObservaciones.Location = New System.Drawing.Point(132, 487)
         Me.txtObservaciones.Name = "txtObservaciones"
-        Me.txtObservaciones.Size = New System.Drawing.Size(408, 53)
+        Me.txtObservaciones.Size = New System.Drawing.Size(306, 43)
         Me.txtObservaciones.TabIndex = 172
         '
         'Label18
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(35, 604)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Location = New System.Drawing.Point(26, 491)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(121, 17)
+        Me.Label18.Size = New System.Drawing.Size(95, 13)
         Me.Label18.TabIndex = 171
         Me.Label18.Text = "Observaciones:"
         '
         'cmdBuscarCuenta
         '
-        Me.cmdBuscarCuenta.Location = New System.Drawing.Point(1007, 158)
-        Me.cmdBuscarCuenta.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmdBuscarCuenta.Location = New System.Drawing.Point(755, 128)
         Me.cmdBuscarCuenta.Name = "cmdBuscarCuenta"
-        Me.cmdBuscarCuenta.Size = New System.Drawing.Size(32, 28)
+        Me.cmdBuscarCuenta.Size = New System.Drawing.Size(24, 23)
         Me.cmdBuscarCuenta.TabIndex = 170
         Me.cmdBuscarCuenta.Tag = "Buscar Existente"
         Me.cmdBuscarCuenta.Text = "..."
@@ -1435,10 +1393,9 @@ Partial Class frmSccEditReciboCaja
         Me.lblCuenta.AutoSize = True
         Me.lblCuenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCuenta.ForeColor = System.Drawing.Color.Black
-        Me.lblCuenta.Location = New System.Drawing.Point(419, 162)
-        Me.lblCuenta.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblCuenta.Location = New System.Drawing.Point(314, 132)
         Me.lblCuenta.Name = "lblCuenta"
-        Me.lblCuenta.Size = New System.Drawing.Size(131, 17)
+        Me.lblCuenta.Size = New System.Drawing.Size(104, 13)
         Me.lblCuenta.TabIndex = 169
         Me.lblCuenta.Text = "Cuenta contable:"
         Me.lblCuenta.Visible = False
@@ -1446,10 +1403,9 @@ Partial Class frmSccEditReciboCaja
         'txtCuenta
         '
         Me.txtCuenta.Enabled = False
-        Me.txtCuenta.Location = New System.Drawing.Point(560, 159)
-        Me.txtCuenta.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtCuenta.Location = New System.Drawing.Point(420, 129)
         Me.txtCuenta.Name = "txtCuenta"
-        Me.txtCuenta.Size = New System.Drawing.Size(441, 23)
+        Me.txtCuenta.Size = New System.Drawing.Size(332, 21)
         Me.txtCuenta.TabIndex = 168
         Me.txtCuenta.Visible = False
         '
@@ -1458,10 +1414,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
-        Me.Label16.Location = New System.Drawing.Point(417, 134)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Location = New System.Drawing.Point(313, 109)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(109, 17)
+        Me.Label16.Size = New System.Drawing.Size(86, 13)
         Me.Label16.TabIndex = 149
         Me.Label16.Text = "Tipo de pago:"
         '
@@ -1475,16 +1430,15 @@ Partial Class frmSccEditReciboCaja
         Me.cmbTipoPago.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbTipoPago.ColumnCaptionHeight = 17
         Me.cmbTipoPago.ColumnFooterHeight = 17
-        Me.cmbTipoPago.ContentHeight = 18
+        Me.cmbTipoPago.ContentHeight = 15
         Me.cmbTipoPago.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbTipoPago.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbTipoPago.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbTipoPago.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbTipoPago.EditorHeight = 18
+        Me.cmbTipoPago.EditorHeight = 15
         Me.cmbTipoPago.Images.Add(CType(resources.GetObject("cmbTipoPago.Images"), System.Drawing.Image))
         Me.cmbTipoPago.ItemHeight = 15
-        Me.cmbTipoPago.Location = New System.Drawing.Point(560, 127)
-        Me.cmbTipoPago.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbTipoPago.Location = New System.Drawing.Point(420, 103)
         Me.cmbTipoPago.MatchEntryTimeout = CType(2000, Long)
         Me.cmbTipoPago.MaxDropDownItems = CType(5, Short)
         Me.cmbTipoPago.MaxLength = 32767
@@ -1493,7 +1447,7 @@ Partial Class frmSccEditReciboCaja
         Me.cmbTipoPago.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbTipoPago.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbTipoPago.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbTipoPago.Size = New System.Drawing.Size(267, 24)
+        Me.cmbTipoPago.Size = New System.Drawing.Size(200, 21)
         Me.cmbTipoPago.TabIndex = 148
         Me.cmbTipoPago.Tag = "OBLIGATORIO"
         Me.cmbTipoPago.PropBag = resources.GetString("cmbTipoPago.PropBag")
@@ -1503,10 +1457,9 @@ Partial Class frmSccEditReciboCaja
         Me.lblCaja.AutoSize = True
         Me.lblCaja.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCaja.ForeColor = System.Drawing.Color.Black
-        Me.lblCaja.Location = New System.Drawing.Point(471, 544)
-        Me.lblCaja.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblCaja.Location = New System.Drawing.Point(353, 442)
         Me.lblCaja.Name = "lblCaja"
-        Me.lblCaja.Size = New System.Drawing.Size(50, 17)
+        Me.lblCaja.Size = New System.Drawing.Size(40, 13)
         Me.lblCaja.TabIndex = 147
         Me.lblCaja.Tag = ""
         Me.lblCaja.Text = "Caja: "
@@ -1516,10 +1469,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Black
-        Me.Label15.Location = New System.Drawing.Point(471, 508)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Location = New System.Drawing.Point(353, 413)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(81, 17)
+        Me.Label15.Size = New System.Drawing.Size(62, 13)
         Me.Label15.TabIndex = 134
         Me.Label15.Text = "Cajero(a):"
         '
@@ -1533,16 +1485,15 @@ Partial Class frmSccEditReciboCaja
         Me.cmbCajero.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.cmbCajero.ColumnCaptionHeight = 17
         Me.cmbCajero.ColumnFooterHeight = 17
-        Me.cmbCajero.ContentHeight = 18
+        Me.cmbCajero.ContentHeight = 15
         Me.cmbCajero.DeadAreaBackColor = System.Drawing.Color.Empty
         Me.cmbCajero.EditorBackColor = System.Drawing.SystemColors.Window
         Me.cmbCajero.EditorFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbCajero.EditorForeColor = System.Drawing.SystemColors.WindowText
-        Me.cmbCajero.EditorHeight = 18
+        Me.cmbCajero.EditorHeight = 15
         Me.cmbCajero.Images.Add(CType(resources.GetObject("cmbCajero.Images"), System.Drawing.Image))
         Me.cmbCajero.ItemHeight = 15
-        Me.cmbCajero.Location = New System.Drawing.Point(561, 503)
-        Me.cmbCajero.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbCajero.Location = New System.Drawing.Point(421, 409)
         Me.cmbCajero.MatchEntryTimeout = CType(2000, Long)
         Me.cmbCajero.MaxDropDownItems = CType(5, Short)
         Me.cmbCajero.MaxLength = 32767
@@ -1551,7 +1502,7 @@ Partial Class frmSccEditReciboCaja
         Me.cmbCajero.RowDivider.Color = System.Drawing.Color.DarkGray
         Me.cmbCajero.RowDivider.Style = C1.Win.C1List.LineStyleEnum.None
         Me.cmbCajero.RowSubDividerColor = System.Drawing.Color.DarkGray
-        Me.cmbCajero.Size = New System.Drawing.Size(267, 24)
+        Me.cmbCajero.Size = New System.Drawing.Size(200, 21)
         Me.cmbCajero.TabIndex = 133
         Me.cmbCajero.Tag = "OBLIGATORIO"
         Me.cmbCajero.PropBag = resources.GetString("cmbCajero.PropBag")
@@ -1559,11 +1510,10 @@ Partial Class frmSccEditReciboCaja
         'txtTasaCambio
         '
         Me.txtTasaCambio.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTasaCambio.Location = New System.Drawing.Point(1168, 130)
-        Me.txtTasaCambio.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtTasaCambio.Location = New System.Drawing.Point(876, 106)
         Me.txtTasaCambio.Name = "txtTasaCambio"
         Me.txtTasaCambio.ReadOnly = True
-        Me.txtTasaCambio.Size = New System.Drawing.Size(124, 23)
+        Me.txtTasaCambio.Size = New System.Drawing.Size(94, 20)
         Me.txtTasaCambio.TabIndex = 129
         Me.txtTasaCambio.Tag = "BLOQUEADO"
         '
@@ -1572,10 +1522,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(1001, 134)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Location = New System.Drawing.Point(751, 109)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(128, 17)
+        Me.Label13.Size = New System.Drawing.Size(101, 13)
         Me.Label13.TabIndex = 130
         Me.Label13.Text = "Tasa de cambio:"
         '
@@ -1589,10 +1538,9 @@ Partial Class frmSccEditReciboCaja
             Or C1.Win.C1Input.FormatInfoInheritFlags.TrimEnd), C1.Win.C1Input.FormatInfoInheritFlags)
         Me.txtTotalDB.Enabled = False
         Me.txtTotalDB.FormatType = C1.Win.C1Input.FormatTypeEnum.StandardNumber
-        Me.txtTotalDB.Location = New System.Drawing.Point(1205, 534)
-        Me.txtTotalDB.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtTotalDB.Location = New System.Drawing.Point(904, 434)
         Me.txtTotalDB.Name = "txtTotalDB"
-        Me.txtTotalDB.Size = New System.Drawing.Size(164, 23)
+        Me.txtTotalDB.Size = New System.Drawing.Size(123, 21)
         Me.txtTotalDB.TabIndex = 128
         Me.txtTotalDB.Tag = "BLOQUEADO"
         Me.txtTotalDB.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1604,10 +1552,9 @@ Partial Class frmSccEditReciboCaja
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(1089, 538)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(817, 437)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(77, 17)
+        Me.Label6.Size = New System.Drawing.Size(62, 13)
         Me.Label6.TabIndex = 127
         Me.Label6.Text = "Total ND:"
         '
@@ -1616,12 +1563,11 @@ Partial Class frmSccEditReciboCaja
         Me.cmdCancelar.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdCancelar.Appearance.Options.UseFont = True
         Me.cmdCancelar.ImageOptions.Image = Global.SIRA.My.Resources.Resources.cancel16x16
-        Me.cmdCancelar.Location = New System.Drawing.Point(1276, 618)
+        Me.cmdCancelar.Location = New System.Drawing.Point(957, 502)
         Me.cmdCancelar.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.cmdCancelar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdCancelar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdCancelar.Name = "cmdCancelar"
-        Me.cmdCancelar.Size = New System.Drawing.Size(100, 34)
+        Me.cmdCancelar.Size = New System.Drawing.Size(75, 28)
         Me.cmdCancelar.TabIndex = 5
         Me.cmdCancelar.Tag = "CANCELAR"
         Me.cmdCancelar.Text = "&Cancelar"
@@ -1631,27 +1577,25 @@ Partial Class frmSccEditReciboCaja
         Me.cmdGuardar.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdGuardar.Appearance.Options.UseFont = True
         Me.cmdGuardar.ImageOptions.Image = Global.SIRA.My.Resources.Resources.save16x16
-        Me.cmdGuardar.Location = New System.Drawing.Point(1161, 618)
+        Me.cmdGuardar.Location = New System.Drawing.Point(871, 502)
         Me.cmdGuardar.LookAndFeel.SkinName = "Office 2010 Silver"
         Me.cmdGuardar.LookAndFeel.UseDefaultLookAndFeel = False
-        Me.cmdGuardar.Margin = New System.Windows.Forms.Padding(4)
         Me.cmdGuardar.Name = "cmdGuardar"
-        Me.cmdGuardar.Size = New System.Drawing.Size(107, 34)
+        Me.cmdGuardar.Size = New System.Drawing.Size(80, 28)
         Me.cmdGuardar.TabIndex = 3
         Me.cmdGuardar.Tag = "GUARDAR"
         Me.cmdGuardar.Text = "&Guardar"
         '
         'frmSccEditReciboCaja
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1399, 688)
+        Me.ClientSize = New System.Drawing.Size(1049, 559)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.lblError)
         Me.Controls.Add(Me.PanelControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmSccEditReciboCaja"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Tag = "CATALOGOS"

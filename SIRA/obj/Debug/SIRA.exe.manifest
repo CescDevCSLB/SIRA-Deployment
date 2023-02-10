@@ -2774,7 +2774,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w+vQcVGfPT7NjUVwZjddI5YqeHUounCq8cMtmBciPNI=</dsig:DigestValue>
+        <dsig:DigestValue>sfEYvCG5vx6DLfCTzCPmvTB6ufyYqyXNx2yECn3h6DM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2786,7 +2786,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KtkoG++/+hUbinnlSJ4y7wIrRZ9alDZUmOws+OUoT4w=</dsig:DigestValue>
+        <dsig:DigestValue>73YDQ/zQMP++4KwOrgnsfjjeGEFw7/Ylzp1p28AvKSI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2822,31 +2822,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/ap+G3b8JdXGo+UychSdGYWbw2HIbJ8VAiIgTiRYqNE=</dsig:DigestValue>
+        <dsig:DigestValue>Dh0HEN8AsONDrhDR7KfPWIqT0/e5ZDejFwcQq4mnOx4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SIRA.exe" size="15083008">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SIRA.exe" size="15079936">
       <assemblyIdentity name="SIRA" version="1.0.4.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1RjBPeq8TcAw5uSu7iG5Ge5XTx/QXx4hZ04CzpjlIjk=</dsig:DigestValue>
+        <dsig:DigestValue>PSCeloxkdWi8wc0ZEwNyDTcFvOxqlTBN8i9FKnvXNcU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SIRA.BO.dll" size="1043968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SIRA.BO.dll" size="1044480">
       <assemblyIdentity name="SIRA.BO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Xt09HZ7pK4j69fGaH6Pu/vS9euNk7fzN11KMgTAKRTc=</dsig:DigestValue>
+        <dsig:DigestValue>+ouGkyHKg85Dxj1r+RP+YR2+NLT6Wh3/wVh1zqBK2xo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2991,13 +2991,13 @@
       <dsig:DigestValue>8TZD4XX0AGZDCct0pePZHMDawz9IBHV4ajyN2CgRAbQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SIRA.exe.config" size="1861">
+  <file name="SIRA.exe.config" size="1805">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>WWAazbCA+lBunAZeob7kiMj8Ju0ED/Mf1cBzbQEeEeA=</dsig:DigestValue>
+      <dsig:DigestValue>OstHIo6xS6vsG0BP0WeXfHXJZc5TvwoQ3VxwYCGBt4s=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VentanaConfiguracion.ico" size="4286">
