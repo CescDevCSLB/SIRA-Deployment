@@ -1,0 +1,32 @@
+## Agregando archivos que se almacenan en cache
+
+## .vs del proyecto
+.vs/SIRA/*
+
+
+##
+SIRA/Formularios/Contabilidad/*.resx
+SIRA/obj/Debug/*.pdb
+
+
+SIRA.BO/bin/Debug/*.pdb
+SIRA.BO/bin/Debug/*.xml
+SIRA.BO/bin/Debug/*.cache
+SIRA.BO/obj/Debug/TempPE
+
+
+SIRA.Catalogos.Formularios/bin/Debug/*.pdb
+SIRA.Catalogos.Formularios/bin/Debug/*.xml
+SIRA.Catalogos.Formularios/bin/Debug/*.cache
+SIRA.Catalogos.Formularios/obj/Debug/TempPE
+
+
+SIRA.Seguridad.Datos/bin/Debug/*.pdb
+SIRA.Seguridad.Datos/bin/Debug/*.xml
+SIRA.Seguridad.Datos/bin/Debug/*.cache
+SIRA.Seguridad.Datos/obj/Debug/TempPE
+
+SIRA.Seguridad.Formularios/bin/Debug/*.pdb
+SIRA.Seguridad.Formularios/bin/Debug/*.xml
+SIRA.Seguridad.Formularios/bin/Debug/*.cache
+SIRA.Seguridad.Formularios/obj/Debug/TempPE

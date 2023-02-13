@@ -752,15 +752,14 @@ Partial Public Class ScontComprobanteID
         Else
             arParams(5).Value = m_objMonedaID
         End If
-		arParams(6) = New SqlParameter("@objTipoAsientoID", SqlDbType.Int)		
+		arParams(6) = New SqlParameter("@objTipoAsientoID", SqlDbType.Int)
 		If IsDBNull(m_objTipoAsientoID) Then
-            arParams(6).Value = DBNull.Value
-        Else
-            arParams(6).Value = m_objTipoAsientoID
-        End If
+			arParams(6).Value = DBNull.Value
+		Else
+			arParams(6).Value = m_objTipoAsientoID
+		End If
+
 		arParams(7) = New SqlParameter("@objPeriodoID", SqlDbType.Int)
-
-
 		m_objPeriodoID = Right(m_objPeriodoID, Len(m_objPeriodoID) - 3)
 		If IsDBNull(m_objPeriodoID) Then
             arParams(7).Value = DBNull.Value
