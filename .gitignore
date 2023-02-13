@@ -5,8 +5,16 @@
 
 
 ##
-SIRA/Formularios/Contabilidad/*.resx
+SIRA/Formularios/Formularios/Caja/*.resx
+SIRA/Formularios/Formularios/Catalogos/*.resx
+SIRA/Formularios/Formularios/Contabilidad/*.resx
+SIRA/Formularios/Formularios/CuentasXCobrar/*.resx
+SIRA/Formularios/Formularios/PIM/*.resx
+SIRA/Formularios/Formularios/Principal/*.resx
+SIRA/Formularios/Formularios/Registro Academico/*.resx
 SIRA/obj/Debug/*.pdb
+SIRA/obj/Debug/*.cache
+
 
 
 SIRA.BO/bin/Debug/*.pdb
