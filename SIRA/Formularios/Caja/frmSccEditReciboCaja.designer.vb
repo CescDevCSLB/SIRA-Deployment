@@ -190,7 +190,7 @@ Partial Class frmSccEditReciboCaja
         Me.tbpDetMensualidades.Controls.Add(Me.grdNotaDebito)
         Me.tbpDetMensualidades.Location = New System.Drawing.Point(4, 22)
         Me.tbpDetMensualidades.Name = "tbpDetMensualidades"
-        Me.tbpDetMensualidades.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.tbpDetMensualidades.Padding = New System.Windows.Forms.Padding(3)
         Me.tbpDetMensualidades.Size = New System.Drawing.Size(1015, 223)
         Me.tbpDetMensualidades.TabIndex = 0
         Me.tbpDetMensualidades.Text = "Detalle de mensalidades"
@@ -416,7 +416,7 @@ Partial Class frmSccEditReciboCaja
         Me.tbpFormasPago.Controls.Add(Me.cmdEliminar)
         Me.tbpFormasPago.Location = New System.Drawing.Point(4, 22)
         Me.tbpFormasPago.Name = "tbpFormasPago"
-        Me.tbpFormasPago.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.tbpFormasPago.Padding = New System.Windows.Forms.Padding(3)
         Me.tbpFormasPago.Size = New System.Drawing.Size(1015, 223)
         Me.tbpFormasPago.TabIndex = 2
         Me.tbpFormasPago.Text = "Pago"

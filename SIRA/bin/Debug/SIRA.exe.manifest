@@ -2822,7 +2822,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Dh0HEN8AsONDrhDR7KfPWIqT0/e5ZDejFwcQq4mnOx4=</dsig:DigestValue>
+        <dsig:DigestValue>g0gvNd1eQlbvSExQ0UIt5Gnz7v/9zDbbSYONWVHSmi4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2834,7 +2834,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PSCeloxkdWi8wc0ZEwNyDTcFvOxqlTBN8i9FKnvXNcU=</dsig:DigestValue>
+        <dsig:DigestValue>d16F0tWzxswwfHL6FkAbQ7nrzkdSMDw2cq+FfPQHWj0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2991,13 +2991,13 @@
       <dsig:DigestValue>8TZD4XX0AGZDCct0pePZHMDawz9IBHV4ajyN2CgRAbQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SIRA.exe.config" size="1805">
+  <file name="SIRA.exe.config" size="2367">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>OstHIo6xS6vsG0BP0WeXfHXJZc5TvwoQ3VxwYCGBt4s=</dsig:DigestValue>
+      <dsig:DigestValue>3T21sxm/k6Ck6LKVoyNlnyoWVOG8SBXnl77S8MmBnlg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VentanaConfiguracion.ico" size="4286">
